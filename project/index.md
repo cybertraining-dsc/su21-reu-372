@@ -1,6 +1,6 @@
 ---
 date: 2021-06-16
-title: "Project: Analysing Images"
+title: "Project: Analysing breast cancer Images using AI"
 linkTitle: Example
 tags: ["project", "reu"]
 description: "Here comes the abstract"
