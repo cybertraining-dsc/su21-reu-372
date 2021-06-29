@@ -1,7 +1,7 @@
 ---
 date: 2021-06-16
 title: "Project: Analysing Hashimoto disease causes using AI"
-linkTitle: Example
+linkTitle: Hashimoto disease
 tags: ["project", "reu"]
 description: "Analizing immune systems and diet factors than can lead to hashimoto disease"
 author: Sheimy Paz
