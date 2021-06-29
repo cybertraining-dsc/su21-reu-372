@@ -1,9 +1,9 @@
 ---
 date: 2021-06-16
-title: "Project: Analysing Images"
+title: "Project: Analysing Hashimoto disease causes using AI"
 linkTitle: Example
 tags: ["project", "reu"]
-description: "Here comes the abstract"
+description: "Analizing immune systems and diet factors than can lead to hashimoto disease"
 author: Sheimy Paz
 github_url: https://github.com/cybertraining-dsc/su21-reu-372/edit/main/project/index.md
 resources:
@@ -108,6 +108,8 @@ Remember this is not a powerpoint presentation, but a report so we recommend
 2. When using bulleted lists use * and not - 
    
 ## 5. Datasets
+
+- [ ] Querying the datasets of womans with hashimoto diaseas in an are of 3 cities @data.world
 
 Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
 However, if the data is publicly available you program must contain a download function instead that you customize.
