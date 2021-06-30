@@ -34,11 +34,9 @@ Contents
 
 ## 1. Introduction
 
-Do not include this tip in your document:
+Clinical and epidemiological studies suggest that an association between high levels of thyroid autoantibodies affect the increased frequencies of mood disorders. A study carried out by our team suggested a relation of thyroid autoimmunity in the association between celiac disease and panic disorder and major depressive disorder.
+We observed in thyroid disease, independently of impairment of thyroid function.
 
-> Tip: Please note that an up to date version of these instructions is available at
->
-> * <https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md>
 
 
 Here comes a convincing introduction to the problem
