@@ -34,10 +34,9 @@ Contents
 
 ## 1. Introduction
 
-Clinical and epidemiological studies suggest that an association between high levels of thyroid autoantibodies affect the increased frequencies of mood disorders. A study carried out by our team suggested a relation of thyroid autoimmunity in the association between celiac disease and panic disorder and major depressive disorder.
-We observed in thyroid disease, independently of impairment of thyroid function.
+Hashimoto thyroiditis is an organ-specific autoimmune disorder named after Japanese physician Hajaru Hashimoto, Hashimoto symptoms were first described 1912 but the disease was not recognize until 1957 before that year it was concider to be the early symptoms of Reidel's Thyroiditis. In 1957 Hashimoto was recognize as an autoimmune disorder that destroys thyroid cells and antibody-mediated. Pathologically speaking, Hashimoto stimulates the formation of antithyrod antibodies that attack the thyroid tissue, causing progressive fibrosis. The disorder is difficult to diagnose since in the early course of the disease the patients may or may not exibit symtoms and/or laboratory findings of hyperthyrodism or normal values because the destruction of the gland cells may be intermittent. Clinical and epidemiological studies suggest worldwide that the most common cause of hypothyroidism is an inadecuated dietary intake of iodine and is the most common cause of hypothyroidism in developed countries.
 
-
+In a female-to-men radio at least 10:1 women are more often affected than men, and the diagnostics are called between the ages of 30 to 50 years. Studies suggest that an association between high levels of thyroid autoantibodies affect the increased frequencies of mood disorders and there was found a relation between thyroid autoimmunity disease, celiac disease and panic disorder and major depressive disorder.
 
 Here comes a convincing introduction to the problem
 
