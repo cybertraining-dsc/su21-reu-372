@@ -21,8 +21,7 @@ Sheimy Paz, [su21-reu-372](https://github.com/cybertraining-dsc/su21-reu-372), [
 {{% pageinfo %}}
 
 ## Abstract
-
-Here comes a short abstract of the project that summarizes what it is about
+The objective is to evaluate the association of the hashimoto disorder with a clear cause. Hence, the presence of h pylori bacteria, inappropriate diet, foreigent objects implanted on the body like implants etc. This program will help to come up with a clear conclusion of the factors that can cause hashimoto since until this day is still unknown.
 
 Contents
 
