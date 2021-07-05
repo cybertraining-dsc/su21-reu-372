@@ -103,8 +103,6 @@ Remember this is not a powerpoint presentation, but a report so we recommend
 
 ## 5. Datasets
 
-- [ ] Querying the datasets of womans with hashimoto diaseas in an are of 3 cities @data.world
-
 Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
 However, if the data is publicly available you program must contain a download function instead that you customize.
 Write it using pythons `request`. You will get point deductions if you check-in data sets that are large and do not use
