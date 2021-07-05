@@ -21,7 +21,7 @@ Sheimy Paz, [su21-reu-372](https://github.com/cybertraining-dsc/su21-reu-372), [
 {{% pageinfo %}}
 
 ## Abstract
-The objective is to evaluate the association of the hashimoto disorder with a clear cause. Hence, the presence of h pylori bacteria, inappropriate diet, foreigent objects inserted on the body like breast implants etc. This program will help to come up with a clear conclusion of the factors that can cause hashimoto since until this day is still unknown.
+The objective is to evaluate the association of the hashimoto disorder with a clear cause. Hence, the presence of h pylori bacteria, inappropriate diet, foreigent objects inserted on the body like breast implants etc. The idea is that the program came up with a clear conclusion of the factors that can cause hashimoto disorder since until this day is still unknown as well as with a detailed step by step guide of change behavior  based on patients testimonies that have shown improvements or have demonstrated to be completely healed with the intention to bring a cured to other patients with the same dificulties.
 
 {{< table_of_contents >}}
 
