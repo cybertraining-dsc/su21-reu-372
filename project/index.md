@@ -1,7 +1,7 @@
 ---
 date: 2021-06-16
-title: "Project: Analysing Hashimoto disease causes using AI"
-linkTitle: "Hashimoto disease"
+title: "Project: Analysing Hashimoto disease causes and spontaneous cured cases using AI"
+linkTitle: "Hashimoto disease, causes, and cured"
 tags: ["project", "reu"]
 description: "Analizing immune systems and diet factors than can lead to hashimoto disease"
 author: Sheimy Paz
@@ -27,7 +27,7 @@ The objective is to evaluate the association of the hashimoto disorder with a cl
 
 {{% /pageinfo %}}
 
-**Keywords:** Thyroid disease,Hashimoto, H Pylori, Healthy Diets, Implants. 
+**Keywords:** Thyroid disease, Hashimoto, H Pylori, Implants, Healthy Diets, Exercise. 
 
 ## 1. Introduction
 
@@ -110,6 +110,7 @@ Datasets can be huge and GitHub has limited space. Only very small datasets shou
 However, if the data is publicly available you program must contain a download function instead that you customize.
 Write it using pythons `request`. You will get point deductions if you check-in data sets that are large and do not use
 the download function.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5265752/
 
 ## 6. Benchmark
 
