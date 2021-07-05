@@ -39,13 +39,6 @@ In a female-to-men radio at least 10:1 women are more often affected than men, a
 Due to the arduous labor to identify this disorder. A Machine Learning algorithm based on prediction from the early symptoms would be helpful for Doctors to identify Hashimoto in early stages as well as for patients that would be able to get the correct treatment in an early stage of the illness avoiding future complications.    
 
 Here comes a convincing introduction to the problem: 
-Note Carlos Theran: It perfect how you explain the concept of  Hashimoto thyroiditis and its affection in human's helth. Now that you introduced what is Hashimoto thyroiditis. there are have question that could help you to address the research question (the problem) that you want to solve.
-- [ ] Given the introduction, I see that it is really difficult to detect Hashimoto thyroiditis in a person. So, Do you want to use ML that help you to identify early causes of Hashimoto thyroiditis on a person or you are looking for something else?
-- [ ] What kind of data you spect to find in order to addres a solution of your problem?
-- [ ] What kind of technique would you like to use to addres your problem?
-- [ ] Is there any paper, article, blogs, or any source that have address this problem before, If so, how they did?
-
-Hope this question help =)
 
 ## 2. Report Format
 
