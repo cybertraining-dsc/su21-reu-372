@@ -110,7 +110,6 @@ Datasets can be huge and GitHub has limited space. Only very small datasets shou
 However, if the data is publicly available you program must contain a download function instead that you customize.
 Write it using pythons `request`. You will get point deductions if you check-in data sets that are large and do not use
 the download function.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5265752/
 
 ## 6. Benchmark
 
@@ -129,6 +128,12 @@ Please add acknowledgments to all that contributed or helped on this project.
 Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at 
 one point automatically change the references from superscript to square brackets it is best to introduce a space before 
 the first square bracket.
+
+[^1]: Helicobacter pylori infection in women with Hashimoto thyroiditis, [Online resource]
+      <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5265752/>
+
+[^2]: I. Voloshyna, V.I Krivenko, V.G Deynega, M.A Voloshyn, Autoimmune thyrod disease related to helicobacterer pylori contamination, [Online resource]
+      <https://www.endocrine-abstracts.org/ea/0041/eposters/ea0041gp213_eposter.pdf>
 
 [^1]: Use of energy explained - Energy use in homes, [Online resource] 
       <https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php>
