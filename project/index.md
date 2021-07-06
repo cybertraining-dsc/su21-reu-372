@@ -1,6 +1,6 @@
 ---
 date: 2021-06-16
-title: "Project: Analysing Hashimoto disease causes and spontaneous cured cases using AI"
+title: "Project: Analysing Hashimoto disease causes and spontaneous cured cases using Topic Modeling"
 linkTitle: "Hashimoto disease, causes, and cured"
 tags: ["project", "reu"]
 description: "Analizing immune systems and diet factors than can lead to hashimoto disease"
@@ -21,7 +21,7 @@ Sheimy Paz, [su21-reu-372](https://github.com/cybertraining-dsc/su21-reu-372), [
 {{% pageinfo %}}
 
 ## Abstract
-The objective is to evaluate the association of the hashimoto disorder with a clear cause. Hence, the presence of h pylori bacteria, inappropriate diet, foreigent objects inserted on the body like breast implants etc. This work propose a machine learning technic that provides accurate conclusions related to the factors that can cause hashimoto disorder since until this day is still unknown as well as with a detailed step by step guide of change behavior  based on patients testimonies that have shown improvements or have demonstrated to be completely healed with the intention to bring a cured to other patients with the same dificulties.
+The objective is to explore the association of the hashimoto disorder with other diseases. Hence, the presence of h pylori bacteria, inapropriate diet, foreigent objects inserted on the body like breast implants etc. This work propose a new view of the hashimoto disease related with other diseases. Topic modeling is a machine learning technic that helps to correlated words with topics about hashimoto disorder to get a better understanding of the relationship with the thyroid. We collect the data from silobreaker software, which contains data about news, reports, tweets, and blogs.
 
 {{< table_of_contents >}}
 
