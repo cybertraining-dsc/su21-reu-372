@@ -94,6 +94,7 @@ at the beginning of your project.
 ## 3. Using Images
 
 ![Figure 1](https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png)
+![Figure 2](https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/hertoghe-table-1.jpg)
 
 **Figure 1:** Images can be included in the report, but if they are copied you must cite them [^1].
 
