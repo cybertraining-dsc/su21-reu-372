@@ -27,7 +27,7 @@ The objective is to evaluate the association of the hashimoto disorder with a cl
 
 {{% /pageinfo %}}
 
-**Keywords:** Thyroid disease, Hashimoto, H Pylori, Implants, Healthy Diets, Exercise. 
+**Keywords:** Thyroid disease, Hashimoto, H Pylori, Implants, Food Sensitivity, Diary sencitivity, Healthy Diets, Exercise. 
 
 ## 1. Introduction
 
