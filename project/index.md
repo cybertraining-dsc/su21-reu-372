@@ -21,6 +21,7 @@ Sheimy Paz, [su21-reu-372](https://github.com/cybertraining-dsc/su21-reu-372), [
 {{% pageinfo %}}
 
 ## Abstract
+
 The objective is to explore the association of the hashimoto disorder with other diseases. Hence, the presence of h pylori bacteria, inapropriate diet, foreigent objects inserted on the body like breast implants etc. This work propose a new view of the hashimoto disease related with other diseases. Topic modeling is a machine learning technic that helps to correlated words with topics about hashimoto disorder to get a better understanding of the relationship with the thyroid. We collect the data from silobreaker software, which contains data about news, reports, tweets, and blogs.
 
 {{< table_of_contents >}}
