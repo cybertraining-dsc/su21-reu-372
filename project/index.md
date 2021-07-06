@@ -94,7 +94,7 @@ at the beginning of your project.
 ## 3. Using Images
 
 ![Figure 1](https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png)
-![Figure 2](https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/hertoghe-table-1.jpg)
+![Figure 2](https://raw/main/project/images/hertoghe-table-1.jpg)
 
 **Figure 1:** Images can be included in the report, but if they are copied you must cite them [^1].
 
@@ -138,11 +138,3 @@ the first square bracket.
       
 [^3]: How your diet can trigger Hashimoto's, [Online resource]
       <https://www.boostthyroid.com/blog/2019/4/5/how-your-diet-can-trigger-hashimotos>
-
-[^1]: Use of energy explained - Energy use in homes, [Online resource] 
-      <https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php>
-
-
-[^2]: Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub] 
-      <https://github.com/cloudmesh/cloudmesh-common>
-
