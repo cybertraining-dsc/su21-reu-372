@@ -41,70 +41,12 @@ Due to the arduous labor to identify this disorder a Machine Learning algorithm 
 Here comes a convincing introduction to the problem:
 Hashimoto autoimmune diseases have been linked to the infection caused by H pylori bacteria. H pylori is until the date the most common chronic bacterial infection, Affecting half of the world's population and is known for the presence of Caga antigens which are virulents strains that have been found in organ and non organ specific autoimmune diseases. Another important trigger of hashimoto disorder is the inadequate modern diet patterns and the environmental factors that are closely related to it. For instance certain food consumption are an essential factor that trigs the disorder since The majority food being consumed is highly preserved and the consumption of artificial flavorings and sugars have dramatically increase in the past years, adding to it the use of chemicals and insecticides in the fruits and vegetables and the massive introduction of hormones for the meat production, all this can be the cause of the rise of autoimmune diseases.
 
-## 2. Report Format
-
-The report is written in (hugo) markdown and not commonmark. As such some features are not visible in GitHub. You can 
-set up hugo on your local computer if you want to see how it renders or commit and wait 10 minutes once your report is 
-bound into cybertraining.
-
-To set up the report, you must first `replace` the word `hid-example in this example report with your hid. the hid will 
-look something like `sp21-599-111`
-
-It is to be noted that markdown works best if you include an empty line before and after each context change. 
-Thus the following is wrong:
-
-```
-# This is My Headline
-This author does ignore proper markdown while not using empty lines between context changes
-1. This is because this author ignors all best practices
-```
-
-Instead, this should be 
-
-```
-# This is My Headline
-
-We do not ignore proper markdown while using empty lines between context changes
-
-1. This is because we encourage best practices to cause issues.
-```
-
-## 2.1. GitHub Actions
-
-When going to GitHub Actions you will see a report is autmatically generated with some help on improving your markdown. 
-We will not review any document that does not pass this check.
-
-## 2.2. PAst Copy from Word or other Editors is a Disaster!
-
-We recommend that you sue a proper that is integrated with GitHub or you use the commandline tools. We may include 
-comments into your document that you will have to fix, If you juys past copy you will 
-
-1. Not learn how to use GitHub properly and we deduct points
-2. Overwrite our coments that you than may miss and may result in point deductions as you have not addressed them.
-
-## 2.3. Report or Project
-
-You have two choices for the final project 
-
-1. Project, That is a final report that includes code
-2. Report, that is a final project without code.
- 
-YOu will be including the type of the project as a prefix to your title, as well as in the Type tag
-at the beginning of your project.
 
 ## 3. Using Images
 
-![Figure 1](https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png)
-![Figure 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/hertoghe-table-1.jpg)
+**Table 1:** Images can be included in the report, but if they are copied you must cite them [^1].
 
-**Figure 1:** Images can be included in the report, but if they are copied you must cite them [^1].
-
-## 4. Using itemized lists only where needed
-
-Remember this is not a powerpoint presentation, but a report so we recommend
-
-1. Use itemized or enumeration lists sparingly
-2. When using bulleted lists use * and not -
+![Table 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/hertoghe-table-1.jpg)
 
 ## 5. Datasets
 
