@@ -75,15 +75,12 @@ the first square bracket.
 
 [^1]: Helicobacter pylori infection in women with Hashimoto thyroiditis, [Online resource]
       <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5265752/>
-     
 
 [^2]: I. Voloshyna, V.I Krivenko, V.G Deynega, M.A Voloshyn, Autoimmune thyrod disease related to helicobacterer pylori contamination, [Online resource]
       <https://www.endocrine-abstracts.org/ea/0041/eposters/ea0041gp213_eposter.pdf>
-      
-          
+
 [^3]: How your diet can trigger Hashimoto's, [Online resource]
       <https://www.boostthyroid.com/blog/2019/4/5/how-your-diet-can-trigger-hashimotos>
-    
       
 [^4]: Hashimoto’s Thyroiditis, A Common Disorder in Women: How to Treat It, [Online resource]
       <https://www.townsendletter.com/article/441-hashimotos-thyroiditis-common-disorder-in-women/>
