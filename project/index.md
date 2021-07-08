@@ -81,6 +81,6 @@ the first square bracket.
 
 [^3]: How your diet can trigger Hashimoto's, [Online resource]
       <https://www.boostthyroid.com/blog/2019/4/5/how-your-diet-can-trigger-hashimotos>
-      
+   
 [^4]: Hashimoto’s Thyroiditis, A Common Disorder in Women: How to Treat It, [Online resource]
       <https://www.townsendletter.com/article/441-hashimotos-thyroiditis-common-disorder-in-women/>
