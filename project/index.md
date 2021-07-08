@@ -44,7 +44,7 @@ Hashimoto autoimmune diseases have been linked to the infection caused by H pylo
 
 ## 3. Using Images
 
-**Table 1:** Images can be included in the report, but if they are copied you must cite them [^1].
+**Table 1:** replace with correct name [^4].
 
 ![Table 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/hertoghe-table-1.jpg)
 
@@ -85,5 +85,5 @@ the first square bracket.
       <https://www.boostthyroid.com/blog/2019/4/5/how-your-diet-can-trigger-hashimotos>
     
       
-[^4]: image: Hashimoto’s Thyroiditis, A Common Disorder in Women: How to Treat It, [Online resource]
+[^4]: Hashimoto’s Thyroiditis, A Common Disorder in Women: How to Treat It, [Online resource]
       <https://www.townsendletter.com/article/441-hashimotos-thyroiditis-common-disorder-in-women/>
