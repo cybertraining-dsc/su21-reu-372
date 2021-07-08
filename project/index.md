@@ -28,7 +28,7 @@ This work proposes a new view of the Hashimoto disease related with other diseas
 
 {{% /pageinfo %}}
 
-**Keywords:** Thyroid disease, Hashimoto, H Pylori, Implants, Food Sensitivity, Diary sencitivity, Healthy Diets, Exercise. 
+**Keywords:** Thyroid disease, Hashimoto, H Pylori, Implants, Food Sensitivity, Diary sencitivity, Healthy Diets, Exercise, topic modeling, text mining. 
 
 ## 1. Introduction
 
