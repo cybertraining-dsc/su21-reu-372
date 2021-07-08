@@ -44,7 +44,7 @@ Hashimoto autoimmune diseases have been linked to the infection caused by H pylo
 
 ## 3. Using Images
 
-**Table 1:** replace with correct name [^4].
+**Table 1:** "Differences Between Hashimoto's Thyroiditis and Grave's Disease." [^4].
 
 ![Table 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/hertoghe-table-1.jpg)
 
