@@ -8,3 +8,6 @@ numpy==1.21.0
 scikit-learn==0.24.2
 pandas==1.2.4
 Keras==2.4.3
+WordCloud==1.8.1
+gensim==4.0.1
+pyLDAvis==3.3.1
