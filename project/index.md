@@ -28,7 +28,8 @@ Notes for myself:
 -- specified the method i want to used.
 -- how does the method work?
 -- and step by dtep guide on how to used it.
--- 
+
+-- Based on the extracted image features, they used Support Vector Machines (SVMs) to classify input images into several categories such as nodule versus non-nodule and follicles versus fibrosis. Sudarshan et al. [22] used wavelet transform to analyze the input ultrasound thyroid images for the thyroid nodule classification problem. A similar approach, Raghavendra et al. [31] used the segmentation-based fractal texture analysis technique to analyze ultrasound thyroid images under different threshold values for the classification problem. Ouyang et al. [26] found that linear and non-linear classifiers yield similar classification results for the thyroid nodule classification based on handcrafted image features. Since the handcrafted image feature extractors were designed and selected by expert knowledge of authors, they only reflect some limited aspects of the problem. As a result, the classification performance is limited.--- (this organized and rewrited) 
 
 {{< table_of_contents >}}
 
