@@ -34,7 +34,7 @@ Notes for myself:
 
 {{% /pageinfo %}}
 
-**Keywords:** Thyroid disease, Hashimoto, H Pylori, Implants, Food Sensitivity, Diary sencitivity, Healthy Diets, Exercise, topic modeling, text mining. 
+**Keywords:** Thyroid disease, Hashimoto, H Pylori, Implants, Food Sensitivity, Diary sencitivity, Healthy Diets, Exercise, topic modeling, text mining, image_analisys. 
 
 ## 1. Introduction
 
