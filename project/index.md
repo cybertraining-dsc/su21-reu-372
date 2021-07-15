@@ -22,6 +22,13 @@ Sheimy Paz, [su21-reu-372](https://github.com/cybertraining-dsc/su21-reu-372), [
 
 ## Abstract
 This work proposes a new view of the Hashimoto disorder and its relationship with other diseases. The objective is to explore the association of the Hashimoto disorder with disease like h pylori bacteria, inappropriate diet, and its relationship with patients with foreign objects inserted on their body like breast implants etc. Topic modeling is a machine learning technic that uses a text-mining tool helping to correlate words with topics the research process easy and organized. Accordingly, the idea is to get a better understanding of the disorder and the relationship that this has with other health issues hoping to find clear information about the causes and effect that can have on the human body. We collect the data from silo breaker software, which contains data about news, reports, tweets, and blogs. This program will organize our findings highlighting key words related to symptoms, causes, cures, anything that can apport some clarification to the disorder.
+In addition, we used an AI method to diagnose findings on ultrasound images of patients with Hashimoto disorder. The images used in this project are strictly from a patient with Hashimoto disorder. The images were provided to us for the research since it was very difficult to find images related to this disorder either due to patient privacy rules or because the proper unfamiliarity of the disorder. 
+
+Notes for myself: 
+-- specified the method i want to used.
+-- how does the method work?
+-- and step by dtep guide on how to used it.
+-- 
 
 {{< table_of_contents >}}
 
@@ -37,7 +44,6 @@ In a female-to-men radio at least 10:1 women are more often affected than men, a
 
 Due to the arduous labor to identify this disorder a Machine Learning algorithm based on prediction from the early symptoms would be help Doctors to identify Hashimoto in early stages as well as any other health issues related to it like H pylori or inadequate diets this will be helpful for patients that would be able to get the correct treatment in an early stage of the illness avoiding future complications. Also a data research algorithm dedicated to find patient testimonies of improvements or even completed healed and how were these improvements obtained. 
 
-Here comes a convincing introduction to the problem:
 Hashimoto autoimmune diseases have been linked to the infection caused by H pylori bacteria. H pylori is until the date the most common chronic bacterial infection, Affecting half of the world's population and is known for the presence of Caga antigens which are virulents strains that have been found in organ and non organ specific autoimmune diseases. Another important trigger of hashimoto disorder is the inadequate modern diet patterns and the environmental factors that are closely related to it. For instance certain food consumption are an essential factor that trigs the disorder since The majority food being consumed is highly preserved and the consumption of artificial flavorings and sugars have dramatically increase in the past years, adding to it the use of chemicals and insecticides in the fruits and vegetables and the massive introduction of hormones for the meat production, all this can be the cause of the rise of autoimmune diseases.
 
 
