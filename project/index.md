@@ -21,8 +21,7 @@ Sheimy Paz, [su21-reu-372](https://github.com/cybertraining-dsc/su21-reu-372), [
 {{% pageinfo %}}
 
 ## Abstract
-
-This work proposes a new view of the Hashimoto disease related with other diseases. The objective is to explore the association of the Hashimoto disorder with other diseases. Hence, the presence of h pylori bacteria, inappropriate diet, foreign objects inserted on the body like breast implants etc. Topic modeling is a machine learning technic that uses a text-mining tool that helps to correlated words with topics easily making the research process. Accordingly, we used the technique mentioned before for this project about Hashimoto diseases with the purpose to get a better understanding of the disorder and the relationship that this has with other health issues along with the causes and effect that can have on the human body. We collect the data from silo breaker software, which contains data about news, reports, tweets, and blogs.
+This work proposes a new view of the Hashimoto disorder and its relationship with other diseases. The objective is to explore the association of the Hashimoto disorder with disease like h pylori bacteria, inappropriate diet, and its relationship with patients with foreign objects inserted on their body like breast implants etc. Topic modeling is a machine learning technic that uses a text-mining tool helping to correlate words with topics the research process easy and organized. Accordingly, the idea is to get a better understanding of the disorder and the relationship that this has with other health issues hoping to find clear information about the causes and effect that can have on the human body. We collect the data from silo breaker software, which contains data about news, reports, tweets, and blogs. This program will organize our findings highlighting key words related to symptoms, causes, cures, anything that can apport some clarification to the disorder.
 
 {{< table_of_contents >}}
 
