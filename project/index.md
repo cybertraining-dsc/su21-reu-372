@@ -66,45 +66,64 @@ the download function.
 this tutorial will preform topic modeling in Hashimoto and thyroiditys data specifically Tyroiditis data.csv and Hashimoto data.csv found in silo breaker software. From this sample data we are going to used some functions from libraries like pandas, re, WordCloud, gensim., etc. all the libraries used can be found in the requiremts.
 
 **Definition of Data Set**
+
 we are going to used df_hsmto to define our data set with a name.
  
 pd.read_csv() fuction from pandas library help us to identify the path where the data is stored in the computer in this case the path used was ("C:/Users/sheim/OneDrive/Desktop/AI Research/Hashimoto data.csv")
 
 **Read Inside of Data**
+
 Using -- df_hsmto -- line of code we are going to be able to see the information that is inside of the data.
 
 **Drop Or Add Columns**
+
 We can use this -- df_tyrdts.drop(columns=['Id', 'ClusterId', 'Language', 'LastUpdated','CreatedDate','FirstReported'], axis=1) -- line of code to drop any columns that we are not interesting in to focus only in what we are looking for.
 
 **Display**
+
 then we can use -- df_tyrdts.head() -- to display what we get after dropping some of the columns.
 
 **re Library**
+
 We use re library which is a regular expression function that allows us to clean text, check for matches etc.
 
 **Remove Puntuation**
+
 Using the function df_hsmto['Description_processed'] = \
 df_hsmto['Description'].map(lambda x: re.sub('[,\.!?]', '', x)) 
 we can remove punctuations.
 
 **Converting to Lower Case**
+
 using the function df_hsmto['Description_processed'] = \
 df_hsmto['Description_processed'].map(lambda x: x.lower())
 we convert title to lower case.
 
-**Displaying Clean Data** 
+**Displaying Clean Data**
+
 and using the function df_hsmto['Description_processed'].head() we can display the data showing all the change we made above.
 
 **Using WordCloud Library**
+
 Wordcloud the library we are going to be using next. With this library we can represent text data, so basically the size of each word indicates the frequency and importance in which the word is used in the document.
 
 **Manipulating Titles**
 With the function long_string = ','.join(list(df_hsmto['Description_processed'].values)) we can join the different processed titles together.
 
 **Creating an Object**
+
 with wordcloud = WordCloud(background_color="white", max_words=5000, contour_width=3, contour_color='steelblue') we create a worldCloud object here is an example of an object created.
 
+**Generating a worldcloud Object**
+
+We can used this code to generate a word cloud wordcloud.generate(long_string)
+
+**Visualization**
+
+Using this line of code wordcloud.to_image() we display the word cloud to the screen.
+
 **Example of Created Object**
+
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/wordCloudObject.png)
 
 ## 6. Benchmark
@@ -138,3 +157,6 @@ Please add acknowledgments to all that contributed or helped on this project.
       
 [^6]: Hypothyroidism in Context: Where We’ve Been and Where We’re Going, [Online resource]
       <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6822815/>
+      
+[^7]: Gensim Tutorial – A Complete Beginners Guide, [Onile resource]
+      <https://www.machinelearningplus.com/nlp/gensim-tutorial/>
