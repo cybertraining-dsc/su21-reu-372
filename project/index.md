@@ -77,9 +77,8 @@ Worldcloud the library we are going to be using next. With this library we can r
 With the function long_string = ','.join(list(df_hsmto['Description_processed'].values)) we can join the different processes titles together.
 
 with wordcloud = WordCloud(background_color="white", max_words=5000, contour_width=3, contour_color='steelblue') we create a worldCloud object
-for instance 
-
-
+for instance:
+![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/wordCloudObject.png)
 
 ## 3. Using Images
 
