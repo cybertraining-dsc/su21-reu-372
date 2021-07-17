@@ -21,32 +21,46 @@ Sheimy Paz, [su21-reu-372](https://github.com/cybertraining-dsc/su21-reu-372), [
 {{% pageinfo %}}
 
 ## Abstract
-This work proposes a new view of the Hashimoto disorder and its relationship with other diseases. The objective is to explore the association of the Hashimoto disorder with disease like h pylori bacteria, inappropriate diet, and its relationship with patients with foreign objects inserted on their body like breast implants etc. Topic modeling is a machine learning technic that uses a text-mining tool helping to correlate words with topics the research process easy and organized. Accordingly, the idea is to get a better understanding of the disorder and the relationship that this has with other health issues hoping to find clear information about the causes and effect that can have on the human body. We collect the data from silo breaker software, which contains data about news, reports, tweets, and blogs. This program will organize our findings highlighting key words related to symptoms, causes, cures, anything that can apport some clarification to the disorder.
-In addition, we used an AI method to diagnose findings on ultrasound images of patients with Hashimoto disorder. The images used in this project are strictly from a patient with Hashimoto disorder. The images were provided to us for the research since it was very difficult to find images related to this disorder either due to patient privacy rules or because the proper unfamiliarity of the disorder. 
+This project proposes a new view of the Hashimoto disorder and its relationship with other diseases. The objective is to explore the association of the Hashimoto disorder with disease like h pylori bacteria, inappropriate diet, and its relationship with patients with foreign objects inserted on their body like breast implants etc. We use topic modeling which is a machine learning technic that uses a text-mining tool that help to correlate words with topics making the research process easy and organized. Accordingly, the idea is to get a better understanding of the disorder and the relationship that this has with other health issues hoping to find clear information about the causes and effect that can have on the human body.
 
-Notes for myself: 
--- specified the method i want to used.
--- how does the method work?
--- and step by dtep guide on how to used it.
+We collect the data from silo breaker software, which contains data about news, reports, tweets, and blogs. This program will organize our findings highlighting key words related to symptoms, causes, cures, anything that can apport clarification to the disorder.
 
+In addition, we used a segmentation method to diagnose findings on ultrasound images of patients with Hashimoto disorder. The images used in this project are strictly from a patient with Hashimoto disorder. The images were provided to us for the research since it was very difficult to find images related to this disorder either due to patient privacy rules or because the proper unfamiliarity of the disorder.
+
+Methods information: 
+Topic modeling is a text mining tool, it is extremely useful to dig into large collections of text bodies to easily organize and find the specifically information being research.
+
+Segmentations is a process used in image to partitioning digital images into multiple segments. this method is typically used to locate objects and boundaries like lines and curves.
+
+this will be implemented if I decide to add supervector machine to the projects afterwards.
 -- [^5] Based on the extracted image features, they used Support Vector Machines (SVMs) to classify input images into several categories such as nodule versus non-nodule and follicles versus fibrosis. Sudarshan et al. used wavelet transform to analyze the input ultrasound thyroid images for the thyroid nodule classification problem. A similar approach, Raghavendra et al. used the segmentation-based fractal texture analysis technique to analyze ultrasound thyroid images under different threshold values for the classification problem. Ouyang et al. found that linear and non-linear classifiers yield similar classification results for the thyroid nodule classification based on handcrafted image features. Since the handcrafted image feature extractors were designed and selected by expert knowledge of authors, they only reflect some limited aspects of the problem. As a result, the classification performance is limited.--- (this organized and rewrited) 
 
-{{< table_of_contents >}}
 
-{{% /pageinfo %}}
-
-**Keywords:** Thyroid disease, Hashimoto, H Pylori, Implants, Food Sensitivity, Diary sencitivity, Healthy Diets, Exercise, topic modeling, text mining, image_analisys. 
+**Keywords:** Thyroid disease, Hashimoto, H Pylori, Implants, Food Sensitivity, Diary sencitivity, Healthy Diets, Exercise, topic modeling, text mining, image_analisys, segmentation. 
 
 ## 1. Introduction
 
-Hashimoto thyroiditis is an organ-specific autoimmune disorder named after Japanese physician Hajaru Hashimoto. Hashimoto symptoms were first described 1912 but the disease was not recognized until 1957, before that year it was considered to be the early symptoms of Reidel's Thyroiditis. In 1957 Hashimoto was recognized as an autoimmune disorder that destroys thyroid cells and is antibody-mediated. Pathologically speaking, Hashimoto stimulates the formation of antithyroid antibodies that attack the thyroid tissue, causing progressive fibrosis. Hashimoto is believe to be the concequence of a combination of mutated genes and eviromental factors. The disorder is difficult to diagnose since in the early course of the disease the patients may or may not exhibit symptoms and/or laboratory findings of hyperthyroidism or normal values because the destruction of the gland cells may be intermittent. Clinical and epidemiological studies suggest worldwide that the most common cause of hypothyroidism is an inadequate dietary intake of iodine and is the most common cause of hypothyroidism in developed countries.
+Hashimoto thyroiditis is an organ-specific autoimmune disorder.its symptoms were first described 1912 but the disease was not recognized until 1957, before that year it was considered to be the early symptoms of Reidel's Thyroiditis. In 1957 Hashimoto was recognized as an autoimmune disorder that destroys thyroid cells and is antibody-mediated. Pathologically speaking, Hashimoto stimulates the formation of antithyroid antibodies that attack the thyroid tissue, causing progressive fibrosis. Hashimoto is believe to be the concequence of a combination of mutated genes and eviromental factors. The disorder is difficult to diagnose since in the early course of the disease the patients may or may not exhibit symptoms and/or laboratory findings of hyperthyroidism or normal values because the destruction of the gland cells may be intermittent. [^6]Clinical and epidemiological studies suggest worldwide that the most common cause of hypothyroidism is an inadequate dietary intake of iodine and is the most common cause of hypothyroidism in developed countries.
 
-In a female-to-men radio at least 10:1 women are more often affected than men, and the diagnostics are called between the ages of 30 to 50 years. Studies suggest that an association between high levels of thyroid autoantibodies affect the increased frequencies of mood disorders and there was found a relation between thyroid autoimmunity disease, celiac disease and panic disorder and major depressive disorder.
+[^4]In a female-to-men radio at least 10:1 women are more often affected than men, and the diagnostics are called between the ages of 30 to 50 years. Studies suggest that an association between high levels of thyroid autoantibodies affect the increased frequencies of mood disorders and there was found a relation between thyroid autoimmunity disease, celiac disease and panic disorder and major depressive disorder.
 
 Due to the arduous labor to identify this disorder a Machine Learning algorithm based on prediction from the early symptoms would be help Doctors to identify Hashimoto in early stages as well as any other health issues related to it like H pylori or inadequate diets this will be helpful for patients that would be able to get the correct treatment in an early stage of the illness avoiding future complications. Also a data research algorithm dedicated to find patient testimonies of improvements or even completed healed and how were these improvements obtained. 
 
 Hashimoto autoimmune diseases have been linked to the infection caused by H pylori bacteria. H pylori is until the date the most common chronic bacterial infection, Affecting half of the world's population and is known for the presence of Caga antigens which are virulents strains that have been found in organ and non organ specific autoimmune diseases. Another important trigger of hashimoto disorder is the inadequate modern diet patterns and the environmental factors that are closely related to it. For instance certain food consumption are an essential factor that trigs the disorder since The majority food being consumed is highly preserved and the consumption of artificial flavorings and sugars have dramatically increase in the past years, adding to it the use of chemicals and insecticides in the fruits and vegetables and the massive introduction of hormones for the meat production, all this can be the cause of the rise of autoimmune diseases.
 
+this tutorial will preform topic modeling in Hashimoto and thyroiditys data specifically Tyroiditis data.csv and Hashimoto data.csv found in silo breaker software. From this sample data we are going to used some functions from libraries like pandas, re, WordCloud, gensim., etc. all the libraries used can be found in the requiremts.
+
+ we are going to used df_hsmto to define our data set with a name.
+ 
+pd.read_csv() fuction help us to identify the path where the data is stored in the computer in this case the path used was ("C:/Users/sheim/OneDrive/Desktop/AI Research/Hashimoto data.csv")
+
+Using -- df_hsmto -- line of code we are going to be able to see the information that is inside of the data
+
+We can use this -- df_tyrdts.drop(columns=['Id', 'ClusterId', 'Language', 'LastUpdated','CreatedDate','FirstReported'], axis=1) -- line of code to drop any columns that we are not interesting in to focus only in what we are loking for
+
+then we can use -- df_tyrdts.head() -- to display what we get after droping some of the columns
+
+We use re library which is a regular expression function that allws us to clean text.
 
 ## 3. Using Images
 
@@ -76,10 +90,6 @@ Please add acknowledgments to all that contributed or helped on this project.
 
 ## 9. References
 
-Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at 
-one point automatically change the references from superscript to square brackets it is best to introduce a space before 
-the first square bracket.
-
 [^1]: Helicobacter pylori infection in women with Hashimoto thyroiditis, [Online resource]
       <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5265752/>
 
@@ -94,3 +104,6 @@ the first square bracket.
       
 [^5]: Ultrasound Image-Based Diagnosis of Malignant Thyroid Nodule Using Artificial Intelligence, [Online resource]
       <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7180806//>
+      
+[^6]: Hypothyroidism in Context: Where We’ve Been and Where We’re Going, [Online resource]
+      <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6822815/>
