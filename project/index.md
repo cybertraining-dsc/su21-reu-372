@@ -108,6 +108,7 @@ and using the function df_hsmto['Description_processed'].head() we can display t
 Wordcloud is the library we are going to be using next. With this library we can represent text data, so basically the size of each word indicates the frequency and importance in which the word is used in the document.
 
 **Manipulating Titles**
+
 With the function long_string = ','.join(list(df_hsmto['Description_processed'].values)) we can join the different processed titles together.
 
 **Creating an Object**
@@ -147,14 +148,17 @@ def remove_stopwords(texts):
              
              
 **what is this code used for I dont remember?**
+
 data = df_hsmto.Description_processed.values.tolist()
 data_words = list(sent_to_words(data))
 
 **Print data words**
+
 using this code print(data_words[:1][0][:30]) we are going to print the data word
 and this is how it looks: ['hashimoto', 'thyroiditis', 'associated', 'elevated', 'serum', 'uric', 'acid', 'high', 'density', 'lipoprotein', 'cholesterol', 'ratio']
 
 **Let's Create a Dictionary**
+
 after import gensim.corpora as corpora we can used this function id2word = corpora.Dictionary(data_words) to create a dictionary 
 
 using texts = data_words we create a corpus
@@ -172,14 +176,17 @@ num_topics = 10
 
 
 **LDA Model**
+
 LDA stand for Linear discriminant analysis and is a method used to find a linear combination of features that characterize or separates two or more classes of objects or events.
 
 we can used this line of code lda_model = gensim.models.LdaMulticore(corpus=corpus,id2word=id2word,num_topics=num_topics) to build one.
 
 **Print the keywords**
+
 using this code pprint(lda_model.print_topics())doc_lda = lda_model[corpus] we obtian the key words and how often are being used in the data.
 
 **pyLADvis Library**
+
 This is wide used library that classify news, papers, tweets, etc. based on their topics. it filter out non relevant information making easier and faster the research process.
 
 **Visualization of the topic**
@@ -200,6 +207,9 @@ LDAvis_prepared
 we will be able to see an interactive picture. that looks like this:
 
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topic%20modeling%20picture.PNG)
+
+**Now let's work with picture analysis**
+
 
 ## 6. Benchmark
 
