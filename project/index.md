@@ -126,6 +126,13 @@ Using this line of code wordcloud.to_image() we display the word cloud to the sc
 
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/wordCloudObject.png)
 
+**Stop Words**
+
+Using NLTK(Natural Language Toolkit) library we are able to ignore word that are commonly used such as “the”, “a”, “an”, “in” with the porpose of saving processing time.
+
+**Gensim Library**
+
+
 ## 6. Benchmark
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
@@ -159,4 +166,5 @@ Please add acknowledgments to all that contributed or helped on this project.
       <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6822815/>
       
 [^7]: Gensim Tutorial – A Complete Beginners Guide, [Onile resource]
+
       <https://www.machinelearningplus.com/nlp/gensim-tutorial/>
