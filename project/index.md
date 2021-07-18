@@ -54,7 +54,7 @@ Hashimoto autoimmune diseases have been linked to the infection caused by H pylo
 **Table 1:** "Differences Between Hashimoto's Thyroiditis and Grave's Disease." [^4].
 
 ![Table 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/hertoghe-table-2.jpg)
-![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topic%20modeling%20picture.PNG)
+
 
 ## 5. Datasets
 
@@ -63,13 +63,13 @@ However, if the data is publicly available you program must contain a download f
 Write it using pythons `request`. You will get point deductions if you check-in data sets that are large and do not use
 the download function.
 
-this tutorial will preform topic modeling in Hashimoto and thyroiditys data specifically Tyroiditis data.csv and Hashimoto data.csv found in silo breaker software. From this sample data we are going to used some functions from libraries like pandas, re, WordCloud, gensim., etc. all the libraries used can be found in the requiremts.
+this tutorial will perform topic modeling in Hashimoto and thyroiditis data specifically Thyroiditis data.csv and Hashimoto data.csv found in silo breaker software. From this sample data we are going to use some functions from libraries like pandas, re, WordCloud, gensim., etc. all the libraries used can be found in the requirements.
 
 **Definition of Data Set**
 
 we are going to used df_hsmto to define our data set with a name.
  
-pd.read_csv() fuction from pandas library help us to identify the path where the data is stored in the computer in this case the path used was ("C:/Users/sheim/OneDrive/Desktop/AI Research/Hashimoto data.csv")
+pd.read_csv() is a function from pandas library help us to identify the path where the data is stored in the computer in this case the path used was ("C:/Users/sheim/OneDrive/Desktop/AI Research/Hashimoto data.csv")
 
 **Read Inside of Data**
 
@@ -87,7 +87,7 @@ then we can use -- df_tyrdts.head() -- to display what we get after dropping som
 
 We use re library which is a regular expression function that allows us to clean text, check for matches etc.
 
-**Remove Puntuation**
+**Remove Punctuation**
 
 Using the function df_hsmto['Description_processed'] = \
 df_hsmto['Description'].map(lambda x: re.sub('[,\.!?]', '', x)) 
@@ -105,7 +105,7 @@ and using the function df_hsmto['Description_processed'].head() we can display t
 
 **Using WordCloud Library**
 
-Wordcloud the library we are going to be using next. With this library we can represent text data, so basically the size of each word indicates the frequency and importance in which the word is used in the document.
+Wordcloud is the library we are going to be using next. With this library we can represent text data, so basically the size of each word indicates the frequency and importance in which the word is used in the document.
 
 **Manipulating Titles**
 With the function long_string = ','.join(list(df_hsmto['Description_processed'].values)) we can join the different processed titles together.
@@ -122,16 +122,84 @@ We can used this code to generate a word cloud wordcloud.generate(long_string)
 
 Using this line of code wordcloud.to_image() we display the word cloud to the screen.
 
-**Example of Created Object**
+**Example of a Created Object**
 
+this is how it would look.
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/wordCloudObject.png)
 
 **Stop Words**
 
-Using NLTK(Natural Language Toolkit) library we are able to ignore word that are commonly used such as “the”, “a”, “an”, “in” with the porpose of saving processing time.
+Using NLTK(Natural Language Toolkit) library we are able to ignore word that are commonly used such as “the”, “a”, “an”, “in” with the purpose of saving processing time.
 
 **Gensim Library**
 
+It is a natural language processing library used for unsupervised topic modeling task like Building document, word vector, corpora, topic identification, document comparison, and analyzing documents for semantic structure.
+
+knowing this we can go ahead and use this lines of code to manipulate and clean the data to our convinience stop_words = stopwords.words('english')
+stop_words.extend(['from', 'subject', 're', 'edu', 'use'])
+def sent_to_words(sentences):
+    for sentence in sentences:
+        # deacc=True removes punctuations
+        yield(gensim.utils.simple_preprocess(str(sentence), deacc=True))
+def remove_stopwords(texts):
+    return [[word for word in simple_preprocess(str(doc)) 
+             if word not in stop_words] for doc in texts]
+             
+             
+**what is this code used for I dont remember?**
+data = df_hsmto.Description_processed.values.tolist()
+data_words = list(sent_to_words(data))
+
+**Print data words**
+using this code print(data_words[:1][0][:30]) we are going to print the data word
+and this is how it looks: ['hashimoto', 'thyroiditis', 'associated', 'elevated', 'serum', 'uric', 'acid', 'high', 'density', 'lipoprotein', 'cholesterol', 'ratio']
+
+**Let's Create a Dictionary**
+after import gensim.corpora as corpora we can used this function id2word = corpora.Dictionary(data_words) to create a dictionary 
+
+using texts = data_words we create a corpus
+
+Using corpus = [id2word.doc2bow(text) for text in texts] we document the frequency 
+
+using print(corpus[:1][0][:30]) we can display it to the screen 
+
+and this is how it looks like [(0, 1), (1, 1), (2, 1), (3, 1), (4, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1), (10, 1), (11, 1)] 
+
+**pprint library**
+
+then we can use the pprint library to choose the number of topics we want to see
+num_topics = 10
+
+
+**LDA Model**
+LDA stand for Linear discriminant analysis and is a method used to find a linear combination of features that characterize or separates two or more classes of objects or events.
+
+we can used this line of code lda_model = gensim.models.LdaMulticore(corpus=corpus,id2word=id2word,num_topics=num_topics) to build one.
+
+**Print the keywords**
+using this code pprint(lda_model.print_topics())doc_lda = lda_model[corpus] we obtian the key words and how often are being used in the data.
+
+**pyLADvis Library**
+This is wide used library that classify news, papers, tweets, etc. based on their topics. it filter out non relevant information making easier and faster the research process.
+
+**Visualization of the topic**
+
+Using this line code pyLDAvis.enable_notebook()
+LDAvis_data_filepath = os.path.join('C:/Users/sheim/Documents/REU-DataScienceProgram'+str(num_topics)) please notice that the lines in the parenthesis is the path which should be different from everyone.
+
+and finally with this code 
+if 1 == 1:
+    LDAvis_prepared = pyLDAvis.gensim_models.prepare(lda_model, corpus, id2word)
+    with open(LDAvis_data_filepath, 'wb') as f:
+        pickle.dump(LDAvis_prepared, f)
+
+with open(LDAvis_data_filepath, 'rb') as f:
+    LDAvis_prepared = pickle.load(f)
+pyLDAvis.save_html(LDAvis_prepared, 'C:/Users/sheim/Documents/REU-DataScienceProgram'+ str(num_topics) +'.html')
+LDAvis_prepared
+we will be able to see an interactive picture. that looks like this:
+
+![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topic%20modeling%20picture.PNG)
 
 ## 6. Benchmark
 
