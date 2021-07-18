@@ -58,12 +58,10 @@ Hashimoto autoimmune diseases have been linked to the infection caused by H pylo
 
 ## 5. Datasets
 
-Datasets can be huge and GitHub has limited space. Only very small datasets should be stored in GitHub.
-However, if the data is publicly available you program must contain a download function instead that you customize.
-Write it using pythons `request`. You will get point deductions if you check-in data sets that are large and do not use
-the download function.
+Silobreaker software was used to obtain scientific information related to the hashimoto disease coming from different sources such as journals, procedings, tweets and news. Our date consist in the fallowing feature: ID, cluster Id, Description, publication date, SourceURL, publisher. To analyse the preform of the propose aproach to discover the hiding semantic structures related with hashimoto and thyroiditis the description from the gather data is used to study the fraquency of hashimoti and thyroiditis appears in the documents and detecting words and phrases patterns within them to automaticaly clustering work groups.  
 
-this tutorial will perform topic modeling in Hashimoto and thyroiditis data specifically Thyroiditis data.csv and Hashimoto data.csv found in silo breaker software. From this sample data we are going to use some functions from libraries like pandas, re, WordCloud, gensim., etc. all the libraries used can be found in the requirements.
+![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/wordCloudObject.png)
+
 
 **Definition of Data Set**
 
