@@ -39,6 +39,7 @@ Hashimoto autoimmune diseases have been linked to the infection caused by H pylo
 We utilize deep learning BERT model to train our dataset. BERT is a superior performer Bidirectional Encoder, which superimposes 12 or 24 layers of multihead attention in a Transformer []. By the trained model Parameter learning we obtains the word embeddings of the input sentence or input sentence pair in the unsupervised learning framework proceeds by solving the following two tasks: Masked Language Model and Next Sentence Prediction. We try to used Bert model in the small dataset hassimotho without any suscess because the BERT model was overfiting my data points. We use LDA model to train the hassimotho dataset which allow me to find topic probabilities that we compare with the tyrodithis dataset that was trained with the BERT model-framework.
 
 look at the results we got in bert and also in nltk and make some questions. 
+Intertopic Distance map
 
 ## 3. Images
 
