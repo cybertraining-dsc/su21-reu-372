@@ -41,7 +41,7 @@ We utilize BERT model to train our dataset. BERT is a superior performer Bidirec
 
 look at the results we got in bert and also in nltk and make some questions. 
 
-## 3. Using Images
+## 3. Images
 
 **Table 1:** "Differences Between Hashimoto's Thyroiditis and Grave's Disease." [^4].
 
@@ -62,21 +62,25 @@ The dataset is available at
 <https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP>
 
 
-## 6. Benchmark 
+## 6. Results
+
+put all the python images with some explanation.
+
+## 7. Benchmark 
  
  what kind of benchmark can i used?
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
  
-## 6. Conclusion
+## 8. Conclusion
 
 A convincing but not fake conclusion should summarize what the conclusion of the project is.
 
-## 8. Acknowledgments
+## 9. Acknowledgments
 
 Please add acknowledgments to all that contributed or helped on this project.
 
-## 9. References
+## 10. References
 
 [^1]: Helicobacter pylori infection in women with Hashimoto thyroiditis, [Online resource]
       
