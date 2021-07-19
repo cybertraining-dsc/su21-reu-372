@@ -21,11 +21,10 @@ Sheimy Paz, [su21-reu-372](https://github.com/cybertraining-dsc/su21-reu-372), [
 {{% pageinfo %}}
 
 ## Abstract
-This project proposes a new view of the Hashimoto disorder and its relationship with other diseases. The objective is to explore the association of the Hashimoto disorder with disease like h pylori bacteria, inappropriate diet, patients with foreign objects inserted on their body like breast implants etc. We use topic modeling which is a machine learning technic that uses a text-mining tool that help to correlate words with topics making the research process easy and organized. Accordingly, the idea is to get a better understanding of the disorder and the relationship that this has with other health issues hoping to find clear information about the causes and effect that can have on the human body.
+This project proposes a new view of the Hashimoto disorder and its relationship with other diseases. The objective is to explore the association of the Hashimoto disorder with disease like h pylori bacteria, inappropriate diet, patients with foreign objects inserted on their body like breast implants etc. We use topic modeling which is an extremely useful technic to dig into large collections of text bodies to easily organize and find the information on a specific topic. The idea is to use a text-mining tool that help to correlate words with topics making the research process easy and organized. With the porpose to get a better understanding of the disorder and the relationship that this has with other health issues hoping to find clear information about the causes and effect that can have on the human body.
+The dataset was collected from silo breaker software, which contains information about news, reports, tweets, and blogs. The program will organize our findings highlighting key words related to symptoms, causes, cures, anything that can apport clarification to the disorder.  
 
-Collecting data from silo breaker software, which contains information about news, reports, tweets, and blogs. The program will organize our findings highlighting key words related to symptoms, causes, cures, anything that can apport clarification to the disorder. Topic modeling is a text mining tool, it is extremely useful to dig into large collections of text bodies to easily organize and find the specifically information being research. 
-
-**Keywords:** Thyroid disease, Hashimoto, H Pylori, Implants, Food Sensitivity, Diary sencitivity, Healthy Diets, Exercise, topic modeling, text mining, image_analisys, segmentation. 
+**Keywords:** Thyroid disease, Hashimoto, H Pylori, Implants, Food Sensitivity, Diary sencitivity, Healthy Diets, Exercise, topic modeling, text mining. 
 
 ## 1. Introduction
 
