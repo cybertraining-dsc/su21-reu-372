@@ -66,7 +66,8 @@ The fallowing figure represent the difference words found in our dataset and the
 
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/wordCloudObject.png)
 
-The dataset is available at (https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP)
+The dataset is available at [Online resoure]
+<https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP>
 
 
 ## 6. Benchmark 
@@ -86,21 +87,27 @@ Please add acknowledgments to all that contributed or helped on this project.
 ## 9. References
 
 [^1]: Helicobacter pylori infection in women with Hashimoto thyroiditis, [Online resource]
+      
       <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5265752/>
 
 [^2]: I. Voloshyna, V.I Krivenko, V.G Deynega, M.A Voloshyn, Autoimmune thyrod disease related to helicobacterer pylori contamination, [Online resource]
+      
       <https://www.endocrine-abstracts.org/ea/0041/eposters/ea0041gp213_eposter.pdf>
 
 [^3]: How your diet can trigger Hashimoto's, [Online resource]
+      
       <https://www.boostthyroid.com/blog/2019/4/5/how-your-diet-can-trigger-hashimotos>
    
 [^4]: Hashimoto’s Thyroiditis, A Common Disorder in Women: How to Treat It, [Online resource]
+      
       <https://www.townsendletter.com/article/441-hashimotos-thyroiditis-common-disorder-in-women/>
       
 [^5]: Ultrasound Image-Based Diagnosis of Malignant Thyroid Nodule Using Artificial Intelligence, [Online resource]
+      
       <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7180806//>
       
 [^6]: Hypothyroidism in Context: Where We’ve Been and Where We’re Going, [Online resource]
+      
       <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6822815/>
       
 [^7]: Gensim Tutorial – A Complete Beginners Guide, [Onile resource]
