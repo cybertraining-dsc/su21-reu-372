@@ -66,26 +66,31 @@ The dataset is available at
 
 ![Figure 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/IntertopicDistanceMap.png)
 
-figure 2. The following Intertopic Distance Map is a two dimentional space filled with circles representing the proportional amount of words that belongs to each topic making the distance to each other represent the relation between the topics, meaning that topics that are closer together have more words in common.
+figure 2. The following Intertopic Distance Map is a two-dimensional space filled with circles representing the proportional number of words that belongs to each topic making the distance to each other represent the relation between the topics, meaning that topics that are closer together have more words in common.
 
 ![Figure 3](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topic%20modeling%20picture.PNG)
 
-Figure 3. In this figure, we can see a bar chart that shows 30 major terms. The bars indicate the the total frequency of the term across the entire corpus. The size of the bubble measures the importance of the topics, relative to the data. for example for visualization purposes we used the first topic that include Hashimoto, thyroiditis, and selenium. Saliency is a measure of how much the term tells about the topic
+Figure 3. In this figure, we can see a bar chart that shows 30 major terms. The bars indicate the total frequency of the term across the entire corpus. The size of the bubble measures the importance of the topics, relative to the data. for example, for visualization purposes we used the first topic that include Hashimoto, thyroiditis, and selenium. Saliency is a measure of how much the term talks about the topic.
 
 ![Figure 4](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/HierarchicalClustering.png)
 
-Figure 4. In this figure, We can see that the dendograms have been created joining points 4 with 9, 0 with 2, 1 with 6, and 12 with 13. The vertical height of the dendogram shows the Euclidean distances between points. From figure 4, it can be seen that Euclidean distance between points 12 and 13 is greater than the distance between point 4 and 9.
+Figure 4. In this figure, we can see that the dendrograms have been created joining points 4 with 9, 0 with 2, 1 with 6, and 12 with 13. The vertical height of the dendrogram shows the Euclidean distances between points. From figure 4, it is easy to see that Euclidean distance between points 12 and 13 is greater than the distance between point 4 and 9.
 
 ![Figure 5](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/SimilarityMatrix.png)
 
-In figure 5 we observed a similarity matrix chart, the graph is build based on  similarity reached from the volume of topic and association by document, therefore the graph show groups of documents that are cluster together based on similarities. in this case the blue square is an indication of a strong similarity and the green and ligth green is an indication of different topics. for instance we are able to derive as a conclution that carcinoma cancer, carcinoma therapy, limph papillary metastasis and hypothyroidism are strechaly related. Actually carcinoma therapy is a type of tratment that can be used for this disorder. ect. 
+In figure 5 we observed a similarity matrix chart, the graph is build based on similarity reached from the volume of topic and association by document, therefore the graph show groups of documents that are cluster together based on similarities. in this case the blue square is an indication of a strong similarity, and the green and light green is an indication of different topics. for instance, we are able to derive as a conclusion that carcinoma cancer, carcinoma therapy, lymph papillary metastasis and hypothyroidism are closely related. E.g. Carcinoma therapy is a type of treatment that can be used for this disorder. ect. 
 
 ![Figure 6](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/TermScoreDeclinePerTopic.png)
 
+The TF-IDF is an interesting technic used on machine learning that have the ability to measure the frequency of a word or in this case a titles in a document e.g in this example we can see how topic 12, covid19 pandemic patients.. is the at the top of the chart and then start declining and the science behind this behave is explain by the TF-IDF which is term frequency - Inverse document frequency, for instance, covid 19 was a relative new disease not long ago so accordingly is not expected to have a high frequency used in the document that is why we can see it at the top of the graph.
+
 ![Figure 7](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/TopicProbability.png)
+
+Figure 7 Shows a probability distribution chart based on each topic and the relationship with the main topic that in this case is Hashimoto thyroiditis causes or cure. that why we can see that topic 12 is the least frequent or least related likewise we have topic 11 zebrafish which is related to the investigation since research made on zebrafish had help to understand thyroid disease but is not closely related to the major point of this project which is causes or cured.
 
 ![Figure 8](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/TopicWordScores.png)
 
+Figure 8 is a Topic Word Scores chart that provides a deep understanding of large corpus of texts trough topic extraction. for instance, the data used in this project provide 5 fundamental topics from 0 to 4. In topic number 4 we have a specific word "eye" which it does not seem to have a close relationship with Hashimoto thyroiditis but in facts is related to one of the first symptoms that the human body experiment most likely when is still undiagnosed. this will further justify on the conclusion.
 
 ## 7. Benchmark 
  
