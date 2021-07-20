@@ -74,7 +74,7 @@ Figure 3. In this figure, we can see a bar chart that shows 30 major terms. The 
 
 ![Figure 4](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/HierarchicalClustering.png)
 
-Figure 4. We have a Hierarchical clustering chart where each group represent a node and it is linked to two or more successors group. Making a nested group that provide a minifull classification scheme.  
+Figure 4. We have a Hierarchical clustering chart where each group represent a node and it is linked to two or more successors group. Making a nested group that provide a minifull classification scheme. The size of the bubble measures the importance of the topics, relative to the data.
 
 ![Figure 5](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/SimilarityMatrix.png)
 
