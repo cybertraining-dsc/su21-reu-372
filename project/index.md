@@ -74,7 +74,7 @@ Figure 3. In this figure, we can see a bar chart that shows 30 major terms. The 
 
 ![Figure 4](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/HierarchicalClustering.png)
 
-Figure 4. We have a Hierarchical clustering chart where each group represent a node and it is linked to two or more successors group. Making a nested group that provide a minifull classification scheme.
+Figure 4. In figure 4, We can see that the dendograms have been created joining points 4 with 9, 0 with 2, 1 with 6, and 12 with 13. The vertical height of the dendogram shows the Euclidean distances between points. From figure 4, it can be seen that Euclidean distance between points 12 and 13 is greater than the distance between point 4 and 9.
 
 ![Figure 5](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/SimilarityMatrix.png)
 
