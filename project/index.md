@@ -71,12 +71,13 @@ The fallowing Intertopic Distance Map is a two dimentional space filled with cir
 ![Figure 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/IntertopicDistanceMap.png)
 
 
-On the next figure we can see a bar chart that shows thw 30 major terms. With the bars indicating the the total frequency of the term across the entire corpus
+On the next figure we can see a bar chart that shows thw 30 major terms. The bars indicate the the total frequency of the term across the entire corpus. for example for the data we used the first topic include Hashimoto, thyroiditis, and selenium.
 
 ![Figure 3](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topic%20modeling%20picture.PNG)
 
 
-
+Next we can a Hierarchical clustering chart where each group represent a node and it is linked to two or more successors group. Making a nested group that provide a minifull classification scheme.  
+Question:--->> i would like to mention here the scheme relationship (for exaple how topic 4,10,11 are related and then how this three topics are related together to topic 6 and 12) but since im not able to see the full text i can not maka a good explanation. or maybe is not necessary? advise?
 ![Figure 4](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/HierarchicalClustering.png)
 
 
