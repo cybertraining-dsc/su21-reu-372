@@ -78,7 +78,7 @@ Figure 4. In this figure, We can see that the dendograms have been created joini
 
 ![Figure 5](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/SimilarityMatrix.png)
 
-figure 5, 
+In figure 5 we observed a similarity matrix chart, the graph is build based on  similarity reached from the volume of topic and association by document, therefore the graph show groups of documents that are cluster together based on similarities. in this case the blue square is an indication of a strong similarity and the green and ligth green is an indication of different topics. for instance we are able to derive as a conclution that carcinoma cancer, carcinoma therapy, limph papillary metastasis and hypothyroidism are strechaly related. Actually carcinoma therapy is a type of tratment that can be used for this disorder. ect. 
 
 ![Figure 6](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/TermScoreDeclinePerTopic.png)
 
