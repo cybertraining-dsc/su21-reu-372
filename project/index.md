@@ -70,7 +70,7 @@ figure 2. The following Intertopic Distance Map is a two dimentional space fille
 
 ![Figure 3](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topic%20modeling%20picture.PNG)
 
-Figure 3. In this figure, we can see a bar chart that shows 30 major terms. The bars indicate the the total frequency of the term across the entire corpus. The size of the bubble measures the importance of the topics, relative to the data. for example for visualization purposes we used the first topic that include Hashimoto, thyroiditis, and selenium.
+Figure 3. In this figure, we can see a bar chart that shows 30 major terms. The bars indicate the the total frequency of the term across the entire corpus. The size of the bubble measures the importance of the topics, relative to the data. for example for visualization purposes we used the first topic that include Hashimoto, thyroiditis, and selenium. Saliency is a measure of how much the term tells about the topic
 
 ![Figure 4](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/HierarchicalClustering.png)
 
