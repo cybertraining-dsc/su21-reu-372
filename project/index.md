@@ -66,6 +66,31 @@ The dataset is available at
 
 put all the python images with some explanation.
 
+The fallowing Intertopic Distance Map is a two dimentional space filled with circles representing the proportional amount of words that belongs to each topic making the distance to each other represent the relation between the topics, meaning that topics that are closer together have more words in common. 
+
+![Figure 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/IntertopicDistanceMap.png)
+
+
+On the next figure we can see a bar chart that shows thw 30 major terms. With the bars indicating the the total frequency of the term across the entire corpus
+
+![Figure 3](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topic%20modeling%20picture.PNG)
+
+
+
+![Figure 4](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/HierarchicalClustering.png)
+
+
+
+![Figure 5](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/SimilarityMatrix.png)
+
+![Figure 6](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/TermScoreDeclinePerTopic.png)
+
+![Figure 7](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/TopicProbability.png)
+
+![Figure 8](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/TopicWordScores.png)
+
+
+
 ## 7. Benchmark 
  
  what kind of benchmark can i used?
