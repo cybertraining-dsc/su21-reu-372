@@ -82,15 +82,15 @@ In figure 4 we observed a similarity matrix chart, the graph is build based on s
 
 ![Figure 5](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/TermScoreDeclinePerTopic.png)
 
-The TF-IDF is an interesting technic used on machine learning that have the ability to measure the frequency of a word or in this case a titles in a document e.g in this example we can see how topic 12, covid19 pandemic patients.. is the at the top of the chart and then start declining and the science behind this behave is explain by the TF-IDF which is term frequency - Inverse document frequency, for instance, covid 19 was a relative new disease not long ago so accordingly is not expected to have a high frequency used in the document that is why we can see it at the top of the graph.
+In figure 5, TF-IDF is an interesting technic used on machine learning that have the ability to give weight to those words that are not frequent in the document but can carry important information. In this example we can see how topic 12, covid19 pandemic patients is the at the top of the chart and then start declining when the rank term increase. The science behind this behave is explain by the TF-IDF which is term frequency - Inverse document frequency. Therefore, covid 19 was a relative new disease, and we do not expected to have a high frequency used in the document.
 
 ![Figure 6](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/TopicProbability.png)
 
-Figure 6 Shows a probability distribution chart based on each topic and the relationship with the main topic that in this case is Hashimoto thyroiditis causes or cure. that why we can see that topic 12 is the least frequent or least related likewise we have topic 11 zebrafish which is related to the investigation since research made on zebrafish had help to understand thyroid disease but is not closely related to the major point of this project which is causes or cured.
+In figure 6, we show a probability distribution chart based on each topic and the relationship with the main topic that in this case is Hashimoto thyroiditis causes or cure. We can see that topic 12 is the least frequent or least related likewise we have topic 11 zebrafish which is related to the investigation since research made on zebrafish had help to understand thyroid disease but is not closely related to the major point of this project which is causes or cured.
 
 ![Figure 7](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topicwordscore.png)
 
-Figure 7 is a Topic Word Scores chart that provides a deep understanding of large corpus of texts trough topic extraction. for instance, the data used in this project provide 5 fundamental topics from 0 to 4. In topic number 4 we have a specific word "eye" which it does not seem to have a close relationship with Hashimoto thyroiditis but in facts is related to one of the first symptoms that the human body experiment most likely when is still undiagnosed. this will further justify on the conclusion.
+In figure 7, We have Topic Word Scores chart that provides a deep understanding of large corpus of texts trough topic extraction. for instance, the data used in this project provide 5 fundamental topics from 0 to 4. In topic number 4 we have a specific word "eye" which it does not seem to have a close relationship with Hashimoto thyroiditis but in facts is related to one of the first symptoms that the human body experiment most likely when is still undiagnosed. this will further justify on the conclusion.
 
 ## 7. Benchmark 
  
