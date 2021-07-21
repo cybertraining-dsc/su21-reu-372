@@ -100,9 +100,11 @@ Your project must include a benchmark. The easiest is to use cloudmesh-common [^
  
 ## 8. Conclusion
 
-A convincing but not fake conclusion should summarize what the conclusion of the project is.
+**Question**
+Does this look like an appropriate conclusion (is not finish yet) or may this paragraph above have a better used for the graph description in particular???
 
-As expected we were able to derive helpful information of the hashimoto disorder. In fact topic modeling help us to build models that optimise our research process. for instance, figure 8 Topic Word Score chart provide key word that later on help us to minimize the research processe, and example was the word eye that may seem no ecessential but in fact with some research we were able to fing out that was related to an early symtoms of the disorder wich is dry eyes. 
+As expected, we were able to derive helpful information of the Hashimoto disorder. In fact, topic modeling helps us to build models that optimize our research process. for instance, figure 8 Topic Word Score chart provide key word that later help us to minimize the research process, and example was the word eye that may seem no essential but in fact with some research we were able to find out that was related to an early symptom of the disorder which is dry eyes. 
+Another symptom reported by some patients was ablation which was found on topic 3, some patient described as an acceleration of the heart rhythm.  
 
 ## 9. Acknowledgments
 
