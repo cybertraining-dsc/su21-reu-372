@@ -88,7 +88,7 @@ The TF-IDF is an interesting technic used on machine learning that have the abil
 
 Figure 7 Shows a probability distribution chart based on each topic and the relationship with the main topic that in this case is Hashimoto thyroiditis causes or cure. that why we can see that topic 12 is the least frequent or least related likewise we have topic 11 zebrafish which is related to the investigation since research made on zebrafish had help to understand thyroid disease but is not closely related to the major point of this project which is causes or cured.
 
-![Figure 8](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/TopicWordScores.png)
+![Figure 8](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topicwordscore.png)
 
 Figure 8 is a Topic Word Scores chart that provides a deep understanding of large corpus of texts trough topic extraction. for instance, the data used in this project provide 5 fundamental topics from 0 to 4. In topic number 4 we have a specific word "eye" which it does not seem to have a close relationship with Hashimoto thyroiditis but in facts is related to one of the first symptoms that the human body experiment most likely when is still undiagnosed. this will further justify on the conclusion.
 
