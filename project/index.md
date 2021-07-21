@@ -124,11 +124,7 @@ High antibody level (figure ) [] I will be providing a resource with explanation
 
 Ways to improve the symptoms:
 food and diet (figure) [] i will be providing a resources with explanations of the findings
-
-
-
-
-
+Selenium suplementation [8] i will explain more about the this suplement 
 
 ## 9. Acknowledgments
 
