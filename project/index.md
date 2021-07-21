@@ -106,6 +106,30 @@ Does this look like an appropriate conclusion (is not finish yet) or may this pa
 As expected, we were able to derive helpful information of the Hashimoto disorder. In fact, topic modeling helps us to build models that optimize our research process. for instance, figure 8 Topic Word Score chart provide key word that later help us to minimize the research process, and example was the word eye that may seem no essential but in fact with some research we were able to find out that was related to an early symptom of the disorder which is dry eyes. 
 Another symptom reported by some patients was ablation which was found on topic 3, some patient described as an acceleration of the heart rhythm.  
 
+**Question** or does this look like a better idea
+
+Causes:
+Food that can trig Hashimoto disease [] I will be providing a resource with explanations of the findings
+Enviromental causes ---> (figure  ..)  [] I will be providing a resource with explanations of the findings
+genetic causes ---> (figure ...)
+
+Early symptoms: I will type our findings
+
+
+Type of damage cause to body due to the disorder:
+Tissue damage, Abnormal look of the thyroid gland (derive from figure 2(30 more salient terms)) [] i will be providing a resource with explanations of the findings
+Nodule development (provided by figure 4 Similarity Matrix topic 3) [] i will be providing a resource with explanations of the findings
+High antibody level (figure ) [] I will be providing a resource with explanations of the findings
+.....---> i will add more this is just an example 
+
+Ways to improve the symptoms:
+food and diet (figure) [] i will be providing a resources with explanations of the findings
+
+
+
+
+
+
 ## 9. Acknowledgments
 
 Please add acknowledgments to all that contributed or helped on this project.
