@@ -96,10 +96,12 @@ In figure 7, We have Topic Word Scores chart that provides a deep understanding 
 
  ```
 | Name                                                            | Status | Time |
-| ----------------------------------------------------------------|-----------------
+| ----------------------------------------------------------------|----------------
 | parallel     Topic  Count                                       |   
 | 0      -1    164       -1_cancer_follicular_carcinoma_autoimmune    ok     3.53
+| 0      -1    190       -1_cancer_follicular_carcinoma_autoimmune    ok     0.002
 ```
+find the difference gpu/tpu.
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
  
