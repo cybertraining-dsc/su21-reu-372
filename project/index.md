@@ -94,7 +94,9 @@ In figure 7, We have Topic Word Scores chart that provides a deep understanding 
 
 ## 7. Benchmark 
  
- what kind of benchmark can i used?
+| Name                                              | Status | Time |
+| ------------------------------------------------- | --- |
+| parallel     Topic  Count  | Gaussian | .843 |
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
  
