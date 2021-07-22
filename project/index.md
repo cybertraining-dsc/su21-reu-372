@@ -95,9 +95,10 @@ In figure 7, We have Topic Word Scores chart that provides a deep understanding 
 ## 7. Benchmark 
 
  ```
-| Name                                          | Status | Time |
-| ---| --- |
-| parallel     Topic  Count  | Gaussian | .843 |
+| Name                                                            | Status | Time |
+| ----------------------------------------------------------------|-----------------
+| parallel     Topic  Count                                       |   
+| 0      -1    164       -1_cancer_follicular_carcinoma_autoimmune    ok     3.53
 ```
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
