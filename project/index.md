@@ -170,3 +170,8 @@ Please add acknowledgments to all that contributed or helped on this project.
 [^8]: Selenium Supplementation for Hashimoto's Thyroiditis, [Online resource]
 
      <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4005265/>
+     
+[^9]: Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub] 
+     
+     <https://github.com/cloudmesh/cloudmesh-common>
+
