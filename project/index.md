@@ -93,10 +93,12 @@ In figure 6, we show a probability distribution chart based on each topic and th
 In figure 7, We have Topic Word Scores chart that provides a deep understanding of large corpus of texts trough topic extraction. for instance, the data used in this project provide 5 fundamental topics from 0 to 4. In topic number 4 we have a specific word "eye" which it does not seem to have a close relationship with Hashimoto thyroiditis but in facts is related to one of the first symptoms that the human body experiment most likely when is still undiagnosed. this will further justify on the conclusion.
 
 ## 7. Benchmark 
- 
-| Name                                              | Status | Time |
-| ------------------------------------------------- | --- |
+
+ ```
+| Name| Status | Time |
+| ---| --- |
 | parallel     Topic  Count  | Gaussian | .843 |
+```
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
  
