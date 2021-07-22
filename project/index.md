@@ -95,7 +95,7 @@ In figure 7, We have Topic Word Scores chart that provides a deep understanding 
 ## 7. Benchmark 
 
  ```
-| Name| Status | Time |
+| Name                                          | Status | Time |
 | ---| --- |
 | parallel     Topic  Count  | Gaussian | .843 |
 ```
