@@ -175,7 +175,7 @@ Please add acknowledgments to all that contributed or helped on this project.
      
      <https://github.com/cloudmesh/cloudmesh-common>
      
-[10]: Pavan Sanagapati, Knowledge Graph & NLP Tutorial-(BERT,spaCy,NLTK), [Online resource]
+[^10]: Pavan Sanagapati, Knowledge Graph & NLP Tutorial-(BERT,spaCy,NLTK), [Online resource]
      
      <https://www.kaggle.com/pavansanagapati/knowledge-graph-nlp-tutorial-bert-spacy-nltk>
 
