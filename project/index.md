@@ -42,6 +42,8 @@ We utilize deep learning BERT model to train our dataset. BERT is a superior per
 
 We used NLTK which is a module that uses the process of splitting sentences from paragraph, split words, recognizing the meaning of those words, to highlighting the main subjects, with the purpose to help to understand the meaning of the document [10]. For instance, in our NLTK model we used two data sets [Hashimoto & Thyroiditis] (https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP) and we were able to identify the top 30 topics connected to these disorders. From the information collected we were able to identify general information like the association of this disorder with other health issues. The impact of Hashimoto patient with covid19, long term consequences of untreated Hashimoto, recommendation for advance cases, and diet suggestion for improvement. The used of Natural Language tool kit made a precise and less time consuming research process.    
 
+write about gensim
+
 ## 3. Images
 
 **Table 1:** "Differences Between Hashimoto's Thyroiditis and Grave's Disease." [^4].
@@ -66,7 +68,8 @@ The dataset can be download [Here](https://drive.google.com/drive/u/0/folders/1O
 
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/IntertopicDistanceMap.png)
 
-figure 1. The following Intertopic Distance Map is a two-dimensional space filled with circles representing the proportional number of words that belongs to each topic making the distance to each other represent the relation between the topics, meaning that topics that are closer together have more words in common.
+figure 1. The following Intertopic Distance Map is a two-dimensional space filled with circles representing the proportional number of words that belongs to each topic making the distance to each other represent the relation between the topics, meaning that topics that are closer together have more words in common. For instance, in topic 1 we observed word like hypothyroidism, morgan, symptoms after a small search we were able to find that Morgan is a well known writer that presented thyroiditis symptoms after giving birth which is something that happen to some womens and then recover after a couple of month, however this increment the risk of developing the sindrome later in their lives [11]. On topic 10, 
+12, 4.
 
 ![Figure 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topic%20modeling%20picture.PNG)
 
@@ -178,4 +181,9 @@ Please add acknowledgments to all that contributed or helped on this project.
 [^10]: Pavan Sanagapati, Knowledge Graph & NLP Tutorial-(BERT,spaCy,NLTK), [Online resource]
      
      <https://www.kaggle.com/pavansanagapati/knowledge-graph-nlp-tutorial-bert-spacy-nltk>
+     
+[^11]: Julia Haskins, Thyroid Conditions Raise the Risk of Pregnancy Complications, [Online resource]
+
+    <https://www.healthline.com/health-news/children-thyroid-conditions-raise-pregnancy-risks-052913>
+    
 
