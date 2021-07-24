@@ -88,34 +88,13 @@ In figure 5, TF-IDF is an interesting technic used on machine learning that have
 
 ![Figure 6](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/TopicProbability.png)
 
-In figure 6, we show a probability distribution chart based on each topic frequency and its relationship with the main topic: Hashimoto thyroiditis causes or cure. We can see that topic 12 is the least frequent or least related since most of its content is about covid19. Then we have topic 11 zebrafish which is related to the investigation of the disorder but most of its content is about the research made on zebrafish and how had help researchers to understand thyroid diseases in other no mammals animals, but is not closely related to the major point of this project, however is an interesting research which have provide useful information about thyroiditis [15].
+In figure 6, we show a probability distribution chart based on each topic frequency and its relationship with the main topic: Hashimoto thyroiditis causes or cure. We can see that topic 12 is the least frequent or least related since most of its content is about covid19. Then we have topic 11 zebrafish which is related to the investigation of the disorder but most of its content is about the research made on zebrafish and how had help researchers to understand thyroid diseases in other no mammals’ animals, but is not closely related to the major point of this project, however, is an interesting research which have provide useful information about thyroiditis [15].
 
 ![Figure 7](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topicwordscore.png)
 
-In figure 7, We have Topic Word Scores chart that provides a deep understanding of large corpus of texts trough topic extraction. for instance, the data used in this project provide 5 fundamental topics from 0 to 4. Essentially each topic provided closelly related words with deep information about the disorder itself, treatments, diagnosis, and symtoms. E.g in topic number 4 we find a specific word "eye" which it does not seem to have a close relationship with Hashimoto thyroiditis but in facts is related to one of the early symptoms that the human body experiment most likely when is still undiagnosed [16]. In the same topic we also find the word teprotumumab which is an eye relieve medication recomended from doctors to relive the symptoms, in other word is not the cure but it helps [17].
+In figure 7, We have Topic Word Scores chart that provides a deep understanding of large corpus of texts trough topic extraction. for instance, the data used in this project provide 5 fundamental topics from 0 to 4. Essentially each topic provided closely related words with deep information about the disorder itself, treatments, diagnosis, and symptoms. E.g. in topic number 4 we find a specific word "eye" which it does not seem to have a close relationship with Hashimoto thyroiditis but in facts is related to one of the early symptoms that the human body experiment most likely when is still undiagnosed [16]. In the same topic we also find the word teprotumumab which is an eye relieve medication recommended from doctors to relive the symptoms, in other word is not the cure but it helps [17].
 
-## 7. Benchmark 
 
- ```
-| Name                                                            | Status | Time |
-| ----------------------------------------------------------------|----------------
-| parallel     Topic  Count                                       |   
-| 0      -1    164       -1_cancer_follicular_carcinoma_autoimmune    ok     3.53
-| 0      -1    190       -1_cancer_follicular_carcinoma_autoimmune    ok     0.002
-```
-find the difference gpu/tpu.
-
-Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
- 
-## 8. Conclusion
-
-**Question**
-Does this look like an appropriate conclusion (is not finish yet) or may this paragraph above have a better used for the graph description in particular???
-
-As expected, we were able to derive helpful information of the Hashimoto disorder. In fact, topic modeling helps us to build models that optimize our research process. for instance, figure 8 Topic Word Score chart provide key word that later help us to minimize the research process, and example was the word eye that may seem no essential but in fact with some research we were able to find out that was related to an early symptom of the disorder which is dry eyes. 
-Another symptom reported by some patients was ablation which was found on topic 3, some patient described as an acceleration of the heart rhythm.  
-
-**Question** or does this look like a better idea
 
 Causes:
 Food that can trig Hashimoto disease [] I will be providing a resource with explanations of the findings
@@ -134,6 +113,26 @@ High antibody level (figure ) [] I will be providing a resource with explanation
 Ways to improve the symptoms:
 food and diet (figure) [] i will be providing a resources with explanations of the findings
 Selenium suplementation [8] i will explain more about the this suplement 
+
+Another symptom reported by some patients was ablation which was found on topic 3, some patient described as an acceleration of the heart rhythm.  
+
+## 7. Benchmark 
+
+ ```
+| Name                                                            | Status | Time |
+| ----------------------------------------------------------------|----------------
+| parallel     Topic  Count                                       |   
+| 0      -1    164       -1_cancer_follicular_carcinoma_autoimmune    ok     3.53
+| 0      -1    190       -1_cancer_follicular_carcinoma_autoimmune    ok     0.002
+```
+find the difference gpu/tpu.
+
+Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
+ 
+## 8. Conclusion
+
+As expected, were able to derive helpful information of the Hashimoto thyroiditys disorder. we attempted to summarize our findings concerning Hashimoto thyroiditys in aspects of causes, symptoms, recomended diets and suplements, used medication...
+Our findings highlight the great potential of the model we used. certalinly, topic modeling method was an acerted idea for the optimization of the research process. We also used varius features of gensim, wich allows to manipulate data texts on NPL projects. The use of clutering technics was very useful to label our findings on the bigs datasets. Each used graph provided useful ditails and key words that later help us to revirew each important topic in a faster manner and develop a the research project with acurate results. 
 
 ## 9. Acknowledgments
 
