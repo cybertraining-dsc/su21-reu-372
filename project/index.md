@@ -68,12 +68,11 @@ The dataset can be download [Here](https://drive.google.com/drive/u/0/folders/1O
 
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/IntertopicDistanceMap.png)
 
-figure 1. The following Intertopic Distance Map is a two-dimensional space filled with circles representing the proportional number of words that belongs to each topic making the distance to each other represent the relation between the topics, meaning that topics that are closer together have more words in common. For instance, in topic 1 we observed word like hypothyroidism, morgan, symptoms after a small search we were able to find that Morgan is a well known writer that presented thyroiditis symptoms after giving birth which is something that happen to some womens and then recover after a couple of month, however this increment the risk of developing the sindrome later in their lives [11]. On topic 10, 
-12, 4.
+Figure 1. The following Intertopic Distance Map is a two-dimensional space filled with circles representing the proportional number of words that belongs to each topic making the distance to each other represent the relation between the topics, meaning that topics that are closer together have more words in common. For instance, in topic 1 we observed word like hypothyroidism, Morgan, symptoms after a small search we were able to find that Morgan is a well-known writer that presented thyroiditis symptoms after giving birth which is something that happen to some women’s and then recover after a couple of months, however this increments the risk of developing the syndrome later in their lives [11]. On topic 4 we see words like food, levothyroxine, liothyronine, selenium and dietary. the relationship between these words is symptom control, symptoms relive, some natural remedies and supplements. [12,8]
 
 ![Figure 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topic%20modeling%20picture.PNG)
 
-Figure 2. Provide a bar chart that shows 30 major terms. The bars indicate the total frequency of the term across the entire corpus. The size of the bubble measures the importance of the topics, relative to the data. for example, for visualization purposes we used the first topic that include Hashimoto, thyroiditis, and selenium. Saliency is a measure of how much the term talks about the topic. And in terms of findings is important to mentions the relationship between Hashimoto thyroiditis and selenium. Selenium is a suplement recomended for patients with this disorder that have show an reduction on antibody levels[8]. 
+Figure 2. Provide a bar chart that shows 30 major terms. The bars indicate the total frequency of the term across the entire corpus. The size of the bubble measures the importance of the topics, relative to the data. for example, for visualization purposes we used the first topic that include Hashimoto, thyroiditis, and selenium. Saliency is a measure of how much the term talks about the topic. And in terms of findings is important to mentions the relationship between Hashimoto thyroiditis and selenium. Selenium is a suplement recomended for patients with this disorder that have shown a reduction on antibody levels[8]. 
 
 ![Figure 3](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/HierarchicalClustering.png)
 
@@ -186,4 +185,7 @@ Please add acknowledgments to all that contributed or helped on this project.
 
     <https://www.healthline.com/health-news/children-thyroid-conditions-raise-pregnancy-risks-052913>
     
+[^12]: How your diet can trigger Hashimoto's, [Online resource]
+
+    <https://www.boostthyroid.com/blog/2019/4/5/how-your-diet-can-trigger-hashimotos>
 
