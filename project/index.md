@@ -92,7 +92,7 @@ In figure 6, we show a probability distribution chart based on each topic freque
 
 ![Figure 7](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topicwordscore.png)
 
-In figure 7, We have Topic Word Scores chart that provides a deep understanding of large corpus of texts trough topic extraction. for instance, the data used in this project provide 5 fundamental topics from 0 to 4. In topic number 4 we have a specific word "eye" which it does not seem to have a close relationship with Hashimoto thyroiditis but in facts is related to one of the first symptoms that the human body experiment most likely when is still undiagnosed. this will further justify on the conclusion.
+In figure 7, We have Topic Word Scores chart that provides a deep understanding of large corpus of texts trough topic extraction. for instance, the data used in this project provide 5 fundamental topics from 0 to 4. Essentially each topic provided closelly related words with deep information about the disorder itself, treatments, diagnosis, and symtoms. E.g in topic number 4 we find a specific word "eye" which it does not seem to have a close relationship with Hashimoto thyroiditis but in facts is related to one of the early symptoms that the human body experiment most likely when is still undiagnosed [16]. In the same topic we also find the word teprotumumab which is an eye relieve medication recomended from doctors to relive the symptoms, in other word is not the cure but it helps [17].
 
 ## 7. Benchmark 
 
@@ -200,3 +200,11 @@ Please add acknowledgments to all that contributed or helped on this project.
 [15]: How zebrafish research has helped in understanding thyroid diseases, [Online resource] 
 
     <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5730863/>
+    
+[16]: Dry Eyes and Thyroid Disorders, [Online resource]
+
+    <https://www.webmd.com/eye-health/dry-eyes-thyroid>
+    
+[17]: Teprotumumab for the Treatment of Active Thyroid Eye Disease, [Online resource]
+    
+    <https://www.nejm.org/doi/full/10.1056/nejmoa1910434>
