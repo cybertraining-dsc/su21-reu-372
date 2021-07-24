@@ -94,8 +94,24 @@ In figure 6, we show a probability distribution chart based on each topic freque
 
 In figure 7, We have Topic Word Scores chart that provides a deep understanding of large corpus of texts trough topic extraction. for instance, the data used in this project provide 5 fundamental topics from 0 to 4. Essentially each topic provided closely related words with deep information about the disorder itself, treatments, diagnosis, and symptoms. E.g. in topic number 4 we find a specific word "eye" which it does not seem to have a close relationship with Hashimoto thyroiditis but in facts is related to one of the early symptoms that the human body experiment most likely when is still undiagnosed [16]. In the same topic we also find the word teprotumumab which is an eye relieve medication recommended from doctors to relive the symptoms, in other word is not the cure but it helps [17].
 
-Causes:
-genetic causes ---> (figure ...)
+
+
+ ```
+| Causes                                             | Status | Time |
+| ---------------------------------------------------|----------------
+| parallel     Topic  Count                          |   
+| 0      -1    164       -1_cancer_follicular_carcinoma_autoimmune    ok     3.53
+| 0      -1    190       -1_cancer_follicular_carcinoma_autoimmune    ok     0.002
+```
+Belived Causes:
+Genetic predispositions
+Dietary errors
+Nutritional deficiencies
+Hormone deficiencies
+Viral, bacterial, yeast, and parasitic infections.
+
+
+Toxic products.---> (figure ...)
 Food that can trig Hashimoto disease [] I will be providing a resource with explanations of the findings
 Enviromental causes ---> (figure  ..)  [] I will be providing a resource with explanations of the findings
 
