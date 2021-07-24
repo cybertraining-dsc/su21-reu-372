@@ -131,8 +131,8 @@ Your project must include a benchmark. The easiest is to use cloudmesh-common [^
  
 ## 8. Conclusion
 
-As expected, were able to derive helpful information of the Hashimoto thyroiditys disorder. we attempted to summarize our findings concerning Hashimoto thyroiditys in aspects of causes, symptoms, recomended diets and suplements, used medication...
-Our findings highlight the great potential of the model we used. certalinly, topic modeling method was an acerted idea for the optimization of the research process. We also used varius features of gensim, wich allows to manipulate data texts on NPL projects. The use of clutering technics was very useful to label our findings on the bigs datasets. Each used graph provided useful ditails and key words that later help us to revirew each important topic in a faster manner and develop a the research project with acurate results. 
+As expected, were able to derive helpful information of the Hashimoto thyroiditis disorder. we attempted to summarize our findings concerning Hashimoto thyroiditis in aspects of causes, symptoms, recommended diets and supplements, used medication...
+Our findings highlight the great potential of the model we used. certainly, topic modeling method was a precise idea for the optimization of the research process. We also used various features of genism, which allows to manipulate data texts on NPL projects. The use of clustering technics was very useful to label our findings on the large datasets. Each used graph provided useful details and key words that later help us to review each important topic in a faster manner and develop a the research project with accurate results.
 
 ## 9. Acknowledgments
 
