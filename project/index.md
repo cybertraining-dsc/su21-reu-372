@@ -97,18 +97,25 @@ In figure 7, We have Topic Word Scores chart that provides a deep understanding 
 
 
  ```
-| Causes                                             | Status | Time |
-| ---------------------------------------------------|----------------
-| parallel     Topic  Count                          |   
-| 0      -1    164       -1_cancer_follicular_carcinoma_autoimmune    ok     3.53
-| 0      -1    190       -1_cancer_follicular_carcinoma_autoimmune    ok     0.002
+| Belived Causes                                       | Description            |
+| -----------------------------------------------------|-------------------------
+| Genetic predispositionsc                             | Genetically linked     |
+|------------------------------------------------------|--------------------------
+| Dietary errors                                       | Not ino
+|------------------------------------------------------|--------------------------
+| Nutritional deficiencies                             |
+|------------------------------------------------------|--------------------------
+| Hormone deficiencies                                 |
+|------------------------------------------------------|--------------------------
+|Viral, bacterial, yeast, and parasitic infections.    |
+|------------------------------------------------------|
 ```
 Belived Causes:
-Genetic predispositions
-Dietary errors
-Nutritional deficiencies
-Hormone deficiencies
-Viral, bacterial, yeast, and parasitic infections.
+Genetic predispositions, Dietary errors, Nutritional deficiencies, Hormone deficiencies, Viral, bacterial, yeast, and parasitic infections[4]. 
+
+
+
+remember upload the dietary picture [4]
 
 
 Toxic products.---> (figure ...)
@@ -221,3 +228,7 @@ Please add acknowledgments to all that contributed or helped on this project.
 [17]: Teprotumumab for the Treatment of Active Thyroid Eye Disease, [Online resource]
     
     <https://www.nejm.org/doi/full/10.1056/nejmoa1910434>
+    
+[18]: Jillian Kubala, MS, RD,  Hashimoto Diet: Overview, Foods, Supplements, and Tips, [Online resource]
+    
+    <https://www.healthline.com/nutrition/hashimoto-diet#diet-tips>
