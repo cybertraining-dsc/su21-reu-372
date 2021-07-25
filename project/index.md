@@ -51,6 +51,9 @@ The model is able to distinguish if the second sentence is connected to the firs
 ![Image] (https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/MLMBertexPic1.png)
 
 
+![Table 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/hertoghe-table-2.jpg)
+
+
 By the trained model Parameter learning we obtains the word embeddings of the input sentence or input sentence pair in the unsupervised learning framework proceeds by solving the following two tasks: Masked Language Model and Next Sentence Prediction.
 
 
