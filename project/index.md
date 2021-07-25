@@ -1,7 +1,7 @@
 ---
 date: 2021-06-16
 title: "Project: Analyzing Hashimoto disease causes, symptoms and cases improvements using Topic Modeling"
-linkTitle: "Hashimoto disorder, causes, symptoms and cured"
+linkTitle: "Hashimoto disorder, causes, symptoms and possible cure"
 tags: ["project", "reu"]
 description: "Analyzing factors as immune systems, genetics and diets than can lead to Hashimoto disease"
 author: Sheimy Paz
@@ -52,19 +52,22 @@ write about gensim
 
 We can observe in this table the differences between this two similar disorders that are frequently misunderstood.
 
+
+remember upload the dietary picture [4]
+
 ## 5. Datasets
 
 Silobreaker software was used to obtain scientific information related to the Hashimoto disease coming from different sources such as journals, proceedings, tweets, and news. Our date consists in the fallowing feature: ID, cluster Id, Description, publication date, Source URL, publisher. And the purpose is to analyze the preform of the proposed approach to discover the hiding semantic structures related with Hashimoto and thyroiditis the description from the gather data is used to study the frequency of Hashimoto and thyroiditis appears in the documents and detecting words and phrases patterns within them to automatically clustering work groups.  
 
 This data was preprocessed dropping the columns 'Id', 'ClusterId', 'Language', 'LastUpdated','CreatedDate','FirstReported'. Also, stop words and punctuation were removed, we convert to lower case all the titles.
 
-The fallowing figure is an example of a word cloud object and represent the difference words found in our dataset and the size of the words means the frequency of the given words in the document. Meaning that the size of the words is proportional to the frequency of its used.  
-
-![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/wordCloudObject.png)
-
 The dataset can be download [Here](https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP)
 
 ## 6. Results
+  
+![Figure 0](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/wordCloudObject.png)
+
+The figure is an example of a word cloud object and represent the difference words found in our dataset and the size of the words means the frequency of the given words in the document. Meaning that the size of the words is proportional to the frequency of its used.
 
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/IntertopicDistanceMap.png)
 
@@ -111,7 +114,9 @@ In figure 7, We have Topic Word Scores chart that provides a deep understanding 
 |Viral, bacterial, yeast, and parasitic infections.    | H pylori, etc.            |
 |------------------------------------------------------|---------------------------|
 ```
-Possible causes: Genetic predispositions, Dietary errors, Nutritional deficiencies, Hormone deficiencies, Viral, bacterial, yeast, and parasitic infections [4].
+**Possible causes**
+
+Genetic predispositions, Dietary errors, Nutritional deficiencies, Hormone deficiencies, Viral, bacterial, yeast, and parasitic infections [4].
 
 **Hashimoto Trigger Food**
 
@@ -130,12 +135,9 @@ It is still not enough research to state that low vitamin D levels are a cause o
 
 The exposure to certain synthetic pesticide. An important fact is that 9 out of 12 pesticides are dangerous and persistent pollutants. [20]
 
-**Early symptoms of Hashimoto’s** 
+**Symptoms of Hashimoto’s** 
 
 Some of the symptoms are fatigue and sluggishness, sensitivity to cold, constipation, pale and dry skin, dry eyes, puffy face, brittle nails, hair loss, enlargement of the tongue, unexplained weight gain, muscle aches, tenderness and stiffness, joint pain and stiffness, muscle weakness, excessive or prolonged menstrual bleeding, depression, memory lapses [21].
-
-
-remember upload the dietary picture [4]
 
 **Damage cause by the disorder**
 Tissue damage, Abnormal look of the thyroid gland (figure 2) [] i will be providing a resource with explanations of the findings
