@@ -98,22 +98,6 @@ In figure 6, we show a probability distribution chart based on each topic freque
 In figure 7, We have Topic Word Scores chart that provides a deep understanding of large corpus of texts trough topic extraction. for instance, the data used in this project provide 5 fundamental topics from 0 to 4. Essentially each topic provided closely related words with deep information about the disorder itself, treatments, diagnosis, and symptoms. E.g. in topic number 4 we find a specific word "eye" which it does not seem to have a close relationship with Hashimoto thyroiditis but in facts is related to one of the early symptoms that the human body experiment most likely when is still undiagnosed [16]. In the same topic we also find the word teprotumumab which is an eye relieve medication recommended from doctors to relive the symptoms, in other word is not the cure but it helps [17].
 
 
-
- ```
-| Belived Causes                                       | Description               |
-| -----------------------------------------------------|---------------------------|
-| Genetic predispositionsc                             | Genetically linked        |
-|------------------------------------------------------|---------------------------|
-| Dietary errors                                       | Imbalance of iodine intake|
-|------------------------------------------------------|---------------------------|
-| Nutritional deficiencies                             | not enough veggies,       |
-|                                                      | vitamins and minerals     |
-|------------------------------------------------------|---------------------------|
-| Hormone deficiencies                                 | lover levels of vit D     |
-|------------------------------------------------------|---------------------------|
-|Viral, bacterial, yeast, and parasitic infections.    | H pylori, etc.            |
-|------------------------------------------------------|---------------------------|
-```
 **Possible causes**
 
 Genetic predispositions, Dietary errors, Nutritional deficiencies, Hormone deficiencies, Viral, bacterial, yeast, and parasitic infections [4].
@@ -161,6 +145,22 @@ find the difference gpu/tpu.
 ## 8. Conclusion
 
 As expected, were able to derive helpful information of the Hashimoto thyroiditis disorder. we attempted to summarize our findings concerning Hashimoto thyroiditis in aspects of causes, symptoms, recommended diets and supplements, used medication...
+
+ ```
+| Belived Causes                                       | Description               | Recomendations  |
+| -----------------------------------------------------|---------------------------|-----------------|
+| Genetic predispositionsc                             | Genetically linked        |                 |
+|------------------------------------------------------|---------------------------|-----------------|
+| Dietary errors                                       | Imbalance of iodine intake|                 |
+|------------------------------------------------------|---------------------------|-----------------|
+| Nutritional deficiencies                             | not enough veggies,       |                 |
+|                                                      | vitamins and minerals     |                 |
+|------------------------------------------------------|---------------------------|-----------------|
+| Hormone deficiencies                                 | lover levels of vit D     |                 |
+|------------------------------------------------------|---------------------------|-----------------|
+|Viral, bacterial, yeast, and parasitic infections.    | H pylori, etc.            |                 |
+|------------------------------------------------------|---------------------------|-----------------|
+```
 Our findings highlight the great potential of the model we used. certainly, topic modeling method was a precise idea for the optimization of the research process. We also used various features of genism, which allows to manipulate data texts on NPL projects. The use of clustering technics was very useful to label our findings on the large datasets. Each used graph provided useful details and key words that later help us to review each important topic in a faster manner and develop a the research project with accurate results.
 
 ## 9. Acknowledgments
