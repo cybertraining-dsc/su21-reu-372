@@ -41,12 +41,12 @@ Hashimoto autoimmune diseases have been linked to the infection caused by H pylo
 
 We utilize deep learning BERT model to train our dataset. BERT is a superior performer Bidirectional Encoder, which superimposes 12 or 24 layers of multiheaded attention in a Transformer [6]. Bert stands for Bidirectional(read from left to right and vice versa with the purpose of an accurate understanding of the meaning of each word in a sentence or document) Encoder Representations from Transformers(the used of transformers and bidirectional models allows the learning of contextual relations between words). Notice that BERT uses two training strategies MLM and NSP. 
 
-Masked LM process is made by masking around 15% of token making the model predict the meaning or value of each of the masked words. In technical word it requires 3 steps Adding a classification layer on top of the encoder output, Multiplying the output vectors by the embedding matrix, transforming them into the vocabulary dimension. And calculating the probability of each word in the vocabulary with SoftMax. Here we can see an image of the process.
+Masked LM process is made by masking around 15% of token making the model predict the meaning or value of each of the masked words. In technical word it requires 3 steps Adding a classification layer on top of the encoder output, Multiplying the output vectors by the embedding matrix, transforming them into the vocabulary dimension. And calculating the probability of each word in the vocabulary with SoftMax. Here we can see an image of the process [22].
 
 pic ex
 
 The NSP (Next Sentence Prediction) process is based in sentence prediction. The model obtains pair of sentences as inputs, and it is train to predict which is the second sentence in the pair. In The training process 50% of the input sentences are in fact first and second sentence and in the other 50% the second sentences are random sentences used for training purposes. 
-The model is able to distinguish if the second sentence is connected to the first sentence by a 3-step process. An CLS (the reserved token to represent the start of sequence) is inserted at the beginning of the first sentence while the SEP (separate segments or sentence) is inserted at the end of each sentence. And embedding indicating sentence A or B is added to each token, and lastly a positional embedding is added to each token to indicate its position in the sequence like is shown on the image.
+The model is able to distinguish if the second sentence is connected to the first sentence by a 3-step process. An CLS (the reserved token to represent the start of sequence) is inserted at the beginning of the first sentence while the SEP (separate segments or sentence) is inserted at the end of each sentence. And embedding indicating sentence A or B is added to each token, and lastly a positional embedding is added to each token to indicate its position in the sequence like is shown on the image [22].
 
 ex pic
 
@@ -148,11 +148,11 @@ Healthy diets, exercising, selenium supplementation [8], healthy sun exposure at
 ## 7. Benchmark 
 
  ```
-| Name                                                            | Status | Time |
-| ----------------------------------------------------------------|----------------
-| parallel     Topic  Count                                       |   
-| 0      -1    164       -1_cancer_follicular_carcinoma_autoimmune    ok     3.53
-| 0      -1    190       -1_cancer_follicular_carcinoma_autoimmune    ok     0.002
+| Name                                                            | Status | Time | processor|
+| ----------------------------------------------------------------|---------------------------
+| parallel     Topic  Count                                       |               |          |
+| 0      -1    164       -1_cancer_follicular_carcinoma_autoimmune    ok     3.53 | GPU      |
+| 0      -1    190       -1_cancer_follicular_carcinoma_autoimmune    ok     0.002| TPU      |
 ```
 find the difference gpu/tpu.
 
@@ -267,3 +267,7 @@ Please add acknowledgments to all that contributed or helped on this project.
 [^21]: Hashimoto's disease, [Online research]
 
     <https://www.mayoclinic.org/diseases-conditions/hashimotos-disease/symptoms-causes/syc-20351855>
+    
+[^22]: BERT Explained: State of the art language model for NLP
+
+    <https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270>
