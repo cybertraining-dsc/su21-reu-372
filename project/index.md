@@ -34,7 +34,7 @@ Hashimoto thyroiditis is an organ-specific autoimmune disorder. its symptoms wer
 
 In a female-to-men radio at least 10:4 women are more often affected than men, and the diagnostics are called between the ages of 30 to 50 years.[1] Studies suggest that an association between high levels of thyroid autoantibodies affect the increased frequencies of mood disorders and there was found a relation between thyroid autoimmunity disease, celiac disease and panic disorder and major depressive disorder [4].
 
-Due to the arduous labor to identify this disorder a Machine Learning algorithm based on prediction would help Doctors to identify Hashimoto in early stages as well as any other health issues related to it like H pylori or an inadequate diets [3]. This will be helpful for patients that would be able to get the correct treatment in an early stage of the illness avoiding future complications. This research algorithm was mainly intended to find patient testimonies of improvements, completed healed cases, early symptoms, trigger factors or any useful information about the disorder.  
+Due to the arduous labor to identify this disorder a Machine Learning algorithm based on prediction would help Doctors to identify Hashimoto in early stages as well as any other health issues related to it like H pylori or an inadequate diets [3]. This will be helpful for patients that would be able to get the correct treatment in an early stage of the illness avoiding future complications. This research algorithm was mainly intended to find patient testimonies of improvements, completed healed cases, early symptoms, trigger factors or any useful information about the disorder.
 
 Hashimoto autoimmune diseases have been linked to the infection caused by H pylori bacteria. H pylori is until the date the most common chronic bacterial infection, Affecting half of the world's population and is known for the presence of Caga antigens which are virulent strains that have been found in organ and non-organ specific autoimmune diseases [1,2]. Another important trigger of Hashimoto disorder is the inadequate modern diet patterns and the environmental factors that are closely related to it [3]. For instance certain food consumption are an essential factor that trigs the disorder since The majority food being consumed is highly preserved and the consumption of artificial flavorings and sugars have dramatically increase in the past years, adding to it the use of chemicals and insecticides in the fruits and vegetables and the massive introduction of hormones for the meat production, all this can be the cause of the rise of autoimmune diseases [5].
 	
@@ -55,7 +55,7 @@ By the trained model Parameter learning we obtains the word embeddings of the in
 
 We try to use Bert model in the small dataset Hashimoto without any success because the BERT model was overfitting the data points. We use LDA model to train the Hashimoto dataset which allow us to find topic probabilities that we compare with the thyroiditis dataset that was trained with the BERT model-framework. 
 
-We used NLTK which is a module that uses the process of splitting sentences from paragraph, split words, recognizing the meaning of those words, to highlighting the main subjects, with the purpose to help to understand the meaning of the document [10]. For instance, in our NLTK model we used two data sets [Hashimoto & Thyroiditis] (https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP) and we were able to identify the top 30 topics connected to these disorders. From the information collected we were able to identify general information like the association of this disorder with other health issues. The impact of Hashimoto patient with covid19, long term consequences of untreated Hashimoto, recommendation for advance cases, and diet suggestion for improvement. The used of Natural Language tool kit made a precise and less time consuming research process.    
+We used NLTK which is a module that uses the process of splitting sentences from paragraph, split words, recognizing the meaning of those words, to highlighting the main subjects, with the purpose to help to understand the meaning of the document [10]. For instance, in our NLTK model we used two data sets [Hashimoto & Thyroiditis] (https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP) and we were able to identify the top 30 topics connected to these disorders. From the information collected we were able to identify general information like the association of this disorder with other health issues. The impact of Hashimoto patient with covid19, long term consequences of untreated Hashimoto, recommendation for advance cases, and diet suggestion for improvement. The used of Natural Language tool kit made a precise and less time consuming research process.
 
 write about gensim
 
@@ -75,14 +75,14 @@ We can observe in this table the differences between this two similar disorders 
 
 ## 5. Datasets
 
-Silobreaker software was used to obtain scientific information related to the Hashimoto disease coming from different sources such as journals, proceedings, tweets, and news. Our date consists in the fallowing feature: ID, cluster Id, Description, publication date, Source URL, publisher. And the purpose is to analyze the preform of the proposed approach to discover the hiding semantic structures related with Hashimoto and thyroiditis the description from the gather data is used to study the frequency of Hashimoto and thyroiditis appears in the documents and detecting words and phrases patterns within them to automatically clustering work groups.  
+Silobreaker software was used to obtain scientific information related to the Hashimoto disease coming from different sources such as journals, proceedings, tweets, and news. Our date consists in the fallowing feature: ID, cluster Id, Description, publication date, Source URL, publisher. And the purpose is to analyze the preform of the proposed approach to discover the hiding semantic structures related with Hashimoto and thyroiditis the description from the gather data is used to study the frequency of Hashimoto and thyroiditis appears in the documents and detecting words and phrases patterns within them to automatically clustering work groups.
 
 This data was preprocessed dropping the columns 'Id', 'ClusterId', 'Language', 'LastUpdated','CreatedDate','FirstReported'. Also, stop words and punctuation were removed, we convert to lower case all the titles.
 
 The dataset can be download [Here](https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP)
 
 ## 6. Results
-  
+
 ![Figure 0](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/wordCloudObject.png)
 
 The figure is an example of a word cloud object and represent the difference words found in our dataset and the size of the words means the frequency of the given words in the document. Meaning that the size of the words is proportional to the frequency of its used.
@@ -91,13 +91,13 @@ The figure is an example of a word cloud object and represent the difference wor
 
 Figure 1. The following Intertopic Distance Map is a two-dimensional space filled with circles representing the proportional number of words that belongs to each topic making the distance to each other represent the relation between the topics, meaning that topics that are closer together have more words in common. For instance, in topic 1 we observed word like hypothyroidism, Morgan, symptoms after a small search we were able to find that Morgan is a well-known writer that presented thyroiditis symptoms after giving birth which is something that happen to some women’s and then recover after a couple of months, however this increments the risk of developing the syndrome later in their lives [11]. On topic 4 we see words like food, levothyroxine, liothyronine, selenium and dietary. the relationship between these words is symptom control, symptoms relive, some natural remedies and supplements. [12,8]
 
-![Figure 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topic%20modeling%20picture.PNG)
+![Figure 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topic%20modeling%20picture.png)
 
 Figure 2. Provide a bar chart that shows 30 major terms. The bars indicate the total frequency of the term across the entire corpus. The size of the bubble measures the importance of the topics, relative to the data. for example, for visualization purposes we used the first topic that include Hashimoto, thyroiditis, and selenium. Saliency is a measure of how much the term talks about the topic. And in terms of findings is important to mentions the relationship between Hashimoto thyroiditis and selenium. Selenium is a suplement recomended for patients with this disorder that have shown a reduction on antibody levels [8]. 
 
 ![Figure 3](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/HierarchicalClustering.png)
 
-Figure 3. In this figure, we can see that the dendrograms have been created joining points 4 with 9, 0 with 2, 1 with 6, and 12 with 13. The vertical height of the dendrogram shows the Euclidean distances between points. It is easy to see that Euclidean distance between points 12 and 13 is greater than the distance between point 4 and 9. This is because the algorithm is clustering by similarity, differences, and frequency of words. We observed in the dark green dendrogram topic 7,3,4,9 which are all related to an advance stage of the disorder. we can find the information about certain treatments, causes of the disorder, level of damage at certain stages. On the reds dendrograms we observe topics 0,2,1,6 which are closely related to diagnosis, early symptoms and procedures used for the diagnosis of the disorder.  
+Figure 3. In this figure, we can see that the dendrograms have been created joining points 4 with 9, 0 with 2, 1 with 6, and 12 with 13. The vertical height of the dendrogram shows the Euclidean distances between points. It is easy to see that Euclidean distance between points 12 and 13 is greater than the distance between point 4 and 9. This is because the algorithm is clustering by similarity, differences, and frequency of words. We observed in the dark green dendrogram topic 7,3,4,9 which are all related to an advance stage of the disorder. we can find the information about certain treatments, causes of the disorder, level of damage at certain stages. On the reds dendrograms we observe topics 0,2,1,6 which are closely related to diagnosis, early symptoms and procedures used for the diagnosis of the disorder.
 
 ![Figure 4](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/SimilarityMatrix.png)
 
@@ -188,75 +188,74 @@ Please add acknowledgments to all that contributed or helped on this project.
 ## 10. References
 
 [^1]: Helicobacter pylori infection in women with Hashimoto thyroiditis, [Online resource]
-      
+
       <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5265752/>
 
 [^2]: I. Voloshyna, V.I Krivenko, V.G Deynega, M.A Voloshyn, Autoimmune thyrod disease related to helicobacterer pylori contamination, [Online resource]
-      
+
       <https://www.endocrine-abstracts.org/ea/0041/eposters/ea0041gp213_eposter.pdf>
 
 [^3]: How your diet can trigger Hashimoto's, [Online resource]
-      
+
       <https://www.boostthyroid.com/blog/2019/4/5/how-your-diet-can-trigger-hashimotos>
-   
+
 [^4]: Hashimoto’s Thyroiditis, A Common Disorder in Women: How to Treat It, [Online resource]
-      
+
       <https://www.townsendletter.com/article/441-hashimotos-thyroiditis-common-disorder-in-women/>
-      
+   
 [^5]: Hypothyroidism in Context: Where We’ve Been and Where We’re Going, [Online resource]
-      
       <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6822815/>
-      
+
 [^6]: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, [Online resource]
-       
+
        <https://arxiv.org/abs/1810.04805>
-      
+
 [^7]: Gensim Tutorial – A Complete Beginners Guide, [Onile resource]
 
       <https://www.machinelearningplus.com/nlp/gensim-tutorial/>
-      
+
 [^8]: Selenium Supplementation for Hashimoto's Thyroiditis, [Online resource]
 
      <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4005265/>
-     
+
 [^9]: Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub] 
-     
+
      <https://github.com/cloudmesh/cloudmesh-common>
-     
+
 [^10]: Pavan Sanagapati, Knowledge Graph & NLP Tutorial-(BERT,spaCy,NLTK), [Online resource]
-     
+
      <https://www.kaggle.com/pavansanagapati/knowledge-graph-nlp-tutorial-bert-spacy-nltk>
-     
+
 [^11]: Julia Haskins, Thyroid Conditions Raise the Risk of Pregnancy Complications, [Online resource]
 
     <https://www.healthline.com/health-news/children-thyroid-conditions-raise-pregnancy-risks-052913>
-    
+
 [^12]: How your diet can trigger Hashimoto's, [Online resource]
 
     <https://www.boostthyroid.com/blog/2019/4/5/how-your-diet-can-trigger-hashimotos>
-    
+
 [^13]: Thyroid Cancer Treatment, [Online resource]
 
     <https://www.cancer.gov/types/thyroid/patient/thyroid-treatment-pdq>
-    
+
 [^14]: Hashimoto's Disease And Coronavirus (COVID-19), [Online resource]
 
     <https://www.palomahealth.com/learn/coronavirus-and-hashimotos-disease> 
-    
+
 [^15]: How zebrafish research has helped in understanding thyroid diseases, [Online resource] 
 
     <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5730863/>
-    
+
 [^16]: Dry Eyes and Thyroid Disorders, [Online resource]
 
     <https://www.webmd.com/eye-health/dry-eyes-thyroid>
-    
+  
 [^17]: Teprotumumab for the Treatment of Active Thyroid Eye Disease, [Online resource]
-    
+
     <https://www.nejm.org/doi/full/10.1056/nejmoa1910434>
-    
+
 [^18]: Jillian Kubala, MS, RD,  Hashimoto Diet: Overview, Foods, Supplements, and Tips, [Online resource]
-    
+ 
     <https://www.healthline.com/nutrition/hashimoto-diet#diet-tips>
     
 [^19]: Hashimoto’s low thyroid autoimmune, [Online research]
