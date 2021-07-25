@@ -137,19 +137,14 @@ The exposure to certain synthetic pesticide. An important fact is that 9 out of 
 
 **Symptoms of Hashimoto’s** 
 
-Some of the symptoms are fatigue and sluggishness, sensitivity to cold, constipation, pale and dry skin, dry eyes, puffy face, brittle nails, hair loss, enlargement of the tongue, unexplained weight gain, muscle aches, tenderness and stiffness, joint pain and stiffness, muscle weakness, excessive or prolonged menstrual bleeding, depression, memory lapses [21].
+Some of the symptoms are fatigue and sluggishness, sensitivity to cold, constipation, pale and dry skin, dry eyes, puffy face, brittle nails, hair loss, enlargement of the tongue, unexplained weight gain, muscle aches, tenderness and stiffness, joint pain and stiffness, muscle weakness, excessive or prolonged menstrual bleeding, depression, memory lapses, Another symptom reported by some patients was ablation, some patient described as an acceleration of the heart rhythm. [21].
 
-**Damage cause by the disorder**
-Tissue damage, Abnormal look of the thyroid gland (figure 2) [] i will be providing a resource with explanations of the findings
-Nodule development (provided by figure 4 Similarity Matrix topic 3) [] i will be providing a resource with explanations of the findings
-High antibody level (figure ) [] I will be providing a resource with explanations of the findings
-.....---> i will add more this is just an example 
+**Complications**
+Tissue damage, Abnormal look of the thyroid gland (figure 2), goiter, Heart problems, mental health issues, myxedema, birth defects [21], Nodule (figure 4 Similarity Matrix topic 3), and High antibody level.
 
-Ways to improve the symptoms:
-food and diet (figure) [] i will be providing a resources with explanations of the findings
-Selenium suplementation [8] i will explain more about the this suplement 
+**Recomendations**
 
-Another symptom reported by some patients was ablation which was found on topic 3, some patient described as an acceleration of the heart rhythm.  
+Healthy diets, exercising, selenium supplementation [8], healthy sun exposure at an adequate time.
 
 ## 7. Benchmark 
 
@@ -162,7 +157,6 @@ Another symptom reported by some patients was ablation which was found on topic 
 ```
 find the difference gpu/tpu.
 
-Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
  
 ## 8. Conclusion
 
@@ -231,30 +225,30 @@ Please add acknowledgments to all that contributed or helped on this project.
 
     <https://www.palomahealth.com/learn/coronavirus-and-hashimotos-disease> 
     
-[15]: How zebrafish research has helped in understanding thyroid diseases, [Online resource] 
+[^15]: How zebrafish research has helped in understanding thyroid diseases, [Online resource] 
 
     <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5730863/>
     
-[16]: Dry Eyes and Thyroid Disorders, [Online resource]
+[^16]: Dry Eyes and Thyroid Disorders, [Online resource]
 
     <https://www.webmd.com/eye-health/dry-eyes-thyroid>
     
-[17]: Teprotumumab for the Treatment of Active Thyroid Eye Disease, [Online resource]
+[^17]: Teprotumumab for the Treatment of Active Thyroid Eye Disease, [Online resource]
     
     <https://www.nejm.org/doi/full/10.1056/nejmoa1910434>
     
-[18]: Jillian Kubala, MS, RD,  Hashimoto Diet: Overview, Foods, Supplements, and Tips, [Online resource]
+[^18]: Jillian Kubala, MS, RD,  Hashimoto Diet: Overview, Foods, Supplements, and Tips, [Online resource]
     
     <https://www.healthline.com/nutrition/hashimoto-diet#diet-tips>
     
-[19]: Hashimoto’s low thyroid autoimmune, [Online research]
+[^19]: Hashimoto’s low thyroid autoimmune, [Online research]
 
     <https://www.redriverhealthandwellness.com/diet-hashimotos-hypothyroidism/>
     
-[20]: 11 environmental triggers of Hashimoto’s, [Online research]
+[^20]: 11 environmental triggers of Hashimoto’s, [Online research]
 
     <https://www.boostthyroid.com/blog/11-environmental-triggers-of-hashimotos>
 
-[21]: Hashimoto's disease, [Online research]
+[^21]: Hashimoto's disease, [Online research]
 
     <https://www.mayoclinic.org/diseases-conditions/hashimotos-disease/symptoms-causes/syc-20351855>
