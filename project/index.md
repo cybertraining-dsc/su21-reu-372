@@ -23,8 +23,9 @@ Sheimy Paz, [su21-reu-372](https://github.com/cybertraining-dsc/su21-reu-372), [
 
 ## Abstract
 
-This project proposes a new view of the Hashimoto disorder and its relationship with other diseases. The objective is to explore the association of the Hashimoto disorder with disease like h pylori bacteria, inappropriate diet, patients with foreign objects inserted on their body like breast implants etc. We use topic modeling which is an extremely useful technic to dig into large collections of text bodies to easily organize and find information on specific topic. The idea is to use a text-mining tool that help to correlate words with topics making the research process easy and organized. With the purpose to get a better understanding of the disorder and the relationship that this has with other health issues hoping to find clear information about the causes and effect that can have on the human body.
-The dataset was collected from silo breaker software, which contains information about news, reports, tweets, and blogs. The program will organize our findings highlighting key words related to symptoms, causes, cures, anything that can apport clarification to the disorder. 
+This project proposes a new view of Hashimoto’s disorder, its association with other pathologies, possible causes, symptoms, diets, and recommendations. The intention is to explore the association of the Hashimoto disorder with disease like h pylori bacteria, inappropriate diet, environmental factors, and genetic factors.
+Topic modeling is a technic used to process large collection of data to identifying topics. It is a text-mining tool that help to correlate words with topics making the research process easy and organized with the purpose to get a better understanding of the disorder and the relationship that this has with other health issues hoping to find clear information about the causes and effect that can have on the human body.
+The dataset was collected from silo breaker software, which contains information about news, reports, tweets, and blogs. The program will organize our findings highlighting key words related to symptoms, causes, cures, anything that can apport clarification to the disorder.
 
 **Keywords:** Thyroid disease, Hashimoto, H Pylori, Implants, Food Sensitivity, Diary sensitivity, Healthy Diets, Exercise, topic modeling, text mining, BERT model. 
 
@@ -166,7 +167,8 @@ find the difference gpu/tpu.
 As expected, were able to derive helpful information of the Hashimoto thyroiditis disorder. we attempted to summarize our findings concerning Hashimoto thyroiditis in aspects of causes, symptoms, recommended diets and supplements, used medication...
 
  ```
-| Belived Causes                                       | Description               | Recomendations  |
+|----------------------------------------------------------------------------------------------------|
+| Possible Causes                                      | Description               | Recomendations  |
 | -----------------------------------------------------|---------------------------|-----------------|
 | Genetic predispositionsc                             | Genetically linked        | - stress levels |
 |------------------------------------------------------|---------------------------|-----------------|
