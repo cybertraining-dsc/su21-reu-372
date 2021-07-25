@@ -202,7 +202,7 @@ Please add acknowledgments to all that contributed or helped on this project.
 [^4]: Hashimoto’s Thyroiditis, A Common Disorder in Women: How to Treat It, [Online resource]
 
       <https://www.townsendletter.com/article/441-hashimotos-thyroiditis-common-disorder-in-women/>
-   
+
 [^5]: Hypothyroidism in Context: Where We’ve Been and Where We’re Going, [Online resource]
       <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6822815/>
 
@@ -249,7 +249,7 @@ Please add acknowledgments to all that contributed or helped on this project.
 [^16]: Dry Eyes and Thyroid Disorders, [Online resource]
 
     <https://www.webmd.com/eye-health/dry-eyes-thyroid>
-  
+
 [^17]: Teprotumumab for the Treatment of Active Thyroid Eye Disease, [Online resource]
 
     <https://www.nejm.org/doi/full/10.1056/nejmoa1910434>
@@ -257,10 +257,11 @@ Please add acknowledgments to all that contributed or helped on this project.
 [^18]: Jillian Kubala, MS, RD,  Hashimoto Diet: Overview, Foods, Supplements, and Tips, [Online resource]
  
     <https://www.healthline.com/nutrition/hashimoto-diet#diet-tips>
-    
+
 [^19]: Hashimoto’s low thyroid autoimmune, [Online research]
 
-    <https://www.redriverhealthandwellness.com/diet-hashimotos-hypothyroidism/>    
+    <https://www.redriverhealthandwellness.com/diet-hashimotos-hypothyroidism/>
+
 [^20]: 11 environmental triggers of Hashimoto’s, [Online research]
 
     <https://www.boostthyroid.com/blog/11-environmental-triggers-of-hashimotos>
