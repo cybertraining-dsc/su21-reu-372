@@ -62,15 +62,16 @@ write about gensim
 ## 3. Images
 
 **Table 1:** "Differences Between Hashimoto's Thyroiditis and Grave's Disease." [^4].
+
 We can observe in this table the differences between this two similar disorders that are frequently misunderstood.
+
 ![Table 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/hertoghe-table-2.jpg)
 
 **Table 2:** "Hashimoto’s thyroiditis is associated with other important disorders." [^4].
-![Table 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/Dietary%20changes%20that%20reduce%20Antithyroid%20Antibody%20levels.jpg)
+![Table 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/Thyroiditis%20Associated%20Pathologies.jpg)
 
 **Table 3:** "Overview of the main dietary recommendations for patients with Hashimoto." [^4].
-![Table 3](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/Thyroiditis%20Associated%20Pathologies.jpg)
-
+![Table 3](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/Dietary%20changes%20that%20reduce%20Antithyroid%20Antibody%20levels.jpg)
 
 ## 5. Datasets
 
