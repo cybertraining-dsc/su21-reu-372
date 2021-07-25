@@ -261,8 +261,7 @@ Please add acknowledgments to all that contributed or helped on this project.
     
 [^19]: Hashimoto’s low thyroid autoimmune, [Online research]
 
-    <https://www.redriverhealthandwellness.com/diet-hashimotos-hypothyroidism/>
-    
+    <https://www.redriverhealthandwellness.com/diet-hashimotos-hypothyroidism/>    
 [^20]: 11 environmental triggers of Hashimoto’s, [Online research]
 
     <https://www.boostthyroid.com/blog/11-environmental-triggers-of-hashimotos>
@@ -270,7 +269,7 @@ Please add acknowledgments to all that contributed or helped on this project.
 [^21]: Hashimoto's disease, [Online research]
 
     <https://www.mayoclinic.org/diseases-conditions/hashimotos-disease/symptoms-causes/syc-20351855>
-    
+
 [^22]: BERT Explained: State of the art language model for NLP
 
     <https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270>
