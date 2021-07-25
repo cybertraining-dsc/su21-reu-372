@@ -67,6 +67,9 @@ write about gensim
 
 We can observe in this table the differences between this two similar disorders that are frequently misunderstood.
 
+![Table 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/Dietary%20changes%20that%20reduce%20Antithyroid%20Antibody%20levels.jpg)
+
+![Table 3](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/Thyroiditis%20Associated%20Pathologies.jpg)
 
 remember upload the dietary picture [4]
 
