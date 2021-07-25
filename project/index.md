@@ -110,20 +110,21 @@ In figure 7, We have Topic Word Scores chart that provides a deep understanding 
 |Viral, bacterial, yeast, and parasitic infections.    |
 |------------------------------------------------------|
 ```
-Belived Causes:
-Genetic predispositions, Dietary errors, Nutritional deficiencies, Hormone deficiencies, Viral, bacterial, yeast, and parasitic infections[4]. 
+Possible causes: Genetic predispositions, Dietary errors, Nutritional deficiencies, Hormone deficiencies, Viral, bacterial, yeast, and parasitic infections [4].
+Some food that can trigger Hashimoto are gluten, dairy, some type of grains, eggs, nuts or nightshades, sugar, sweeteners, sweet fruits, including honey, agave, maple syrup, and coconut sugar and high-glycemic fruits like watermelon, mango, pineapple, grapes, canned and dried fruits. Vegetable oil, specially hydrogenated oils, ad trans-fat. Patient with this disorder may experience symptoms of fatigue, rashes, joint pain, digestive issues, headaches, anxiety, and depression after eating some of these foods [19]. 
+The recommended foods are healthy fats like coconut, avocado, and olive oil, ghee, grass-fed and organic meat, wild fish, healthy fats, fermented foods like coconut yogurt, kombucha, fermented cucumbers and pickle ginger, and plenty of vegetable like Asparagus, spinach, lettuce, broccoli, beets, cauliflower, carrots, celery, artichokes, garlic, onions [19].
+Hashimoto’s low thyroid autoimmune 
+Environmental causes of Hashimoto:  There have been an increase in the number of Hashimoto cases in the United States since 1950s. These is one of the reason research explain that Hashimoto disorder can be closely related to environmental causes since the rapid increase of cases can not only be related to family gens as it takes at least two generations to acquire and transfer gen mutation. Adding to this that for generation thru history human have been fitting microorganisms than enter our body but for the past centuries our environment has become very hygienic consequently our immune system suddeling was left without aggressors therefore humane start developing more allergies and autoimmune diseases.
+Another important factor is the balance of iodine intake because too much is as dangerous for people with genetic Hashimoto predisposition but too littler can be also dangerous for patients with the disorder to reduce goiter which is the enlargement of the thyroid glands [20].
 
+It is still not enough research to state that low vitamin D levels are a cause or a consequence of the Hashimoto disorder, but it is a fact that most patients with this disorder have low levels of vitamin D this insufficient this is closely related to insufficient sun exposure [20].
+
+The exposure to certain synthetic pesticide. An important fact is that 9 out of 12 pesticides are dangerous and persistent pollutants. [20]
+
+Early symptoms of Hashimoto’s 
 
 
 remember upload the dietary picture [4]
-
-
-Toxic products.---> (figure ...)
-Food that can trig Hashimoto disease [] I will be providing a resource with explanations of the findings
-Enviromental causes ---> (figure  ..)  [] I will be providing a resource with explanations of the findings
-
-Early symptoms: I will type our findings
-
 
 Type of damage cause to body due to the disorder:
 Tissue damage, Abnormal look of the thyroid gland (derive from figure 2(30 more salient terms)) [] i will be providing a resource with explanations of the findings
@@ -232,3 +233,11 @@ Please add acknowledgments to all that contributed or helped on this project.
 [18]: Jillian Kubala, MS, RD,  Hashimoto Diet: Overview, Foods, Supplements, and Tips, [Online resource]
     
     <https://www.healthline.com/nutrition/hashimoto-diet#diet-tips>
+    
+[19]: Remove foods that trigger Hashimoto’s, [Online research]
+
+    <https://www.redriverhealthandwellness.com/diet-hashimotos-hypothyroidism/>
+    
+[20]: 11 environmental triggers of Hashimoto’s, [Online research]
+
+    <https://www.boostthyroid.com/blog/11-environmental-triggers-of-hashimotos>
