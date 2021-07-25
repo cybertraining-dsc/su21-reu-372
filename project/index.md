@@ -59,7 +59,7 @@ We used NLTK which is a module that uses the process of splitting sentences from
 
 write about gensim
 
-## 3. Images
+## 2. Images
 
 **Table 1:** "Differences Between Hashimoto's Thyroiditis and Grave's Disease." [^4].
 
@@ -73,7 +73,7 @@ We can observe in this table the differences between this two similar disorders 
 **Table 3:** "Overview of the main dietary recommendations for patients with Hashimoto." [^4].
 ![Table 3](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/Dietary%20changes%20that%20reduce%20Antithyroid%20Antibody%20levels.jpg)
 
-## 5. Datasets
+## 3. Datasets
 
 Silobreaker software was used to obtain scientific information related to the Hashimoto disease coming from different sources such as journals, proceedings, tweets, and news. Our date consists in the fallowing feature: ID, cluster Id, Description, publication date, Source URL, publisher. And the purpose is to analyze the preform of the proposed approach to discover the hiding semantic structures related with Hashimoto and thyroiditis the description from the gather data is used to study the frequency of Hashimoto and thyroiditis appears in the documents and detecting words and phrases patterns within them to automatically clustering work groups.
 
@@ -81,7 +81,7 @@ This data was preprocessed dropping the columns 'Id', 'ClusterId', 'Language', '
 
 The dataset can be download [Here](https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP)
 
-## 6. Results
+## 4. Results
 
 ![Figure 0](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/wordCloudObject.png)
 
@@ -115,6 +115,7 @@ In figure 6, we show a probability distribution chart based on each topic freque
 
 In figure 7, We have Topic Word Scores chart that provides a deep understanding of large corpus of texts trough topic extraction. for instance, the data used in this project provide 5 fundamental topics from 0 to 4. Essentially each topic provided closely related words with deep information about the disorder itself, treatments, diagnosis, and symptoms. E.g. in topic number 4 we find a specific word "eye" which it does not seem to have a close relationship with Hashimoto thyroiditis but in facts is related to one of the early symptoms that the human body experiment most likely when is still undiagnosed [16]. In the same topic we also find the word teprotumumab which is an eye relieve medication recommended from doctors to relive the symptoms, in other word is not the cure but it helps [17].
 
+## 5. Hashimoto Findings
 
 **Possible causes**
 
@@ -148,7 +149,7 @@ Tissue damage, Abnormal look of the thyroid gland (figure 2), goiter, Heart prob
 
 Healthy diets, exercising, selenium supplementation [8], healthy sun exposure at an adequate time, getting enough sleep is primordial for the human body, in special for the metabolism regulation and the creation of normal hormones that the human body needs, [4] lowering stress levels by physical exercise is a good idea, exercise like yoga and reiki are valuable because it also exercise you brain with meditation which is a great stress reliever. 
 
-## 7. Benchmark 
+## 6. Benchmark 
 
  ```
 | Name                                                            | Status | Time | processor|
@@ -160,7 +161,7 @@ Healthy diets, exercising, selenium supplementation [8], healthy sun exposure at
 find the difference gpu/tpu.
 
  
-## 8. Conclusion
+## 7. Conclusion
 
 As expected, were able to derive helpful information of the Hashimoto thyroiditis disorder. we attempted to summarize our findings concerning Hashimoto thyroiditis in aspects of causes, symptoms, recommended diets and supplements, used medication...
 
@@ -181,11 +182,11 @@ As expected, were able to derive helpful information of the Hashimoto thyroiditi
 ```
 Our findings highlight the great potential of the model we used. certainly, topic modeling method was a precise idea for the optimization of the research process. We also used various features of genism, which allows to manipulate data texts on NPL projects. The use of clustering technics was very useful to label our findings on the large datasets. Each used graph provided useful details and key words that later help us to review each important topic in a faster manner and develop a the research project with accurate results.
 
-## 9. Acknowledgments
+## 8. Acknowledgments
 
 Please add acknowledgments to all that contributed or helped on this project.
 
-## 10. References
+## 9. References
 
 [^1]: Helicobacter pylori infection in women with Hashimoto thyroiditis, [Online resource]
 
