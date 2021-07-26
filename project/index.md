@@ -204,6 +204,7 @@ Please add acknowledgments to all that contributed or helped on this project.
       <https://www.townsendletter.com/article/441-hashimotos-thyroiditis-common-disorder-in-women/>
 
 [^5]: Hypothyroidism in Context: Where We’ve Been and Where We’re Going, [Online resource]
+    
       <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6822815/>
 
 [^6]: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, [Online resource]
