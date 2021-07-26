@@ -5,7 +5,6 @@ linkTitle: "Hashimoto disorder, causes, symptoms and possible cure"
 tags: ["project", "reu"]
 description: "Analyzing factors as immune systems, genetics and diets than can lead to Hashimoto disease"
 author: Sheimy Paz
-
 github_url: https://github.com/cybertraining-dsc/su21-reu-372/edit/main/project/index.md
 resources:
 - src: "**.{png,jpg}"
