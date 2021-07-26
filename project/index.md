@@ -228,20 +228,16 @@ As expected, were able to derive helpful information of the Hashimoto thyroiditi
 
 **Table xyz:** caption missing 
 
-+------------------------------------------------------+---------------------------+-----------------+
+|------------------------------------------------------|---------------------------|-----------------|
 | Possible Causes                                      | Description               | Recomendations  |
-+------------------------------------------------------+---------------------------+-----------------+
-| Genetic predispositionsc                             | Genetically linked        | - stress levels |
-+------------------------------------------------------+---------------------------+-----------------+
+|------------------------------------------------------|---------------------------|-----------------|
+| Genetic predispositionsc                             | Genetically linked        | stress levels |
 | Dietary errors                                       | Imbalance of iodine intake| Balance is key  |
-+------------------------------------------------------+---------------------------+-----------------+
-| Nutritional deficiencies                             | not enough veggies,       |yoga, meditation |
-|                                                      | vitamins and minerals     | reiki           |
-+------------------------------------------------------+---------------------------+-----------------+
+| Nutritional deficiencies                             | not enough veggies, vitamins and minerals     |yoga, meditation reiki     |
 | Hormone deficiencies                                 | lover levels of vit D     | Enough sleep    |
-+------------------------------------------------------+---------------------------+-----------------+
 |Viral, bacterial, yeast, and parasitic infections.    | H pylori, etc.            | food hygiene    |
-+------------------------------------------------------+---------------------------+-----------------+
+|------------------------------------------------------|---------------------------|-----------------|
+
 
 Our findings highlight the great potential of the model we used. certainly, topic modeling method was a precise idea for the optimization of the research process. We also used various features of genism, which allows to manipulate data texts on NPL projects. The use of clustering technics was very useful to label our findings on the large datasets. Each used graph provided useful details and key words that later help us to review each important topic in a faster manner and develop the research project with accurate results.
 
