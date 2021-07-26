@@ -56,16 +56,18 @@ We utilize deep learning BERT model to train our dataset. BERT is a superior per
 
 Masked LM process is made by masking around 15% of token making the model predict the meaning or value of each of the masked words. In technical word it requires 3 steps Adding a classification layer on top of the encoder output, Multiplying the output vectors by the embedding matrix, transforming them into the vocabulary dimension. And calculating the probability of each word in the vocabulary with SoftMax. Here we can see an image of the process [22].
 
-**Table xyz:** caption missing 
 
-![Table 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/MLMBertexPic1.png)
+![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/MLMBertexPic1.png)
+
+**Figure xyz:** caption missing 
 
 The NSP (Next Sentence Prediction) process is based in sentence prediction. The model obtains pair of sentences as inputs, and it is train to predict which is the second sentence in the pair. In The training process 50% of the input sentences are in fact first and second sentence and in the other 50% the second sentences are random sentences used for training purposes. 
 The model is able to distinguish if the second sentence is connected to the first sentence by a 3-step process. An CLS (the reserved token to represent the start of sequence) is inserted at the beginning of the first sentence while the SEP (separate segments or sentence) is inserted at the end of each sentence. And embedding indicating sentence A or B is added to each token, and lastly a positional embedding is added to each token to indicate its position in the sequence like is shown on the image [22].
 
-**Table xyz:** caption missing 
 
-![Table 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/NSPBertexpic.png)
+![Figure 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/NSPBertexpic.png)
+
+**Figure xyz:** caption missing 
 
 By the trained model Parameter learning we obtains the word embeddings of the input sentence or input sentence pair in the unsupervised learning framework proceeds by solving the following two tasks: Masked Language Model and Next Sentence Prediction.
 
