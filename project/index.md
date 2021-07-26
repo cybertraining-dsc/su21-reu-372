@@ -32,6 +32,8 @@ The dataset was collected from silo breaker software, which contains information
 - [ ] [1,2] is written as [^1][^2]
 - [ ] abbreviations are not explanied: I will fix this as soon as possibe (ASAP).
 - [ ] Figure misses caption and citation in caption, otherwise you plagerize.
+- [ ] All figures must be referged to by figure number in the text or the figure must be removed
+- [ ] As sown in Figure 1 .... We show in Figure 1 the architecture of ...
  
 Contents
 
