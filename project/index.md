@@ -203,22 +203,27 @@ Healthy diets, exercising, selenium supplementation [8], healthy sun exposure at
 
 ## 6. Benchmark 
 
--[ ] explenation missing
+- [ ] explenation missing
+- [ ] used resources not explained 
+- [ ] prvide links to your notbooks at the beginning of your document (see other reports). Please indicate if programs are cipies form others or self developed.
 
 **Table xyz:** caption missing 
 
-|------------------------------------------------------------------|---------|------|----------|
-| Name                                                             | Status  | Time | processor|
-|------------------------------------------------------------------|---------|------|----------|
-| parallel     Topic  Count                                        |         |      |          |
-|------------------------------------------------------------------|---------|------|----------|
-| 0      -1    164       -1_cancer_follicular_carcinoma_autoimmune |  ok     | 0.53 | GPU      |
-| 0      -1    190       -1_cancer_follicular_carcinoma_autoimmune |  ok     | 0.002| TPU      |
-|------------------------------------------------------------------|---------|------|----------|
+- [ ] table columns do not match up. tabel unclear
+
+|-----------|---------|----------------------------------------------|---------|-------|----------|
+| Name      |         |                                              | Status  | Time  | processor|
+| parallel  |   Topic | Count                                        |         |       |          |
+| 0       -1    164       -1_cancer_follicular_carcinoma_autoimmune  |  ok     | 0.53  | GPU      |
+| 0       -1    190       -1_cancer_follicular_carcinoma_autoimmune  |  ok     | 0.002 | TPU      |
+|-----------|--------------------------------------------------------|---------|-------|----------|
 
 ## 7. Conclusion
 
 As expected, were able to derive helpful information of the Hashimoto thyroiditis disorder. we attempted to summarize our findings concerning Hashimoto thyroiditis in aspects of causes, symptoms, recommended diets and supplements, used medication...
+
+- [ ] there is nothing such as ... in a conclusion. 
+- [ ] table must be in results, conclusion is a verbal conclusion without tables
 
 
 **Table xyz:** caption missing 
@@ -249,89 +254,67 @@ Please add acknowledgments to all that contributed or helped on this project.
 ## 9. References
 
 [^1]: Helicobacter pylori infection in women with Hashimoto thyroiditis, [Online resource]
-
       <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5265752/>
 
 [^2]: I. Voloshyna, V.I Krivenko, V.G Deynega, M.A Voloshyn, Autoimmune thyrod disease related to helicobacterer pylori contamination, [Online resource]
-
       <https://www.endocrine-abstracts.org/ea/0041/eposters/ea0041gp213_eposter.pdf>
 
 [^3]: How your diet can trigger Hashimoto's, [Online resource]
-
       <https://www.boostthyroid.com/blog/2019/4/5/how-your-diet-can-trigger-hashimotos>
 
 [^4]: Hashimoto’s Thyroiditis, A Common Disorder in Women: How to Treat It, [Online resource]
-
       <https://www.townsendletter.com/article/441-hashimotos-thyroiditis-common-disorder-in-women/>
 
 [^5]: Hypothyroidism in Context: Where We’ve Been and Where We’re Going, [Online resource]
-
       <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6822815/>
 
 [^6]: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, [Online resource]
-
        <https://arxiv.org/abs/1810.04805>
 
 [^7]: Gensim Tutorial – A Complete Beginners Guide, [Onile resource]
-
       <https://www.machinelearningplus.com/nlp/gensim-tutorial/>
 
 [^8]: Selenium Supplementation for Hashimoto's Thyroiditis, [Online resource]
-
-     <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4005265/>
+      <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4005265/>
 
 [^9]: Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub] 
-
-     <https://github.com/cloudmesh/cloudmesh-common>
+      <https://github.com/cloudmesh/cloudmesh-common>
 
 [^10]: Pavan Sanagapati, Knowledge Graph & NLP Tutorial-(BERT,spaCy,NLTK), [Online resource]
-
-     <https://www.kaggle.com/pavansanagapati/knowledge-graph-nlp-tutorial-bert-spacy-nltk>
+       <https://www.kaggle.com/pavansanagapati/knowledge-graph-nlp-tutorial-bert-spacy-nltk>
 
 [^11]: Julia Haskins, Thyroid Conditions Raise the Risk of Pregnancy Complications, [Online resource]
+       <https://www.healthline.com/health-news/children-thyroid-conditions-raise-pregnancy-risks-052913>
 
-    <https://www.healthline.com/health-news/children-thyroid-conditions-raise-pregnancy-risks-052913>
-
-[^12]: How your diet can trigger Hashimoto's, [Online resource]
-
-    <https://www.boostthyroid.com/blog/2019/4/5/how-your-diet-can-trigger-hashimotos>
+[^12]: How your diet can trigger Hashimoto's, [Online resource]  
+       <https://www.boostthyroid.com/blog/2019/4/5/how-your-diet-can-trigger-hashimotos>
 
 [^13]: Thyroid Cancer Treatment, [Online resource]
-
-    <https://www.cancer.gov/types/thyroid/patient/thyroid-treatment-pdq>
+       <https://www.cancer.gov/types/thyroid/patient/thyroid-treatment-pdq>
 
 [^14]: Hashimoto's Disease And Coronavirus (COVID-19), [Online resource]
-
-    <https://www.palomahealth.com/learn/coronavirus-and-hashimotos-disease> 
+       <https://www.palomahealth.com/learn/coronavirus-and-hashimotos-disease> 
 
 [^15]: How zebrafish research has helped in understanding thyroid diseases, [Online resource] 
-
-    <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5730863/>
+       <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5730863/>
 
 [^16]: Dry Eyes and Thyroid Disorders, [Online resource]
-
-    <https://www.webmd.com/eye-health/dry-eyes-thyroid>
+       <https://www.webmd.com/eye-health/dry-eyes-thyroid>
 
 [^17]: Teprotumumab for the Treatment of Active Thyroid Eye Disease, [Online resource]
-
-    <https://www.nejm.org/doi/full/10.1056/nejmoa1910434>
+       <https://www.nejm.org/doi/full/10.1056/nejmoa1910434> 
 
 [^18]: Jillian Kubala, MS, RD,  Hashimoto Diet: Overview, Foods, Supplements, and Tips, [Online resource]
- 
-    <https://www.healthline.com/nutrition/hashimoto-diet#diet-tips>
+       <https://www.healthline.com/nutrition/hashimoto-diet#diet-tips>
 
 [^19]: Hashimoto’s low thyroid autoimmune, [Online research]
-
-    <https://www.redriverhealthandwellness.com/diet-hashimotos-hypothyroidism/>
+       <https://www.redriverhealthandwellness.com/diet-hashimotos-hypothyroidism/>
 
 [^20]: 11 environmental triggers of Hashimoto’s, [Online research]
-
-    <https://www.boostthyroid.com/blog/11-environmental-triggers-of-hashimotos>
+       <https://www.boostthyroid.com/blog/11-environmental-triggers-of-hashimotos>
 
 [^21]: Hashimoto's disease, [Online research]
-
-    <https://www.mayoclinic.org/diseases-conditions/hashimotos-disease/symptoms-causes/syc-20351855>
+       <https://www.mayoclinic.org/diseases-conditions/hashimotos-disease/symptoms-causes/syc-20351855>
 
 [^22]: BERT Explained: State of the art language model for NLP
-
-    <https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270>
+       <https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270>
