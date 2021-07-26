@@ -31,6 +31,7 @@ The dataset was collected from silo breaker software, which contains information
 - [ ] refernces can not follw a .
 - [ ] [1,2] is written as [^1][^2]
 - [ ] abbreviations are not explanied: I will fix this as soon as possibe (ASAP).
+- [ ] Figure misses caption and citation in caption, otherwise you plagerize.
  
 Contents
 
