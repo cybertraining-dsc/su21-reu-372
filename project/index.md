@@ -148,14 +148,15 @@ Healthy diets, exercising, selenium supplementation [8], healthy sun exposure at
 ## 6. Benchmark 
 
  ```
-| Name                                                            | Status | Time | processor|
-| ----------------------------------------------------------------|---------------------------
-| parallel     Topic  Count                                       |               |          |
-| 0      -1    164       -1_cancer_follicular_carcinoma_autoimmune    ok     3.53 | GPU      |
-| 0      -1    190       -1_cancer_follicular_carcinoma_autoimmune    ok     0.002| TPU      |
+|--------------------------------------------------------------------------------------------|
+| Name                                                            | Status  |Time | processor|
+| ----------------------------------------------------------------|---------|-----|----------|
+| parallel     Topic  Count                                       |         |     |          |
+|-----------------------------------------------------------------|---------|-----|----------|
+| 0      -1    164       -1_cancer_follicular_carcinoma_autoimmune|  ok     |0.53 | GPU      |
+| 0      -1    190       -1_cancer_follicular_carcinoma_autoimmune|  ok     |0.002| TPU      |
+|--------------------------------------------------------------------------------------------|
 ```
-find the difference gpu/tpu.
-
  
 ## 7. Conclusion
 
