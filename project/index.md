@@ -56,10 +56,14 @@ We utilize deep learning BERT model to train our dataset. BERT is a superior per
 
 Masked LM process is made by masking around 15% of token making the model predict the meaning or value of each of the masked words. In technical word it requires 3 steps Adding a classification layer on top of the encoder output, Multiplying the output vectors by the embedding matrix, transforming them into the vocabulary dimension. And calculating the probability of each word in the vocabulary with SoftMax. Here we can see an image of the process [22].
 
+**Table xyz:** caption missing 
+
 ![Table 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/MLMBertexPic1.png)
 
 The NSP (Next Sentence Prediction) process is based in sentence prediction. The model obtains pair of sentences as inputs, and it is train to predict which is the second sentence in the pair. In The training process 50% of the input sentences are in fact first and second sentence and in the other 50% the second sentences are random sentences used for training purposes. 
 The model is able to distinguish if the second sentence is connected to the first sentence by a 3-step process. An CLS (the reserved token to represent the start of sequence) is inserted at the beginning of the first sentence while the SEP (separate segments or sentence) is inserted at the end of each sentence. And embedding indicating sentence A or B is added to each token, and lastly a positional embedding is added to each token to indicate its position in the sequence like is shown on the image [22].
+
+**Table xyz:** caption missing 
 
 ![Table 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/NSPBertexpic.png)
 
@@ -73,16 +77,21 @@ We used NLTK which is a module that uses the process of splitting sentences from
 
 ## 2. Images
 
-**Table 1:** "Differences Between Hashimoto's Thyroiditis and Grave's Disease." [^4].
+- [ ] there should not be a section called images. Instead they shoudl be real subsections
 
 We can observe in this table the differences between this two similar disorders that are frequently misunderstood.
+
+**Table 1:** "Differences Between Hashimoto's Thyroiditis and Grave's Disease." [^4].
+
 
 ![Table 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/hertoghe-table-2.jpg)
 
 **Table 2:** "Hashimoto’s thyroiditis is associated with other important disorders." [^4].
+
 ![Table 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/Thyroiditis%20Associated%20Pathologies.jpg)
 
 **Table 3:** "Overview of the main dietary recommendations for patients with Hashimoto." [^4].
+
 ![Table 3](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/Dietary%20changes%20that%20reduce%20Antithyroid%20Antibody%20levels.jpg)
 
 ## 3. Datasets
@@ -97,33 +106,49 @@ The dataset can be download [Here](https://drive.google.com/drive/u/0/folders/1O
 
 ![Figure 0](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/wordCloudObject.png)
 
+**Figure xyz:** caption missing 
+
 The figure is an example of a word cloud object and represent the difference words found in our dataset and the size of the words means the frequency of the given words in the document. Meaning that the size of the words is proportional to the frequency of its used.
 
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/IntertopicDistanceMap.png)
+
+**Figure xyz:** caption missing 
 
 Figure 1. The following Intertopic Distance Map is a two-dimensional space filled with circles representing the proportional number of words that belongs to each topic making the distance to each other represent the relation between the topics, meaning that topics that are closer together have more words in common. For instance, in topic 1 we observed word like hypothyroidism, Morgan, symptoms after a small search we were able to find that Morgan is a well-known writer that presented thyroiditis symptoms after giving birth which is something that happen to some women’s and then recover after a couple of months, however this increments the risk of developing the syndrome later in their lives [11]. On topic 4 we see words like food, levothyroxine, liothyronine, selenium and dietary. the relationship between these words is symptom control, symptoms relive, some natural remedies and supplements [12,8].
 
 ![Figure 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topic%20modeling%20picture.png)
 
+**Figure xyz:** caption missing 
+
 Figure 2. Provide a bar chart that shows 30 major terms. The bars indicate the total frequency of the term across the entire corpus. The size of the bubble measures the importance of the topics, relative to the data. for example, for visualization purposes we used the first topic that include Hashimoto, thyroiditis, and selenium. Saliency is a measure of how much the term talks about the topic. And in terms of findings is important to mentions the relationship between Hashimoto thyroiditis and selenium. Selenium is a suplement recomended for patients with this disorder that have shown a reduction on antibody levels [8]. 
 
 ![Figure 3](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/HierarchicalClustering.png)
+
+**Figure xyz:** caption missing 
 
 Figure 3. In this figure, we can see that the dendrograms have been created joining points 4 with 9, 0 with 2, 1 with 6, and 12 with 13. The vertical height of the dendrogram shows the Euclidean distances between points. It is easy to see that Euclidean distance between points 12 and 13 is greater than the distance between point 4 and 9. This is because the algorithm is clustering by similarity, differences, and frequency of words. We observed in the dark green dendrogram topic 7,3,4,9 which are all related to an advance stage of the disorder. we can find the information about certain treatments, causes of the disorder, level of damage at certain stages. On the reds dendrograms we observe topics 0,2,1,6 which are closely related to diagnosis, early symptoms and procedures used for the diagnosis of the disorder.
 
 ![Figure 4](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/SimilarityMatrix.png)
 
+**Figure xyz:** caption missing 
+
 In figure 4 we observed a similarity matrix chart, the graph is build based on similarity reached from the volume of topic and association by document, therefore the graph show groups of documents that are cluster together based on similarities. in this case the blue square is an indication of a strong similarity, and the green and light green is an indication of different topics. for instance, we are able to derive as a conclusion that carcinoma cancer, carcinoma therapy, lymph papillary metastasis and hypothyroidism are closely related. in facts they are advance stages of the disorder. E.g. Carcinoma therapy is a type of treatment that can be used for this disorder [13].
 
 ![Figure 5](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/TermScoreDeclinePerTopic.png)
+
+**Figure xyz:** caption missing 
 
 In figure 5, TF-IDF is an interesting technic used on machine learning that have the ability to give weight to those words that are not frequent in the document but can carry important information. In this example we can see how topic 12, covid19 pandemic patients is the at the top of the chart and then start declining when the rank term increase. The science behind this behave is explain by the TF-IDF which is term frequency - Inverse document frequency. Therefore, covid 19 was a relative new disease, and we do not expect to have a high frequency used in the document. In this case we were able to find information about Hashimoto patients and covid19 which it seems not to causes any extreme symptoms for patient with this disorder others than the ones expected from a healthy person in other words Hashimoto patients have the same risk of a healthy person [14].
 
 ![Figure 6](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/TopicProbability.png)
 
+**Figure xyz:** caption missing 
+
 In figure 6, we show a probability distribution chart based on each topic frequency and its relationship with the main topic: Hashimoto thyroiditis causes or cure. We can see that topic 12 is the least frequent or least related since most of its content is about covid19. Then we have topic 11 zebrafish which is related to the investigation of the disorder but most of its content is about the research made on zebrafish and how had help researchers to understand thyroid diseases in other no mammals’ animals, but is not closely related to the major point of this project, however, is an interesting research which have provide useful information about thyroiditis [15].
 
 ![Figure 7](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topicwordscore.png)
+
+**Figure xyz:** caption missing 
 
 In figure 7, We have Topic Word Scores chart that provides a deep understanding of large corpus of texts trough topic extraction. for instance, the data used in this project provide 5 fundamental topics from 0 to 4. Essentially each topic provided closely related words with deep information about the disorder itself, treatments, diagnosis, and symptoms. E.g. in topic number 4 we find a specific word "eye" which it does not seem to have a close relationship with Hashimoto thyroiditis but in facts is related to one of the early symptoms that the human body experiment most likely when is still undiagnosed [16]. In the same topic we also find the word teprotumumab which is an eye relieve medication recommended from doctors to relive the symptoms, in other word is not the cure but it helps [17].
 
@@ -155,6 +180,7 @@ The exposure to certain synthetic pesticide. An important fact is that 9 out of 
 Some of the symptoms are fatigue and sluggishness, sensitivity to cold, constipation, pale and dry skin, dry eyes, puffy face, brittle nails, hair loss, enlargement of the tongue, unexplained weight gain, muscle aches, tenderness and stiffness, joint pain and stiffness, muscle weakness, excessive or prolonged menstrual bleeding, depression, memory lapses, Another symptom reported by some patients was ablation, some patient described as an acceleration of the heart rhythm [21].
 
 **Complications**
+
 Tissue damage, Abnormal look of the thyroid gland (figure 2), goiter, Heart problems, mental health issues, myxedema, birth defects [21], Nodule (figure 4 Similarity Matrix topic 3), and High antibody level. It is important to mention an association between high levels of thyroid autoantibodies and the increased of mood disorders, thyroid autoimmunity disease, celiac disease, panic disorder and major depressive disorder [4].
 
 **Recomendations**
@@ -163,42 +189,48 @@ Healthy diets, exercising, selenium supplementation [8], healthy sun exposure at
 
 ## 6. Benchmark 
 
- ```
-|--------------------------------------------------------------------------------------------|
-| Name                                                            | Status  |Time | processor|
-| ----------------------------------------------------------------|---------|-----|----------|
-| parallel     Topic  Count                                       |         |     |          |
-|-----------------------------------------------------------------|---------|-----|----------|
-| 0      -1    164       -1_cancer_follicular_carcinoma_autoimmune|  ok     |0.53 | GPU      |
-| 0      -1    190       -1_cancer_follicular_carcinoma_autoimmune|  ok     |0.002| TPU      |
-|--------------------------------------------------------------------------------------------|
-```
+-[ ] explenation missing
+
+**Table xyz:** caption missing 
+
++-----------------------------------------------------------------+---------+------+----------|
+| Name                                                            | Status  | Time | processor|
++-----------------------------------------------------------------+---------+------+----------|
+| parallel     Topic  Count                                       |         |      |          |
++-----------------------------------------------------------------+---------+------+----------|
+| 0      -1    164       -1_cancer_follicular_carcinoma_autoimmune|  ok     | 0.53 | GPU      |
+| 0      -1    190       -1_cancer_follicular_carcinoma_autoimmune|  ok     | 0.002| TPU      |
++-----------------------------------------------------------------+---------+------+----------|
  
 ## 7. Conclusion
 
 As expected, were able to derive helpful information of the Hashimoto thyroiditis disorder. we attempted to summarize our findings concerning Hashimoto thyroiditis in aspects of causes, symptoms, recommended diets and supplements, used medication...
 
- ```
-|----------------------------------------------------------------------------------------------------|
+
+**Table xyz:** caption missing 
+
++------------------------------------------------------+---------------------------+-----------------+
 | Possible Causes                                      | Description               | Recomendations  |
-| -----------------------------------------------------|---------------------------|-----------------|
++------------------------------------------------------+---------------------------+-----------------+
 | Genetic predispositionsc                             | Genetically linked        | - stress levels |
-|------------------------------------------------------|---------------------------|-----------------|
++------------------------------------------------------+---------------------------+-----------------+
 | Dietary errors                                       | Imbalance of iodine intake| Balance is key  |
-|------------------------------------------------------|---------------------------|-----------------|
++------------------------------------------------------+---------------------------+-----------------+
 | Nutritional deficiencies                             | not enough veggies,       |yoga, meditation |
 |                                                      | vitamins and minerals     | reiki           |
-|------------------------------------------------------|---------------------------|-----------------|
++------------------------------------------------------+---------------------------+-----------------+
 | Hormone deficiencies                                 | lover levels of vit D     | Enough sleep    |
-|------------------------------------------------------|---------------------------|-----------------|
++------------------------------------------------------+---------------------------+-----------------+
 |Viral, bacterial, yeast, and parasitic infections.    | H pylori, etc.            | food hygiene    |
-|------------------------------------------------------|---------------------------|-----------------|
-```
++------------------------------------------------------+---------------------------+-----------------+
+
 Our findings highlight the great potential of the model we used. certainly, topic modeling method was a precise idea for the optimization of the research process. We also used various features of genism, which allows to manipulate data texts on NPL projects. The use of clustering technics was very useful to label our findings on the large datasets. Each used graph provided useful details and key words that later help us to review each important topic in a faster manner and develop the research project with accurate results.
 
 ## 8. Acknowledgments
 
 Please add acknowledgments to all that contributed or helped on this project.
+
+- [ ] add Gregor
 
 ## 9. References
 
