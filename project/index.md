@@ -228,8 +228,8 @@ As expected, were able to derive helpful information of the Hashimoto thyroiditi
 
 **Table xyz:** caption missing 
 
-|------------------------------------------------------|---------------------------|-----------------|
 | Possible Causes                                      | Description               | Recomendations  |
+|------------------------------------------------------|---------------------------|-----------------|
 | Genetic predispositionsc                             | Genetically linked        | stress levels |
 | Dietary errors                                       | Imbalance of iodine intake| Balance is key  |
 | Nutritional deficiencies                             | not enough veggies, vitamins and minerals     |yoga, meditation reiki     |
