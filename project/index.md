@@ -26,6 +26,8 @@ This project proposes a new view of Hashimoto’s disorder, its association with
 Topic modeling is a technic used to process large collection of data to identifying topics. It is a text-mining tool that help to correlate words with topics making the research process easy and organized with the purpose to get a better understanding of the disorder and the relationship that this has with other health issues hoping to find clear information about the causes and effect that can have on the human body.
 The dataset was collected from silo breaker software, which contains information about news, reports, tweets, and blogs. The program will organize our findings highlighting key words related to symptoms, causes, cures, anything that can apport clarification to the disorder.
 
+- [ ] abstract does not make clear how AI fits in 
+ 
 Contents
 
 {{< table_of_contents >}}
