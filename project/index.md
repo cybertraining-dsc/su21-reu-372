@@ -54,7 +54,7 @@ Hashimoto autoimmune diseases have been linked to the infection caused by H pylo
 
 We utilize deep learning BERT model to train our dataset. BERT is a superior performer Bidirectional Encoder, which superimposes 12 or 24 layers of multiheaded attention in a Transformer [6]. Bert stands for Bidirectional(read from left to right and vice versa with the purpose of an accurate understanding of the meaning of each word in a sentence or document) Encoder Representations from Transformers(the used of transformers and bidirectional models allows the learning of contextual relations between words). Notice that BERT uses two training strategies MLM and NSP. 
 
-Masked LM process is made by masking around 15% of token making the model predict the meaning or value of each of the masked words. In technical word it requires 3 steps Adding a classification layer on top of the encoder output, Multiplying the output vectors by the embedding matrix, transforming them into the vocabulary dimension. And calculating the probability of each word in the vocabulary with SoftMax. Here we can see an image of the process [22].
+Masked LM process is made by masking around 15% of token making the model predict the meaning or value of each of the masked words. In technical word it requires 3 steps Adding a classification layer on top of the encoder output, Multiplying the output vectors by the embedding matrix, transforming them into the vocabulary dimension. And calculating the probability of each word in the vocabulary with SoftMax. Here we can see an image of the process [^22].
 
 
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/MLMBertexPic1.png)
@@ -102,7 +102,10 @@ Silobreaker software was used to obtain scientific information related to the Ha
 
 This data was preprocessed dropping the columns 'Id', 'ClusterId', 'Language', 'LastUpdated','CreatedDate','FirstReported'. Also, stop words and punctuation were removed, we convert to lower case all the titles.
 
-The dataset can be download [Here](https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP)
+The dataset can be download [Here](https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP) [^???]
+
+- [ ] refernce missing 
+- [ ] what is origin of dataset, did you manage yourself or is this organized by somone else. Missing detail.
 
 ## 4. Results
 
