@@ -55,8 +55,6 @@ We try to use Bert model in the small dataset Hashimoto without any success beca
 
 We used NLTK which is a module that uses the process of splitting sentences from paragraph, split words, recognizing the meaning of those words, to highlighting the main subjects, with the purpose to help to understand the meaning of the document [10]. For instance, in our NLTK model we used two data sets [Hashimoto & Thyroiditis] (https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP) and we were able to identify the top 30 topics connected to these disorders. From the information collected we were able to identify general information like the association of this disorder with other health issues. The impact of Hashimoto patient with covid19, long term consequences of untreated Hashimoto, recommendation for advance cases, and diet suggestion for improvement. The used of Natural Language tool kit made a precise and less time consuming research process.
 
-write about gensim
-
 ## 2. Images
 
 **Table 1:** "Differences Between Hashimoto's Thyroiditis and Grave's Disease." [^4].
