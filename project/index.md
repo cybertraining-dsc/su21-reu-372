@@ -207,15 +207,15 @@ Healthy diets, exercising, selenium supplementation [8], healthy sun exposure at
 
 **Table xyz:** caption missing 
 
-+-----------------------------------------------------------------+---------+------+----------|
-| Name                                                            | Status  | Time | processor|
-+-----------------------------------------------------------------+---------+------+----------|
-| parallel     Topic  Count                                       |         |      |          |
-+-----------------------------------------------------------------+---------+------+----------|
-| 0      -1    164       -1_cancer_follicular_carcinoma_autoimmune|  ok     | 0.53 | GPU      |
-| 0      -1    190       -1_cancer_follicular_carcinoma_autoimmune|  ok     | 0.002| TPU      |
-+-----------------------------------------------------------------+---------+------+----------|
- 
+|------------------------------------------------------------------|---------|------|----------|
+| Name                                                             | Status  | Time | processor|
+|------------------------------------------------------------------|---------|------|----------|
+| parallel     Topic  Count                                        |         |      |          |
+|------------------------------------------------------------------|---------|------|----------|
+| 0      -1    164       -1_cancer_follicular_carcinoma_autoimmune |  ok     | 0.53 | GPU      |
+| 0      -1    190       -1_cancer_follicular_carcinoma_autoimmune |  ok     | 0.002| TPU      |
+|------------------------------------------------------------------|---------|------|----------|
+
 ## 7. Conclusion
 
 As expected, were able to derive helpful information of the Hashimoto thyroiditis disorder. we attempted to summarize our findings concerning Hashimoto thyroiditis in aspects of causes, symptoms, recommended diets and supplements, used medication...
