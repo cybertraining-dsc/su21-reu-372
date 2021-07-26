@@ -27,6 +27,8 @@ Topic modeling is a technic used to process large collection of data to identify
 The dataset was collected from silo breaker software, which contains information about news, reports, tweets, and blogs. The program will organize our findings highlighting key words related to symptoms, causes, cures, anything that can apport clarification to the disorder.
 
 - [ ] abstract does not make clear how AI fits in 
+- [ ] refrences are done not correct see the [^1] missing `^`
+- [ ] refernces can not follw a .
  
 Contents
 
