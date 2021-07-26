@@ -168,6 +168,8 @@ In figure 7, We have Topic Word Scores chart that provides a deep understanding 
 
 ## 5. Hashimoto Findings
 
+- [ ] introduction paragraph missing
+
 **Possible causes**
 
 Genetic predispositions, Dietary errors, Nutritional deficiencies, Hormone deficiencies, Viral, bacterial, yeast, and parasitic infections [4].
