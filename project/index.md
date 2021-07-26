@@ -179,7 +179,7 @@ As expected, were able to derive helpful information of the Hashimoto thyroiditi
 |Viral, bacterial, yeast, and parasitic infections.    | H pylori, etc.            | food hygiene    |
 |------------------------------------------------------|---------------------------|-----------------|
 ```
-Our findings highlight the great potential of the model we used. certainly, topic modeling method was a precise idea for the optimization of the research process. We also used various features of genism, which allows to manipulate data texts on NPL projects. The use of clustering technics was very useful to label our findings on the large datasets. Each used graph provided useful details and key words that later help us to review each important topic in a faster manner and develop a the research project with accurate results.
+Our findings highlight the great potential of the model we used. certainly, topic modeling method was a precise idea for the optimization of the research process. We also used various features of genism, which allows to manipulate data texts on NPL projects. The use of clustering technics was very useful to label our findings on the large datasets. Each used graph provided useful details and key words that later help us to review each important topic in a faster manner and develop the research project with accurate results.
 
 ## 8. Acknowledgments
 
