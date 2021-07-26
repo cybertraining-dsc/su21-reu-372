@@ -83,16 +83,16 @@ We used NLTK which is a module that uses the process of splitting sentences from
 
 We can observe in this table the differences between this two similar disorders that are frequently misunderstood.
 
-**Table 1:** "Differences Between Hashimoto's Thyroiditis and Grave's Disease." [^4].
+**Table 1:** "Differences Between Hashimoto's Thyroiditis and Grave's Disease" [^4].
 
 
 ![Table 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/hertoghe-table-2.jpg)
 
-**Table 2:** "Hashimoto’s thyroiditis is associated with other important disorders." [^4].
+**Table 2:** "Hashimoto’s thyroiditis is associated with other important disorders" [^4].
 
 ![Table 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/Thyroiditis%20Associated%20Pathologies.jpg)
 
-**Table 3:** "Overview of the main dietary recommendations for patients with Hashimoto." [^4].
+**Table 3:** "Overview of the main dietary recommendations for patients with Hashimoto" [^4].
 
 ![Table 3](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/Dietary%20changes%20that%20reduce%20Antithyroid%20Antibody%20levels.jpg)
 
@@ -109,15 +109,20 @@ The dataset can be download [Here](https://drive.google.com/drive/u/0/folders/1O
 
 ## 4. Results
 
+- [ ] introduction paragraph missing
+- [ ] all figure numbers need to be updated
+
 ![Figure 0](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/wordCloudObject.png)
 
 **Figure xyz:** caption missing 
 
-The figure is an example of a word cloud object and represent the difference words found in our dataset and the size of the words means the frequency of the given words in the document. Meaning that the size of the words is proportional to the frequency of its used.
+The Figure ??? is an example of a word cloud object and represent the difference words found in our dataset and the size of the words means the frequency of the given words in the document. Meaning that the size of the words is proportional to the frequency of its used.
 
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/IntertopicDistanceMap.png)
 
 **Figure xyz:** caption missing 
+
+- [ ] Figure 1. is not a complete sentence
 
 Figure 1. The following Intertopic Distance Map is a two-dimensional space filled with circles representing the proportional number of words that belongs to each topic making the distance to each other represent the relation between the topics, meaning that topics that are closer together have more words in common. For instance, in topic 1 we observed word like hypothyroidism, Morgan, symptoms after a small search we were able to find that Morgan is a well-known writer that presented thyroiditis symptoms after giving birth which is something that happen to some women’s and then recover after a couple of months, however this increments the risk of developing the syndrome later in their lives [11]. On topic 4 we see words like food, levothyroxine, liothyronine, selenium and dietary. the relationship between these words is symptom control, symptoms relive, some natural remedies and supplements [12,8].
 
@@ -125,13 +130,17 @@ Figure 1. The following Intertopic Distance Map is a two-dimensional space fille
 
 **Figure xyz:** caption missing 
 
+- [ ] Figure 2. is not a complete sentence
+
 Figure 2. Provide a bar chart that shows 30 major terms. The bars indicate the total frequency of the term across the entire corpus. The size of the bubble measures the importance of the topics, relative to the data. for example, for visualization purposes we used the first topic that include Hashimoto, thyroiditis, and selenium. Saliency is a measure of how much the term talks about the topic. And in terms of findings is important to mentions the relationship between Hashimoto thyroiditis and selenium. Selenium is a suplement recomended for patients with this disorder that have shown a reduction on antibody levels [8]. 
 
 ![Figure 3](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/HierarchicalClustering.png)
 
 **Figure xyz:** caption missing 
 
-Figure 3. In this figure, we can see that the dendrograms have been created joining points 4 with 9, 0 with 2, 1 with 6, and 12 with 13. The vertical height of the dendrogram shows the Euclidean distances between points. It is easy to see that Euclidean distance between points 12 and 13 is greater than the distance between point 4 and 9. This is because the algorithm is clustering by similarity, differences, and frequency of words. We observed in the dark green dendrogram topic 7,3,4,9 which are all related to an advance stage of the disorder. we can find the information about certain treatments, causes of the disorder, level of damage at certain stages. On the reds dendrograms we observe topics 0,2,1,6 which are closely related to diagnosis, early symptoms and procedures used for the diagnosis of the disorder.
+- [ ] Figure 3. is not a complete sentence
+
+In this Figure 3, we can see that the dendrograms have been created joining points 4 with 9, 0 with 2, 1 with 6, and 12 with 13. The vertical height of the dendrogram shows the Euclidean distances between points. It is easy to see that Euclidean distance between points 12 and 13 is greater than the distance between point 4 and 9. This is because the algorithm is clustering by similarity, differences, and frequency of words. We observed in the dark green dendrogram topic 7,3,4,9 which are all related to an advance stage of the disorder. we can find the information about certain treatments, causes of the disorder, level of damage at certain stages. On the reds dendrograms we observe topics 0,2,1,6 which are closely related to diagnosis, early symptoms and procedures used for the diagnosis of the disorder.
 
 ![Figure 4](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/SimilarityMatrix.png)
 
@@ -169,7 +178,7 @@ Some Food that can trigger Hashimoto are gluten, dairy, some type of grains, egg
 
 **Hashimoto recommended Diets**
 
-The recommended foods are healthy fats like coconut, avocado, and olive oil, ghee, grass-fed and organic meat, wild fish, healthy fats, fermented foods like coconut yogurt, kombucha, fermented cucumbers and pickle ginger, and plenty of vegetable like Asparagus, spinach, lettuce, broccoli, beets, cauliflower, carrots, celery, artichokes, garlic, onions [19].
+The recommended foods are healthy fats like coconut, avocado, and olive oil, ghee, grass-fed and organic meat, wild fish, healthy fats, fermented foods like coconut yogurt, kombucha, fermented cucumbers and pickle ginger, and plenty of vegetable like Asparagus, spinach, lettuce, broccoli, beets, cauliflower, carrots, celery, artichokes, garlic, onions [^19].
 
 **Environmental causes of Hashimoto**
 
