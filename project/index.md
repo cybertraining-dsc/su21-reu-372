@@ -87,7 +87,7 @@ The figure is an example of a word cloud object and represent the difference wor
 
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/IntertopicDistanceMap.png)
 
-Figure 1. The following Intertopic Distance Map is a two-dimensional space filled with circles representing the proportional number of words that belongs to each topic making the distance to each other represent the relation between the topics, meaning that topics that are closer together have more words in common. For instance, in topic 1 we observed word like hypothyroidism, Morgan, symptoms after a small search we were able to find that Morgan is a well-known writer that presented thyroiditis symptoms after giving birth which is something that happen to some women’s and then recover after a couple of months, however this increments the risk of developing the syndrome later in their lives [11]. On topic 4 we see words like food, levothyroxine, liothyronine, selenium and dietary. the relationship between these words is symptom control, symptoms relive, some natural remedies and supplements. [12,8]
+Figure 1. The following Intertopic Distance Map is a two-dimensional space filled with circles representing the proportional number of words that belongs to each topic making the distance to each other represent the relation between the topics, meaning that topics that are closer together have more words in common. For instance, in topic 1 we observed word like hypothyroidism, Morgan, symptoms after a small search we were able to find that Morgan is a well-known writer that presented thyroiditis symptoms after giving birth which is something that happen to some women’s and then recover after a couple of months, however this increments the risk of developing the syndrome later in their lives [11]. On topic 4 we see words like food, levothyroxine, liothyronine, selenium and dietary. the relationship between these words is symptom control, symptoms relive, some natural remedies and supplements [12,8].
 
 ![Figure 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/topic%20modeling%20picture.png)
 
@@ -134,11 +134,11 @@ Another important factor is the balance of iodine intake because too much is as 
 
 It is still not enough research to state that low vitamin D levels are a cause or a consequence of the Hashimoto disorder, but it is a fact that most patients with this disorder have low levels of vitamin D this insufficient this is closely related to insufficient sun exposure [20].
 
-The exposure to certain synthetic pesticide. An important fact is that 9 out of 12 pesticides are dangerous and persistent pollutants. [20]
+The exposure to certain synthetic pesticide. An important fact is that 9 out of 12 pesticides are dangerous and persistent pollutants [20]. 
 
 **Symptoms of Hashimoto’s** 
 
-Some of the symptoms are fatigue and sluggishness, sensitivity to cold, constipation, pale and dry skin, dry eyes, puffy face, brittle nails, hair loss, enlargement of the tongue, unexplained weight gain, muscle aches, tenderness and stiffness, joint pain and stiffness, muscle weakness, excessive or prolonged menstrual bleeding, depression, memory lapses, Another symptom reported by some patients was ablation, some patient described as an acceleration of the heart rhythm. [21].
+Some of the symptoms are fatigue and sluggishness, sensitivity to cold, constipation, pale and dry skin, dry eyes, puffy face, brittle nails, hair loss, enlargement of the tongue, unexplained weight gain, muscle aches, tenderness and stiffness, joint pain and stiffness, muscle weakness, excessive or prolonged menstrual bleeding, depression, memory lapses, Another symptom reported by some patients was ablation, some patient described as an acceleration of the heart rhythm [21].
 
 **Complications**
 Tissue damage, Abnormal look of the thyroid gland (figure 2), goiter, Heart problems, mental health issues, myxedema, birth defects [21], Nodule (figure 4 Similarity Matrix topic 3), and High antibody level. It is important to mention an association between high levels of thyroid autoantibodies and the increased of mood disorders, thyroid autoimmunity disease, celiac disease, panic disorder and major depressive disorder [4].
