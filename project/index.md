@@ -29,6 +29,7 @@ The dataset was collected from silo breaker software, which contains information
 - [ ] abstract does not make clear how AI fits in 
 - [ ] refrences are done not correct see the [^1] missing `^`
 - [ ] refernces can not follw a .
+- [ ] [1,2] is written as [^1][^2]
  
 Contents
 
