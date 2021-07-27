@@ -195,18 +195,17 @@ Healthy diets, exercising, selenium supplementation [8], healthy sun exposure at
 
 ## 6. Benchmark 
 
-- [ ] explenation missing
-- [ ] used resources not explained 
+We used benchmark to perform the process time to get topics frequency in parallel using google colab with run type: GPU and TPU. We can observe that TPU machines take less time to classify topic 1. Tensor Processor Unit (TPU) is designed to run cutting-edge machine learning models with AI services on Google Cloud [^24]
+
+
 - [ ] prvide links to your notbooks at the beginning of your document (see other reports). Please indicate if programs are cipies form others or self developed.
 
-**Table xyz:** caption missing 
+**Benchmark Topics Frequency:** 
 
-- [ ] table columns do not match up. tabel unclear
-
-| Name        parallel    Topic   Count                              | Status  | Time  | processor|
-|--------------------------------------------------------------------|---------|-------|----------|
-| 0      -1     164       -1_cancer_follicular_carcinoma_autoimmune  |  ok     | 0.53  | GPU      |
-| 0      -1     190       -1_cancer_follicular_carcinoma_autoimmune  |  ok     | 0.002 | TPU      |
+|       parallel                    Topic                      | Status  | Time  | processor|
+|------------------------------------------------------------------------|-------|----------|
+|           164     1_cancer_follicular_carcinoma_autoimmune   |  ok     | 0.53  |   GPU    |
+|           190     1_cancer_follicular_carcinoma_autoimmune   |  ok     | 0.002 |   TPU    |
 
 
 
@@ -294,3 +293,6 @@ Carlos Theran
        
 [^23]: Silobreaker: Intelligent platform for the data era
        <https://www.silobreaker.com>
+       
+[^24]: TPU: Tensor Processor Unit
+       <https://cloud.google.com/tpu>
