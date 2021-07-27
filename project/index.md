@@ -22,12 +22,12 @@ Sheimy Paz, [su21-reu-372](https://github.com/cybertraining-dsc/su21-reu-372), [
 
 ## Abstract
 
-This project proposes a new view of Hashimoto’s disorder, its association with other pathologies, possible causes, symptoms, diets, and recommendations. The intention is to explore the association of the Hashimoto disorder with disease like h pylori bacteria, inappropriate diet, environmental factors, and genetic factors. To achieve this, we are going to utilize AI in particular
+This project proposes a new view of Hashimoto’s disorder, its association with other pathologies, possible causes, symptoms, diets, and recommendations. The intention is to explore the association of Hashimoto disorder with disease like h pylori bacteria, inappropriate diet, environmental factors, and genetic factors. To achieve this, we are going to utilize AI in particular
 topic modeling which is a technic used to process large collection of data to identifying topics.
 Topic modeling is a text-mining tool that help to correlate words with topics making the research process easy and organized with the purpose to get a better understanding of the disorder and the relationship that this has with other health issues hoping to find clear information about the causes and effect that can have on the human body.
 The dataset was collected from silo breaker software, which contains information about news, reports, tweets, and blogs. The program will organize our findings highlighting key words related to symptoms, causes, cures, anything that can apport clarification to the disorder.
 
-- [ ] abbreviations are not explanied: fix this as soon as possibe (ASAP).
+
 - [ ] Figure misses caption and citation in caption, otherwise you plagerize.
 - [ ] All figures must be referged to by figure number in the text or the figure must be removed
 - [ ] As sown in Figure 1 .... We show in Figure 1 the architecture of ...
@@ -43,22 +43,21 @@ Contents
 
 ## 1. Introduction
 
-Hashimoto thyroiditis is an organ-specific autoimmune disorder. its symptoms were first described 1912 but the disease was not recognized until 1957. Hashimoto is an autoimmune disorder that destroys thyroid cells and is antibody-mediated [^6]. In a female-to-men radio at least 10:4 women are more often affected than men. The diagnostic is often called between the ages of 30 to 50 years [^1]. Pathologically speaking, Hashimoto stimulates the formation of antithyroid antibodies that attack the thyroid tissue, causing progressive fibrosis. Hashimoto is believe to be the concequence of a combination of mutated genes and eviromental factors[^2]. The disorder is difficult to diagnose since in the early course of the disease the patients may or may not exhibit symptoms and/or laboratory findings of hyperthyroidism, it may show normal values because the destruction of the gland cells may be intermittent [^6]. Clinical and epidemiological studies suggest worldwide that the most common cause of hypothyroidism is an inadequate dietary intake of iodine.
+Hashimoto thyroiditis is an organ-specific autoimmune disorder. its symptoms were first described 1912 but the disease was not recognized until 1957. Hashimoto is an autoimmune disorder that destroys thyroid cells and is antibody-mediated [^6]. In a female-to-men radio at least 10:4 women are more often affected than men. The diagnostic is often called between the ages of 30 to 50 years [^1]. Pathologically speaking, Hashimoto stimulates the formation of antithyroid antibodies that attack the thyroid tissue, causing progressive fibrosis. Hashimoto is believe to be the concequence of a combination of mutated genes and eviromental factors[^2]. The disorder is difficult to diagnose since in the early course of the disease the patients may or may not exhibit symptoms or laboratory findings of hyperthyroidism, it may show normal values because the destruction of the gland cells may be intermittent [^6]. Clinical and epidemiological studies suggest worldwide that the most common cause of hypothyroidism is an inadequate dietary intake of iodine.
 
 Due to the arduous labor to identify this disorder a Machine Learning algorithm based on prediction would help to identify Hashimoto in early stages as well as any other health issues related to it [^3]. This will be helpful for patients that would be able to get the correct treatment in an early stage of the illness avoiding future complications. This research algorithm was mainly intended to find patient testimonies of improvements, completed healed cases, early symptoms, trigger factors or any useful information about the disorder.
 
-Hashimoto autoimmune diseases have been linked to the infection caused by H pylori bacteria. H pylori is until the date the most common chronic bacterial infection, affecting half of the world's population and is known for the presence of Caga antigens which are virulent strains that have been found in organ and non-organ specific autoimmune diseases [^1][^2]. Another important trigger of Hashimoto disorder is the inadequate modern diet patterns and the environmental factors that are closely related to it [^3]. For instance, western diet consumption is an essential factor that trigs the disorder since this food is highly preserved and predominate the consumption of artificial flavors and sugars which have dramatically increase in the past years, adding to it the use of chemicals and insecticides in the fruits and vegetables and the massive introduction of hormones for the meat production, all this can be the cause of the rise of autoimmune diseases [^5].
+Hashimoto autoimmune diseases have been linked to the infection caused by H pylori bacteria. H pylori is until the date the most common chronic bacterial infection, affecting half of the world's population and is known for the presence of Caga antigens which are virulent strains that have been found in organ and non-organ specific autoimmune diseases [^1][^2]. Another important trigger of Hashimoto disorder is the inadequate modern diet patterns and the environmental factors that are closely related to it [^3]. For instance, western diet consumption is an essential factor that trigs the disorder since this food is highly preserved and predominate the consumption of artificial flavors and sugars which have dramatically increase in the past years, adding to it the use of chemicals and insecticides in the fruits and vegetables and the massive introduction of hormones for meat production, all this can be the cause of the rise of autoimmune diseases [^5].
 
 We utilize deep learning BERT model to train our dataset. BERT is a superior performer Bidirectional Encoder, which superimposes 12 or 24 layers of multiheaded attention in a Transformer [^6]. Bert stands for Bidirectional(read from left to right and vice versa with the purpose of an accurate understanding of the meaning of each word in a sentence or document) Encoder Representations from Transformers(the used of transformers and bidirectional models allows the learning of contextual relations between words). Notice that BERT uses two training strategies MLM and NSP. 
 
-Masked LM process is made by masking around 15% of token making the model predict the meaning or value of each of the masked words. In technical word it requires 3 steps Adding a classification layer on top of the encoder output, Multiplying the output vectors by the embedding matrix, transforming them into the vocabulary dimension. And calculating the probability of each word in the vocabulary with SoftMax. Here we can see an image of the process [^22].
-
+Masked Lenguage Model (MLM) process is made by masking around 15% of token making the model predict the meaning or value of each of the masked words. In technical word it requires 3 steps Adding a classification layer on top of the encoder output, Multiplying the output vectors by the embedding matrix, transforming them into the vocabulary dimension. And lastly calculating the probability of each word in the vocabulary with SoftMax. Here we can see an image of the process [^22].
 
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/MLMBertexPic1.png)
 
 **Figure xyz:** caption missing 
 
-The NSP (Next Sentence Prediction) process is based in sentence prediction. The model obtains pair of sentences as inputs, and it is train to predict which is the second sentence in the pair. In The training process 50% of the input sentences are in fact first and second sentence and in the other 50% the second sentences are random sentences used for training purposes. 
+Next Sentence Prediction (NSP) process is based in sentence prediction. The model obtains pair of sentences as inputs, and it is train to predict which is the second sentence in the pair. In The training process 50% of the input sentences are in fact first and second sentence and in the other 50% the second sentences are random sentences used for training purposes. 
 The model is able to distinguish if the second sentence is connected to the first sentence by a 3-step process. An CLS (the reserved token to represent the start of sequence) is inserted at the beginning of the first sentence while the SEP (separate segments or sentence) is inserted at the end of each sentence. And embedding indicating sentence A or B is added to each token, and lastly a positional embedding is added to each token to indicate its position in the sequence like is shown on the image [^22].
 
 
@@ -68,10 +67,9 @@ The model is able to distinguish if the second sentence is connected to the firs
 
 By the trained model Parameter learning we obtains the word embeddings of the input sentence or input sentence pair in the unsupervised learning framework proceeds by solving the following two tasks: Masked Language Model and Next Sentence Prediction.
 
-
 We try to use Bert model in the small dataset Hashimoto without any success because the BERT model was overfitting the data points. We use LDA model to train the Hashimoto dataset which allow us to find topic probabilities that we compare with the thyroiditis dataset that was trained with the BERT model-framework. 
 
-We used NLTK which is a module that uses the process of splitting sentences from paragraph, split words, recognizing the meaning of those words, to highlighting the main subjects, with the purpose to help to understand the meaning of the document [^10]. For instance, in our NLTK model we used two data sets [Hashimoto and thyroiditis](https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP) and we were able to identify the top 30 topics connected to these disorders. From the information collected we were able to identify general information like the association of this disorder with other health issues. The impact of Hashimoto patient with covid19, long term consequences of untreated Hashimoto, recommendation for advance cases, and diet suggestion for improvement. The used of Natural Language tool kit made a precise and less time consuming research process.
+We used Natural Language Toolkit (NLTK) which is a module that uses the process of splitting sentences from paragraph, split words, recognizing the meaning of those words, to highlighting the main subjects, with the purpose to help to understand the meaning of the document [^10]. For instance, in our NLTK model we used two data sets [Hashimoto and thyroiditis](https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP) and we were able to identify the top 30 topics connected to these disorders. From the information collected we were able to identify general information like association of the disorder with other health issues. The impact of Hashimoto patient with covid19, long term consequences of untreated Hashimoto, recommendation for advance cases, and diet suggestion for improvement. The used of Natural Language tool kit made a precise and less time consuming research process.
 
 
 ## 2. Summary Tables
@@ -79,7 +77,6 @@ We used NLTK which is a module that uses the process of splitting sentences from
 We can observe in this table the differences between this two similar disorders that are frequently misunderstood.
 
 **Table 1:** "Differences Between Hashimoto's Thyroiditis and Grave's Disease" [^4].
-
 
 ![Table 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/hertoghe-table-2.jpg)
 
@@ -233,7 +230,9 @@ Our findings highlight the great potential of the model we used. certainly, topi
 ## 8. Acknowledgments
 
 Gregor von Laszewski 
+
 Yohn J Parra
+
 Carlos Theran
 
 ## 9. References
