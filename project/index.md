@@ -27,9 +27,6 @@ topic modeling which is a technic used to process large collection of data to id
 Topic modeling is a text-mining tool that help to correlate words with topics making the research process easy and organized with the purpose to get a better understanding of the disorder and the relationship that this has with other health issues hoping to find clear information about the causes and effect that can have on the human body.
 The dataset was collected from silo breaker software, which contains information about news, reports, tweets, and blogs. The program will organize our findings highlighting key words related to symptoms, causes, cures, anything that can apport clarification to the disorder.
 
-- [ ] refrences are done not correct see the [^1] missing `^`
-- [ ] refernces can not follw a .
-- [ ] [1,2] is written as [^1][^2]
 - [ ] abbreviations are not explanied: I will fix this as soon as possibe (ASAP).
 - [ ] Figure misses caption and citation in caption, otherwise you plagerize.
 - [ ] All figures must be referged to by figure number in the text or the figure must be removed
@@ -46,7 +43,7 @@ Contents
 
 ## 1. Introduction
 
-Hashimoto thyroiditis is an organ-specific autoimmune disorder. its symptoms were first described 1912 but the disease was not recognized until 1957. Hashimoto is an autoimmune disorder that destroys thyroid cells and is antibody-mediated [^6]. In a female-to-men radio at least 10:4 women are more often affected than men. The diagnostic is often called between the ages of 30 to 50 years.[^1] Pathologically speaking, Hashimoto stimulates the formation of antithyroid antibodies that attack the thyroid tissue, causing progressive fibrosis. Hashimoto is believe to be the concequence of a combination of mutated genes and eviromental factors[^2]. The disorder is difficult to diagnose since in the early course of the disease the patients may or may not exhibit symptoms and/or laboratory findings of hyperthyroidism, it may show normal values because the destruction of the gland cells may be intermittent [^6]. Clinical and epidemiological studies suggest worldwide that the most common cause of hypothyroidism is an inadequate dietary intake of iodine.
+Hashimoto thyroiditis is an organ-specific autoimmune disorder. its symptoms were first described 1912 but the disease was not recognized until 1957. Hashimoto is an autoimmune disorder that destroys thyroid cells and is antibody-mediated [^6]. In a female-to-men radio at least 10:4 women are more often affected than men. The diagnostic is often called between the ages of 30 to 50 years [^1]. Pathologically speaking, Hashimoto stimulates the formation of antithyroid antibodies that attack the thyroid tissue, causing progressive fibrosis. Hashimoto is believe to be the concequence of a combination of mutated genes and eviromental factors[^2]. The disorder is difficult to diagnose since in the early course of the disease the patients may or may not exhibit symptoms and/or laboratory findings of hyperthyroidism, it may show normal values because the destruction of the gland cells may be intermittent [^6]. Clinical and epidemiological studies suggest worldwide that the most common cause of hypothyroidism is an inadequate dietary intake of iodine.
 
 Due to the arduous labor to identify this disorder a Machine Learning algorithm based on prediction would help to identify Hashimoto in early stages as well as any other health issues related to it [^3]. This will be helpful for patients that would be able to get the correct treatment in an early stage of the illness avoiding future complications. This research algorithm was mainly intended to find patient testimonies of improvements, completed healed cases, early symptoms, trigger factors or any useful information about the disorder.
 
@@ -274,7 +271,7 @@ Carlos Theran
 [^11]: Julia Haskins, Thyroid Conditions Raise the Risk of Pregnancy Complications, [Online resource]
        <https://www.healthline.com/health-news/children-thyroid-conditions-raise-pregnancy-risks-052913>
 
-[^12]: How your diet can trigger Hashimoto's, [Online resource]  
+[^12]: How your diet can trigger Hashimoto's, [Online resource] 
        <https://www.boostthyroid.com/blog/2019/4/5/how-your-diet-can-trigger-hashimotos>
 
 [^13]: Thyroid Cancer Treatment, [Online resource]
