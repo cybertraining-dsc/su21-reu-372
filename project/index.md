@@ -147,7 +147,7 @@ On figure 8 we have Topic Word Scores chart that provides a deep understanding o
 
 ## 5. Hashimoto Findings
 
-- [ ] introduction paragraph missing
+As we can see our findings are wide in aspects of causes which is one of the main keys, because if we know the cause of something most likely we will be able to avoid it. However, this disorder is considered relative knew and have been around for some decades only, but it is necessary to point out the relation of diseases with the environment. Environmental changes are a fact and are affecting us every day even when we don’t notice it. We have seen an exponential increase of Hashimoto cases in the last five decades, and at the same time the last five decades have been potentially related to climate change, high levels of pollution, less fertile soils, increased use of pesticides on food, etc. It would be a good idea to think about our environment and how to help it heal since it will bring benefits for all of us.
 
 **Table Summary:** "Finding summary on causes, descriptions and recommendations."
 
@@ -196,9 +196,6 @@ Healthy diets, exercising, selenium supplementation [8], healthy sun exposure at
 ## 6. Benchmark 
 
 We used benchmark to perform the process time to get topics frequency in parallel using google colab with run type: GPU and TPU. We can observe that TPU machines take less time to classify topic 1. Tensor Processor Unit (TPU) is designed to run cutting-edge machine learning models with AI services on Google Cloud [^24]
-
-
-- [ ] prvide links to your notbooks at the beginning of your document (see other reports). Please indicate if programs are cipies form others or self developed.
 
 **Benchmark Topics Frequency:** 
 
