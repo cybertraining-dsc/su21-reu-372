@@ -95,7 +95,8 @@ The dataset can be download [Here](https://drive.google.com/drive/u/0/folders/1O
 ## 4. Results
 
 - [ ] introduction paragraph missing
-- [ ] all figure numbers need to be updated
+
+As we observed these are the charts, we were able to create with the different techniques used in this project. Each figure is described and explains the method we used to created it along with the relationship of the key word or major topic to the Hashimoto disorder. 
 
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/wordCloudObject.png)
 
@@ -158,7 +159,6 @@ On figure 8 we have Topic Word Scores chart that provides a deep understanding o
 | Nutritional deficiencies                             | not enough veggies, vitamins and minerals     |yoga, meditation reiki     |
 | Hormone deficiencies                                 | lover levels of vit D     | Enough sleep    |
 |Viral, bacterial, yeast, and parasitic infections.    | H pylori, etc.            | food hygiene    |
-
 
 
 **Possible causes**
