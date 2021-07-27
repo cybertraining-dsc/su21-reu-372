@@ -85,12 +85,11 @@ We can observe in this table the differences between this two similar disorders 
 
 Silobreaker software was used to obtain scientific information related to the Hashimoto disease coming from different sources such as journals, proceedings, tweets, and news. Our date consists in the fallowing feature: ID, cluster Id, Description, publication date, Source URL, publisher. And the purpose is to analyze the preform of the proposed approach to discover the hiding semantic structures related with Hashimoto and thyroiditis the description from the gather data is used to study the frequency of Hashimoto and thyroiditis appears in the documents and detecting words and phrases patterns within them to automatically clustering work groups.
 
+The dataset was obtained from Silobreaker database which is a commercial database. We got access through Florida A&M University who provided me the right to query the data. the link for the silobreaker information is [Here] (https://www.silobreaker.com/) [^23].
+
 This data was preprocessed dropping the columns 'Id', 'ClusterId', 'Language', 'LastUpdated','CreatedDate','FirstReported'. Also, stop words and punctuation were removed, we convert to lower case all the titles.
 
-The dataset can be download [Here](https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP) [^???]
-
-- [ ] refernce missing 
-- [ ] what is origin of dataset, did you manage yourself or is this organized by somone else. Missing detail.
+The dataset already query can be download in my personal drive [Here](https://drive.google.com/drive/u/0/folders/1Omtnn5e-yH3bbhW0-5fIbLgi8SEyfYBP. 
 
 ## 4. Results
 
@@ -292,3 +291,6 @@ Carlos Theran
 
 [^22]: BERT Explained: State of the art language model for NLP
        <https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270>
+       
+[^23]: Silobreaker: Intelligent platform for the data era
+       <https://www.silobreaker.com>
