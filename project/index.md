@@ -156,6 +156,18 @@ Here we have Topic Word Scores chart that provides a deep understanding of large
 
 - [ ] introduction paragraph missing
 
+**Table xyz:** caption missing 
+
+| Possible Causes                                      | Description               | Recomendations  |
+|------------------------------------------------------|---------------------------|-----------------|
+| Genetic predispositionsc                             | Genetically linked        | stress levels |
+| Dietary errors                                       | Imbalance of iodine intake| Balance is key  |
+| Nutritional deficiencies                             | not enough veggies, vitamins and minerals     |yoga, meditation reiki     |
+| Hormone deficiencies                                 | lover levels of vit D     | Enough sleep    |
+|Viral, bacterial, yeast, and parasitic infections.    | H pylori, etc.            | food hygiene    |
+
+
+
 **Possible causes**
 
 Genetic predispositions, Dietary errors, Nutritional deficiencies, Hormone deficiencies, Viral, bacterial, yeast, and parasitic infections [^4].
@@ -201,29 +213,14 @@ Healthy diets, exercising, selenium supplementation [8], healthy sun exposure at
 
 |-----------|---------|----------------------------------------------|---------|-------|----------|
 | Name      |         |                                              | Status  | Time  | processor|
-| parallel  |   Topic | Count                                        |         |       |          |
-| 0       -1    164       -1_cancer_follicular_carcinoma_autoimmune  |  ok     | 0.53  | GPU      |
-| 0       -1    190       -1_cancer_follicular_carcinoma_autoimmune  |  ok     | 0.002 | TPU      |
+| parallel  |   Topic   Count                                        |         |       |          |
+| 0      -1 |   164       -1_cancer_follicular_carcinoma_autoimmune  |  ok     | 0.53  | GPU      |
+| 0      -1 |   190       -1_cancer_follicular_carcinoma_autoimmune  |  ok     | 0.002 | TPU      |
 |-----------|--------------------------------------------------------|---------|-------|----------|
 
 ## 7. Conclusion
 
-As expected, were able to derive helpful information of the Hashimoto thyroiditis disorder. we attempted to summarize our findings concerning Hashimoto thyroiditis in aspects of causes, symptoms, recommended diets and supplements, used medication...
-
-- [ ] there is nothing such as ... in a conclusion. 
-- [ ] table must be in results, conclusion is a verbal conclusion without tables
-
-
-**Table xyz:** caption missing 
-
-| Possible Causes                                      | Description               | Recomendations  |
-|------------------------------------------------------|---------------------------|-----------------|
-| Genetic predispositionsc                             | Genetically linked        | stress levels |
-| Dietary errors                                       | Imbalance of iodine intake| Balance is key  |
-| Nutritional deficiencies                             | not enough veggies, vitamins and minerals     |yoga, meditation reiki     |
-| Hormone deficiencies                                 | lover levels of vit D     | Enough sleep    |
-|Viral, bacterial, yeast, and parasitic infections.    | H pylori, etc.            | food hygiene    |
-
+As expected, were able to derive helpful information of the Hashimoto thyroiditis disorder. we attempted to summarize our findings concerning Hashimoto thyroiditis in aspects of causes, symptoms, recommended diets and supplements and used medication.
 
 Our findings highlight the great potential of the model we used. certainly, topic modeling method was a precise idea for the optimization of the research process. We also used various features of genism, which allows to manipulate data texts on NPL projects. The use of clustering technics was very useful to label our findings on the large datasets. Each used graph provided useful details and key words that later help us to review each important topic in a faster manner and develop the research project with accurate results.
 
