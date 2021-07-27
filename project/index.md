@@ -153,9 +153,9 @@ On figure 8 we have Topic Word Scores chart that provides a deep understanding o
 
 | Possible Causes                                      | Description               | Recomendations  |
 |------------------------------------------------------|---------------------------|-----------------|
-| Genetic predispositionsc                             | Genetically linked        | stress levels |
+| Genetic predispositionsc                             | Genetically linked        | stress levels   |
 | Dietary errors                                       | Imbalance of iodine intake| Balance is key  |
-| Nutritional deficiencies                             | not enough veggies, vitamins and minerals     |yoga, meditation reiki     |
+| Nutritional deficiencies                             | not enough veggies, vitamins and minerals   |yoga, meditation reiki     |
 | Hormone deficiencies                                 | lover levels of vit D     | Enough sleep    |
 |Viral, bacterial, yeast, and parasitic infections.    | H pylori, etc.            | food hygiene    |
 
@@ -203,7 +203,7 @@ We used benchmark to perform the process time to get topics frequency in paralle
 **Benchmark Topics Frequency:** 
 
 |       parallel                    Topic                      | Status  | Time  | processor|
-|------------------------------------------------------------------------|-------|----------|
+|--------------------------------------------------------------|-------- |-------|----------|
 |           164     1_cancer_follicular_carcinoma_autoimmune   |  ok     | 0.53  |   GPU    |
 |           190     1_cancer_follicular_carcinoma_autoimmune   |  ok     | 0.002 |   TPU    |
 
