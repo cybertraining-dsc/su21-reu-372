@@ -206,8 +206,8 @@ Healthy diets, exercising, selenium supplementation [8], healthy sun exposure at
 
 | Name        parallel    Topic   Count                              | Status  | Time  | processor|
 |--------------------------------------------------------------------|---------|-------|----------|
-| 0      -1 |   164       -1_cancer_follicular_carcinoma_autoimmune  |  ok     | 0.53  | GPU      |
-| 0      -1 |   190       -1_cancer_follicular_carcinoma_autoimmune  |  ok     | 0.002 | TPU      |
+| 0      -1     164       -1_cancer_follicular_carcinoma_autoimmune  |  ok     | 0.53  | GPU      |
+| 0      -1     190       -1_cancer_follicular_carcinoma_autoimmune  |  ok     | 0.002 | TPU      |
 
 
 
