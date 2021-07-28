@@ -155,10 +155,10 @@ As we can see our findings are wide in aspects of causes which is one of the mai
 |------------------------------------------------------|---------------------------|-----------------|
 | Genetic predispositionsc                             | Genetically linked        | Manage stress   |
 | Dietary errors                                       | Imbalance of iodine intake| Balance is key  |
-| Nutritional deficiencies                             | not enough veggies, vitamins and minerals   |yoga, meditation reiki     |
-| Hormone deficiencies                                 | lover levels of vit D     | Enough sleep    |
-|Viral, bacterial, yeast, and parasitic infections.    | H pylori, etc.            | food hygiene    |
-|Enviromental Factors                                  |Pollution, Pesticides used etc.| Human foot print|
+| Nutritional deficiencies                             | not enough veggies, vitamins and minerals   |eat more veggies     |
+| Hormone deficiencies                                 | lover levels of vit D     | Enough sleep, Take some sun light  |
+|Viral, bacterial, yeast, and parasitic infections.    | H pylori, Bad guts microbes| food hygiene   |
+|Enviromental Factors                                  |Pollution, Pesticides used etc.| Human footprint on environment|
 
 
 **Possible causes**
