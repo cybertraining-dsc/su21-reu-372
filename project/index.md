@@ -153,7 +153,7 @@ As we can see our findings are wide in aspects of causes which is one of the mai
 
 | Possible Causes                                      | Description               | Recomendations  |
 |------------------------------------------------------|---------------------------|-----------------|
-| Genetic predispositionsc                             | Genetically linked        | Manage stress   |
+| Genetic predispositions                              | Genetically linked        | Manage stress   |
 | Dietary errors                                       | Imbalance of iodine intake| Balance is key  |
 | Nutritional deficiencies                             | not enough veggies, vitamins and minerals   |eat more veggies     |
 | Hormone deficiencies                                 | lover levels of vit D     | Enough sleep, Take some sun light  |
