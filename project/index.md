@@ -93,8 +93,6 @@ The dataset already query can be download in my personal drive [Here](https://dr
 
 ## 4. Results
 
-- [ ] introduction paragraph missing
-
 The following figures observed were create with different techniques used in this project with the help of libraries like gemsim. Each figure is described and explains the method we used to created it along with the relationship of the key word or major topic to the Hashimoto disorder. 
 
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/wordCloudObject.png)
