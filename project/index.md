@@ -286,7 +286,7 @@ Carlos Theran
 
 [^22]: BERT Explained: State of the art language model for NLP
        <https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270>
-       
+
 [^23]: Silobreaker: Intelligent platform for the data era
        <https://www.silobreaker.com>
 
