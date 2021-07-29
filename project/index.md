@@ -18,10 +18,6 @@ resources:
 
 Sheimy Paz, [su21-reu-372](https://github.com/cybertraining-dsc/su21-reu-372), [Edit](https://github.com/cybertraining-dsc/su21-reu-372/blob/main/project/index.md)
 
-* Code:
-  * [Install documentation requirements.txt](https://github.com/cybertraining-dsc/su21-reu-372/blob/main/project/code/requirements.txt)
-  * [Tyroidhitis_Project.ipynb](https://github.com/cybertraining-dsc/su21-reu-372/blob/main/Tyroidhitis_Project.ipynb)
-
 {{% pageinfo %}}
 
 ## Abstract
