@@ -13,7 +13,7 @@ resources:
 
 [![Check Report](https://github.com/cybertraining-dsc/su21-reu-372/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/su21-reu-372/actions)
 [![Status](https://github.com/cybertraining-dsc/su21-reu-372/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/su21-reu-372/actions)
-Status: Final, Type: Project
+`Status: final`, Type: Project
 
 
 Sheimy Paz, [su21-reu-372](https://github.com/cybertraining-dsc/su21-reu-372), [Edit](https://github.com/cybertraining-dsc/su21-reu-372/blob/main/project/index.md)
@@ -93,7 +93,7 @@ The dataset already query can be download in my personal drive [Here](https://dr
 
 ## 4. Results
 
-The following figures observed were create with different techniques used in this project with the help of libraries like gemsim. Each figure is described and explains the method we used to created it along with the relationship of the key word or major topic to the Hashimoto disorder. 
+The following figures were creating with the help of libraries like gensim. Gensim stands for Generate similar and is an unsupervised library wide used for topic modeling and natural language processing based on modern statistical machine learning [^7]. it can handle large text collections of data and can preforms task like corpora, building document, word vectors and topic identification, which is one of the technics we used here, and we can observe it in some of the images. Each figure is described and explains the method we used to created it along with the relationship of the key word or major topic to the Hashimoto disorder.
 
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-372/main/project/images/wordCloudObject.png)
 
