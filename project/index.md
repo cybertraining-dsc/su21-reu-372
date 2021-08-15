@@ -2,7 +2,7 @@
 date: 2021-06-16
 title: "Project: Analyzing Hashimoto disease causes, symptoms and cases improvements using Topic Modeling"
 linkTitle: "Hashimoto disorder, causes, symptoms and possible cure"
-tags: ["project", "reu", "ai". "health"]
+tags: ["project", "reu", "ai", "health"]
 description: "Analyzing factors as immune systems, genetics and diets than can lead to Hashimoto disease"
 author: Sheimy Paz
 github_url: https://github.com/cybertraining-dsc/su21-reu-372/edit/main/project/index.md
