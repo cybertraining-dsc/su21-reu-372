@@ -26,9 +26,9 @@ Sheimy Paz, [su21-reu-372](https://github.com/cybertraining-dsc/su21-reu-372), [
 
 ## Abstract
 
-This project proposes a new view of Hashimoto’s disorder, its association with other pathologies, possible causes, symptoms, diets, and recommendations. The intention is to explore the association of Hashimoto disorder with disease like h pylori bacteria, inappropriate diet, environmental factors, and genetic factors. To achieve this, we are going to utilize AI in particular
+This project proposes a new view of Hashimoto’s disorder, its association with other pathologies, possible causes, symptoms, diets, and recommendations. The intention is to explore the association of Hashimoto disorder with other disease like h pylori bacteria or inappropriate diet, environmental factors, and genetic factors. To achieve this, we are going to utilize AI in particular
 topic modeling which is a technic used to process large collection of data to identifying topics.
-Topic modeling is a text-mining tool that help to correlate words with topics making the research process easy and organized with the purpose to get a better understanding of the disorder and the relationship that this has with other health issues hoping to find clear information about the causes and effect that can have on the human body.
+Topic modeling is a text-mining tool that help to correlate words with topics making the research process easy and organized. The purpose is to get a better understanding of the disorder and the relationship that this has with other health issues hoping to find clear information about the causes and effect that can have on the human body.
 The dataset was collected from silo breaker software, which contains information about news, reports, tweets, and blogs. The program will organize our findings highlighting key words related to symptoms, causes, cures, anything that can apport clarification to the disorder.
 
 Contents
