@@ -218,11 +218,11 @@ Our findings highlight the great potential of the model we used. certainly, topi
 
 ## 8. Acknowledgments
 
-Gregor von Laszewski 
+Gregor von Laszewski, Yohn J Parra, Carlos Theran.
+This project was in part supported by the NSF grant
+CyberTraining: CIC: CyberTraining for Students and Technologies
+from Generation Z with the awadrd numbers 1829704 and 2200409.
 
-Yohn J Parra
-
-Carlos Theran
 
 ## 9. References
 
